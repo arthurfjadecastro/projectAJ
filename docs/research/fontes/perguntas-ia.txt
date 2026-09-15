@@ -1,0 +1,1005 @@
+Extração textual auxiliar, sem revisão factual. Original preservado na raiz: Top perguntas em alta sobre IA no ChatGPT e outras ferramentas de IA — Brasil e mundo.pdf
+Consulte o PDF para tabelas, diagramas, fórmulas e vínculos de notas.
+
+=== Página 1 ===
+Top perguntas em alta sobre IA no ChatGPT e
+outras ferramentas de IA — Brasil e mundo
+Resumo executivo
+Conclusão principal: não existe, até 9 de agosto de 2026, um ranking público, global e auditável das
+dez perguntas exatas mais digitadas no ChatGPT, Claude, Gemini, Copilot e Perplexity. OpenAI e
+Anthropic divulgam dados agregados e anonimizados de uso; Microsoft divulga telemetria agregada do
+Copilot; Semrush analisa clickstream; e Ahrefs trabalha com grandes painéis proprietários de prompts e
+sinais de busca. Portanto, o ranking abaixo é uma síntese analítica de temas-pergunta, não uma
+alegação de que estes são literalmente os dez prompts com maior contagem absoluta. Essa abordagem
+é particularmente importante porque entre 65% e 85% dos prompts do ChatGPT observados pela
+Semrush durante boa parte do período analisado nem sequer correspondiam a palavras-chave
+tradicionais de busca: as pessoas formulam problemas contextuais, e não apenas keywords. 
+Os sinais mais recentes apontam para uma mudança clara de “o que é IA?” para “como colocar IA
+para trabalhar?”. No consumidor , três quartos das conversas analisadas pela OpenAI em 2025
+concentravam-se em orientação prática, busca de informação e escrita. No ambiente corporativo, os
+dados de 2026 mostram uma migração de chat simples para pesquisa, análise, integração com
+conhecimento da empresa e, sobretudo, delegação de tarefas a agentes. Nas empresas que a OpenAI
+classifica no percentil 95 de utilização, o consumo de “inteligência” por trabalhador é 3,5 vezes o de
+uma empresa típica e o uso de Codex é 16 vezes maior; a própria OpenAI interpreta agentes e
+workflows delegados como um marcador de maturidade. 
+No Brasil, há um mercado especialmente promissor para consultoria de implementação. A TIC
+Domicílios 2025 encontrou uso de IA generativa por 32% dos usuários de internet, cerca de 50
+milhões de brasileiros. Já entre empresas, a adoção de IA passou de 13% em 2024 para 17% em 2025;
+nas pequenas, de 10% para 15%, e nas grandes, de 38% para 50%. Mais revelador para serviços: entre
+empresas brasileiras que adotaram IA, 80% compraram sistemas prontos e 60% contrataram
+fornecedores externos para desenvolver ou adaptar soluções. 
+Globalmente, o gargalo também não parece ser mais simplesmente “ter acesso”. Na pesquisa global da
+McKinsey publicada em novembro de 2025, 88% dos respondentes disseram que suas organizações já
+utilizavam IA regularmente em ao menos uma função, mas aproximadamente dois terços ainda não
+haviam escalado IA pela empresa; 62% já estavam ao menos experimentando agentes. Apenas 39%
+relatavam algum impacto de IA sobre EBIT no nível corporativo, mostrando por que ROI, redesenho de
+workflow e passagem do piloto à produção estão entre as perguntas mais importantes. 
+O ranking resultante é:
+Rank Pergunta/tema em alta Força do sinal Oportunidade de
+consultoria
+1 Onde e como implementar IA na minha
+empresa? Por onde começar? Muito forte Muito alta
+1
+2
+3
+4
+1
+
+=== Página 2 ===
+Rank Pergunta/tema em alta Força do sinal Oportunidade de
+consultoria
+2 Quais processos posso automatizar com
+IA e agentes?
+Muito forte e
+acelerando Muito alta
+3 Como usar IA para aumentar
+produtividade sem perder qualidade? Muito forte Alta
+4 Como integrar IA aos meus dados,
+documentos e sistemas? Muito forte Muito alta
+5 Como usar IA com segurança,
+privacidade, LGPD e governança?
+Muito forte e
+crescente Muito alta
+6 Como calcular o ROI da IA e provar que
+ela gera valor? Forte e crescente Muito alta
+7 Como aplicar IA em marketing, vendas e
+atendimento? Muito forte Muito alta
+8 Como treinar a equipe e fazer as
+pessoas realmente adotarem IA? Forte e crescente Muito alta
+9 Qual IA devo usar: ChatGPT, Gemini,
+Claude, Copilot ou outra? Forte Alta
+10 Como fazer prompts melhores e criar
+assistentes personalizados?
+Forte, mas
+amadurecendo Alta
+Para o Project AJ, a oportunidade mais estratégica não é construir um projeto sobre “prompts”. A
+pergunta mais valiosa é: “Como podemos identificar, implementar e comprovar, em um processo
+real de uma empresa, um uso de IA que gere ganho mensurável de produtividade, qualidade ou
+receita, com segurança e possibilidade de escala?” Ela reúne os seis temas mais fortes do
+levantamento: implementação, automação, produtividade, integração, governança e ROI. 
+Metodologia e leitura do ranking
+O que foi considerado “trend”
+O recorte priorizou evidências publicadas ou referentes ao período 2025–9 de agosto de 2026,
+acrescentando fontes anteriores apenas quando necessárias para contexto regulatório, como a LGPD. O
+dado individual mais recente localizado da OpenAI já cobre mensagens enviadas entre abril e junho de
+2026, e pesquisas e análises de mercado utilizadas chegam a julho/agosto de 2026. 
+O ranking combina quatro famílias de sinal. A maior importância foi dada a comportamento real em
+ferramentas de IA, como os 1,5 milhão de diálogos analisados no estudo da OpenAI, dados
+empresariais agregados da OpenAI, amostras do Anthropic Economic Index e mais de 100 mil
+conversas de Microsoft 365 Copilot. Em seguida vêm pesquisas organizacionais e brasileiras, sinais de
+busca/prompt e, por último, fóruns e redes sociais como evidência qualitativa de perguntas
+espontâneas. 
+A ordenação considerou aproximadamente prevalência em uso real, crescimento recente, 
+recorrência em várias fontes, relevância Brasil + global e capacidade de representar intenção
+5
+6
+7
+2
+
+=== Página 3 ===
+empresarial real. Assim, um assunto muito discutido no LinkedIn mas pouco presente em logs de uso
+não supera um tema observado simultaneamente em telemetria, pesquisas empresariais e fóruns.
+Há uma limitação importante: prompts de LLMs não se comportam como buscas tradicionais. A
+Semrush comparou os prompts de seu dataset com mais de 27 bilhões de keywords e descobriu que,
+durante grande parte dos 17 meses analisados, 65%–85% não correspondiam a buscas tradicionais. Ao
+mesmo tempo, a proporção de prompts parecidos com buscas subiu de 18,9% em outubro de 2025
+para 34,9% em fevereiro de 2026. Isso significa que “volume de keyword” sozinho é insuficiente para
+determinar o que as pessoas estão perguntando às IAs. 
+A Ahrefs adiciona outro ângulo: seu Brand Radar já analisava mais de 240 milhões de prompts entre
+Google AI Mode, ChatGPT e Perplexity em fevereiro de 2026. Ainda assim, trata-se de um corpus
+proprietário, não do log integral dessas plataformas. 
+Brasil versus cenário global
+O padrão brasileiro parece estar aproximadamente um estágio atrás do frontier empresarial global:
+enquanto organizações mais avançadas discutem agentes, delegação e redesenho de workflows,
+muitas empresas brasileiras ainda estão adquirindo soluções prontas, contratando integradores e
+introduzindo IA em atividades administrativas. Isso é uma inferência dos dados, e não uma medição
+direta entre as mesmas populações. O Cetic.br encontrou 17% de adoção empresarial e 80% de compra
+de soluções prontas; já a OpenAI observa que suas organizações mais maduras estão migrando para
+workflows agentic e tarefas complexas. 
+Esse descompasso é comercialmente interessante: existe espaço simultâneo para AI Readiness,
+seleção de casos de uso, implementação, integração, governança, treinamento e mensuração de
+valor.
+Ranking das perguntas e oportunidades
+1. “Onde e como implementar IA na minha empresa? Por onde eu começo?” — oportunidade:
+MUITO ALTA
+Essa é a pergunta “guarda-chuva”. A intenção raramente é aprender teoria de IA; o decisor quer
+descobrir onde existe dinheiro ou tempo sendo perdido que a IA poderia recuperar. Isso casa com
+o paradoxo visto pela McKinsey: uso empresarial de IA já é amplo, mas escala e impacto corporativo
+continuam muito atrás da experimentação. No Brasil, a adoção ainda está em 17% das empresas
+pesquisadas pelo Cetic.br e boa parte ocorre por soluções prontas e fornecedores externos, reforçando
+a demanda por orientação de implementação. 
+Perfil: principalmente dono de PME, gestor de área, diretor , C-level e responsável por transformação;
+secundariamente profissional tentando introduzir IA em sua função.
+Subperguntas comuns: “Qual departamento priorizar?”, “quais quick wins existem?”, “preciso contratar
+programadores?”, “uso uma ferramenta pronta ou construo?”, “como montar um roadmap?”, “como
+evitar mais um projeto piloto que não escala?”. Em comunidades de pequenos negócios aparecem
+explicitamente pedidos por estratégia, workflows, frameworks de prompt, ferramentas e casos reais de
+IA para negócio — em contraste com aprender a programar IA. 
+8
+9
+10
+11
+12
+3
+
+=== Página 4 ===
+Casos concretos: pesquisa e análise de documentos; elaboração de propostas; geração de relatórios;
+base de conhecimento; preparação de reuniões; triagem de solicitações; análise de dados; criação de
+comunicações; suporte a decisões e tarefas que antes exigiam passar o problema a outro especialista. A
+OpenAI encontrou, em mais de 800 mil mensagens de trabalho nos EUA, que 43,5% das mensagens
+ocupacionais não genéricas correspondiam a tarefas normalmente associadas a outra ocupação,
+ilustrando a capacidade da IA de ampliar o escopo de cada função. 
+Serviço AJ sugerido: AI Opportunity Assessment + Roadmap de 90 dias. Entregáveis: inventário de
+processos, mapa valor × risco × viabilidade, shortlist de três casos de uso, business case, arquitetura
+preliminar , política mínima de IA e piloto recomendado.
+Quick win: escolher um processo frequente, textual/documental, reversível e de baixo risco; medir seu
+tempo e qualidade atuais; executar com IA mantendo revisão humana por algumas semanas.
+Métrica: tempo por caso, custo por caso, throughput, taxa de retrabalho, qualidade percebida e horas
+liberadas.
+Prompt-base:
+Atue como consultor de transformação por IA.
+Contexto da empresa:
+[setor, porte, produtos, equipe, sistemas]
+Liste os principais processos em que IA generativa pode gerar valor.
+Para cada oportunidade, avalie de 1 a 5:
+- impacto financeiro
+- frequência
+- esforço manual atual
+- disponibilidade de dados
+- facilidade de integração
+- risco operacional
+- risco de privacidade
+- tempo até primeiro valor
+Priorize os 5 melhores casos e proponha um piloto mensurável de 30 dias.
+Não sugira tecnologia antes de explicar o problema de negócio.
+2. “Quais processos posso automatizar com IA e agentes?” — oportunidade: MUITO ALTA
+Este é provavelmente o tema empresarial que mais ganhou intensidade entre 2025 e 2026. Na
+McKinsey, 62% dos respondentes já diziam que suas organizações estavam ao menos experimentando
+agentes: 23% escalando-os em algum ponto da empresa e 39% experimentando. Nos dados
+empresariais da OpenAI, organizações no percentil 95 de utilização enviam 16 vezes mais mensagens
+por trabalhador ao Codex que organizações típicas, e agentes são explicitamente associados à
+passagem de “assistência” para “trabalho delegado”. 
+A conversa pública também mudou de “posso automatizar isso?” para “o que funciona de verdade?”.
+Discussões de 2026 entre empreendedores mencionam explicitamente n8n, Make e agentes
+13
+14
+4
+
+=== Página 5 ===
+customizados e perguntam quais automações geram resultado real versus desperdício de tempo. Isso é
+evidência qualitativa, não representativa, mas é coerente com os dados corporativos. 
+Perfil: gestor , operações, TI, founder , profissional de automação e empresa.
+Subperguntas: “agente ou automação tradicional?”, “até onde posso deixar a IA agir?”, “ela pode
+consultar CRM?”, “pode responder cliente?”, “pode atualizar ERP?”, “como exigir aprovação humana?”,
+“preciso de vários agentes?”.
+Casos concretos: triagem e encaminhamento de tickets; enriquecimento de leads; geração e registro
+de follow-ups; pesquisa multicritério; análise periódica de documentos; preparação de relatórios; coleta
+de informações; suporte ao desenvolvedor; reconciliação e extração de dados; criação de tarefas e
+atualização de sistemas. OpenAI já identifica customer support, pesquisa, assistentes de conhecimento,
+análise/extraction e workflow automation entre os principais casos de produção via API. 
+Serviço AJ sugerido: Agent & Automation Sprint, começando por um único workflow ponta a ponta.
+Quick win: automatizar primeiro o estágio de “ler → classificar → sugerir”, mantendo “executar” sob
+aprovação humana. Só depois liberar ações reversíveis e, finalmente, ações de maior impacto.
+Risco principal: confundir autonomia com valor . Segurança e risco são hoje a principal barreira citada
+para escalar agentes; quase dois terços dos respondentes do estudo de confiança da McKinsey
+apontaram esse problema. 
+Métricas: percentual de casos resolvidos sem intervenção, approval rate, erro de tool call, exceções,
+tempo de ciclo, custo por execução e reversões.
+3. “Como aumentar minha produtividade com IA sem perder qualidade?” — oportunidade: ALTA
+O dado mais forte vem diretamente do comportamento. No estudo de 1,5 milhão de conversas da
+OpenAI, orientação prática, obtenção de informação e escrita respondiam por cerca de três
+quartos das conversas; escrita era o principal uso profissional. 
+Em fevereiro de 2026, uma análise de mais de 100 mil interações do Microsoft 365 Copilot encontrou
+49% das intenções associadas a trabalho cognitivo — analisar , resolver problemas, avaliar e pensar
+criativamente — além de 19% ligadas a trabalhar com pessoas, 17% a produzir e 15% a encontrar
+informação. 
+Perfil: profissional, executivo, analista, consultor , advogado, financeiro, marketing, RH e gestor .
+Perguntas derivadas: “como economizar horas?”, “o que delegar?”, “como resumir sem perder
+detalhe?”, “como analisar planilhas?”, “como preparar reuniões?”, “como fazer apresentações?”, “como
+revisar meu próprio trabalho?”.
+Serviço: AI Productivity by Role: treinamento e redesign das cinco a dez tarefas mais frequentes de
+cada função, em vez de treinamento genérico de “como usar ChatGPT”.
+Quick win: capturar durante uma semana tarefas repetitivas superiores a 15–30 minutos; converter as
+mais frequentes em workflows reutilizáveis com contexto, checklist e output esperado.
+15
+16
+17
+18
+19
+5
+
+=== Página 6 ===
+Risco: ganho de velocidade acompanhado de queda de confiabilidade. Em 2026, 74% dos respondentes
+do estudo de confiança da McKinsey classificavam inexatidão como risco altamente relevante. 
+Métricas: tempo antes/depois, first-pass acceptance, retrabalho, erros descobertos, satisfação e output
+por pessoa.
+4. “Como integrar IA aos meus documentos, CRM, ERP , WhatsApp e sistemas?” — oportunidade:
+MUITO ALTA
+Depois que o usuário domina o chat isolado, emerge a limitação: a IA não conhece suficientemente a
+empresa e não consegue agir nos sistemas. A OpenAI identifica justamente a passagem para APIs,
+company context, Apps, agentes e sistemas internos como característica de adoção avançada; entre
+casos de API em produção estão knowledge assistants, customer/sales support, análise e extração,
+coding tools e workflow generation. 
+No Brasil, esse problema é particularmente relevante porque 79% das empresas pesquisadas usavam
+WhatsApp ou Telegram para negócios em 2025, enquanto CRM chegou a 31%. Além disso, 60% das
+empresas que adotaram IA contrataram terceiros para desenvolver ou adaptar soluções. 
+O ecossistema técnico está convergindo para conectores e protocolos de ferramentas: o MCP é um
+padrão aberto para conectar aplicações de IA a dados, ferramentas e workflows; Anthropic oferece
+conexão direta a servidores MCP , Microsoft oferece conectores e governança no Copilot Studio, e a
+plataforma Gemini Enterprise foi estruturada para construir , integrar , governar e operar agentes
+conectados a dados corporativos. 
+Perfil: empresa, TI, operações, gestor digital, founder .
+Casos: “converse com todos os procedimentos internos”; “responda usando base de produtos”;
+“consulte o CRM”; “leia pedidos e abra ticket”; “consulte estoque”; “gere proposta e grave no CRM”;
+“pesquise e consolide múltiplas fontes”.
+Serviço AJ: Enterprise AI Integration / Knowledge & Action Layer.
+A arquitetura recomendada é progressiva:
+Padrão: começar com read-only + retrieval, evoluir para tool calling, depois permitir escrita reversível
+e somente então ações críticas.
+Métricas: answer groundedness, precisão de recuperação, tool success rate, tempo de resposta, erros
+de integração e percentual de respostas/escritas aprovadas.
+5. “É seguro colocar meus dados na IA? Como ficar em conformidade com LGPD?” —
+oportunidade: MUITO ALTA
+17
+16
+20
+21
+Sim
+Não
+Usuário
+ou
+evento
+Assistente
+/
+agente
+Orquestração
+Conhecimento
+corporativo
+/
+busca
+APIs,
+MCP
+e
+ferramentas
+Ação
+sensível?
+Aprovação
+humana
+Sistema
+de
+registro
+Métricas,
+logs
+e
+avaliações
+6
+
+=== Página 7 ===
+Este deixou de ser um tema jurídico periférico e tornou-se um bloqueador operacional de escala.
+Quase dois terços dos respondentes da pesquisa McKinsey 2026 citaram segurança e risco como
+principal barreira para escalar IA agentic; 74% classificaram inexatidão e 72% cybersecurity como riscos
+altamente relevantes. O estudo também encontrou uma lacuna particularmente grande entre
+percepção e mitigação em privacidade e propriedade intelectual. 
+No Brasil, a LGPD continua aplicável ao tratamento de dados pessoais independentemente de a
+operação utilizar ou não IA; a lei disciplina tratamento de dados pessoais inclusive em meios digitais. A
+ANPD mantém documentos técnicos específicos sobre uso de dados pessoais para desenvolvimento de
+IA generativa. 
+O PL 2338/2023 não deve ser tratado como lei vigente: ele continua aparecendo na Câmara no
+contexto da Comissão Especial sobre Inteligência Artificial e de sua tramitação legislativa. Logo, uma
+empresa brasileira precisa distinguir obrigações já vigentes — LGPD, contratos, segurança, normas
+setoriais — de propostas de regulação de IA ainda em processo legislativo. 
+Perguntas comuns: “meus prompts viram treinamento?”, “posso subir dados de clientes?”, “posso usar
+dados sensíveis?”, “quem responde por erro?”, “como controlar agentes?”, “posso dar acesso ao CRM?”,
+“como auditar?”.
+Serviço: AI Governance & LGPD Readiness: inventário de ferramentas, classificação de dados,
+acceptable-use policy, vendor assessment, matriz de risco por caso de uso, IAM, logging, regras de
+retenção, human oversight e incident response.
+Quick win: proibir dados sensíveis ou secretos em ferramentas não aprovadas; fornecer uma
+alternativa corporativa controlada; definir classes de uso “permitido / permitido com revisão / proibido”;
+restringir permissões de agentes pelo princípio do menor privilégio.
+Plataformas corporativas já incorporam mecanismos desse tipo: Microsoft documenta DLP , controle de
+conectores e identidades; Google documenta governança, IAM e opções específicas de retenção; isso
+deve ser configurado conforme arquitetura e contrato, não presumido apenas porque um produto leva
+a etiqueta “enterprise”. 
+Métricas: incidentes com PII, violações de política, ferramentas não autorizadas detectadas, exceções
+de acesso, decisões de alto risco sem aprovação e tempo de resposta a incidente.
+6. “Como calcular ROI da IA? Está dando resultado ou só parece moderno?” — oportunidade:
+MUITO ALTA
+Essa pergunta está se tornando central porque adoção não equivale a valor. Apesar do uso
+disseminado relatado na pesquisa McKinsey 2025, só 39% dos respondentes atribuíram algum impacto
+de IA ao EBIT corporativo e, entre estes, a maioria relatou menos de 5% do EBIT ligado à IA. Workflow
+redesign aparece entre os elementos associados às organizações que capturam mais valor . 
+Há também sinal de busca recente. A Ahrefs identificou em julho de 2026 crescimento de 212% em 18
+meses em um conjunto de keywords relacionadas a atribuição/ROI de IA; “AI search tracking” subiu
+184% e “AI rank tracking”, 175%. Esses números são de uma vertical específica — AI search/marketing
+— e não devem ser extrapolados para toda IA empresarial, mas mostram que a pergunta “qual valor
+isso produz?” está migrando para métricas operacionais. 
+17
+22
+23
+24
+4
+25
+7
+
+=== Página 8 ===
+Perfil: CEO, CFO, CIO, transformação, marketing, operações e dono de PME.
+Serviço AJ: AI Value Measurement / ROI Office.
+A conta recomendada é:
+ROI = (benefício econômico realizado − custo total da solução) ÷ custo total da
+solução
+O benefício deve separar horas teoricamente poupadas de horas efetivamente convertidas em
+capacidade, redução de custo ou receita. Custos devem incluir licença/API, implementação,
+integração, governança, revisão humana, manutenção, treinamento e eventuais erros.
+Quick win: escolher um piloto com baseline pré-IA. Exemplo: “tempo médio para criar proposta = 90
+min; retrabalho = 20%; 100 propostas/mês”. Só depois introduzir IA e comparar .
+Métricas prioritárias: horas realizadas, custo por transação, throughput, margem incremental,
+conversão, receita incremental, payback, qualidade e risco.
+7. “Como usar IA em marketing, vendas e atendimento?” — oportunidade: MUITO ALTA
+Marketing e vendas continuam entre as áreas mais naturais para IA. Nos dados empresariais da
+OpenAI, 78,3% das tarefas classificadas em Sales e 72,8% em Marketing estavam ligadas a escrita e
+comunicação; creative media representa ainda 10,2% em Marketing. A McKinsey também cita suporte a
+estratégia e conteúdo de marketing e automação de contact center/customer service entre os casos de
+uso mais reportados. 
+No Brasil, a combinação de 79% das empresas utilizando WhatsApp/Telegram e 31% utilizando CRM faz
+de atendimento + vendas + messaging + CRM uma área especialmente atraente para serviços de
+integração. 
+Subperguntas: “como captar leads?”, “personalizar follow-up?”, “atender WhatsApp?”, “qualificar leads?”,
+“criar campanhas?”, “analisar calls?”, “gerar propostas?”, “aparecer nas respostas do ChatGPT?”.
+Este último ponto está emergindo rapidamente. A Ahrefs reporta crescimento forte das buscas por
+monitoramento de presença em AI search, indicando a formação de um novo serviço de AI visibility/
+GEO, embora métricas de citações devam ser conectadas a conversão para não virarem vanity metrics. 
+Serviço AJ: AI Revenue Engine, unindo copiloto de vendas, automação de follow-up, atendimento
+assistido, content workflow e medição de presença nas respostas de IA.
+Métricas: velocidade de resposta ao lead, taxa de contato, SQL rate, conversão, CAC, ticket, CSAT,
+containment rate e receita atribuída.
+Prompt-base:
+Você é um copiloto comercial.
+26
+20
+25
+8
+
+=== Página 9 ===
+Com base em:
+- perfil do cliente: [...]
+- histórico do CRM: [...]
+- produto: [...]
+- estágio do funil: [...]
+- últimas interações: [...]
+1. resuma a situação;
+2. identifique necessidades e objeções;
+3. recomende a próxima melhor ação;
+4. escreva um follow-up curto;
+5. indique qualquer informação que esteja faltando.
+Nunca invente informações do cliente.
+Separe explicitamente fatos, inferências e recomendações.
+8. “Como treinar a equipe e fazer a adoção acontecer?” — oportunidade: MUITO ALTA
+A tendência mais madura é perceber que licença não significa adoção. A OpenAI observa uma diferença
+de sete vezes no volume de mensagens ligadas a educação e aprendizagem entre empresas de frontier
+e empresas típicas e recomenda treinamento específico por função, workshops de casos de uso,
+comunidades internas e repositórios de workflows. 
+O Anthropic Economic Index também encontrou um efeito de experiência: usuários com maior tempo
+de uso tentavam tarefas de maior valor e obtinham mais sucesso nas interações, sugerindo uma curva
+real de aprendizagem na utilização de IA. 
+E o problema aparece do lado de governança: quase 60% dos respondentes do estudo McKinsey 2026
+apontaram lacunas de conhecimento e treinamento como principal barreira à implementação de
+práticas de Responsible AI. 
+Serviço AJ: AI Academy + Champions Program, porém orientado a workflows reais, não a
+demonstrações de ferramentas.
+Quick win: selecionar dez pessoas de áreas distintas, pedir que cada uma transforme duas tarefas
+semanais em workflows reutilizáveis e compartilhar os cinco melhores com toda a organização.
+Métricas: WAU/usuários habilitados, número de workflows reutilizados, variedade de tarefas, taxa de
+sucesso, horas realizadas, adesão por departamento e conhecimento de políticas.
+9. “Qual ferramenta devo usar: ChatGPT, Claude, Gemini, Copilot...?” — oportunidade: ALTA
+Essa pergunta é relevante, mas aparece abaixo das anteriores porque escolha de modelo não deve
+preceder escolha do problema. As plataformas estão cada vez mais sobrepostas: OpenAI oferece chat,
+pesquisa, análise, API e agentes; Microsoft conecta agentes ao contexto do Microsoft 365; Google
+posiciona sua Gemini Enterprise Agent Platform como infraestrutura para build/scale/govern/optimize;
+Anthropic oferece Claude, coding agent e integração MCP . 
+O serviço de maior valor não é “qual chatbot é melhor?”, mas Vendor/Model Selection Benchmark
+com tarefas reais da empresa.
+16
+27
+17
+28
+9
+
+=== Página 10 ===
+Avaliar:
+Critério O que testar
+Qualidade acurácia nas tarefas reais
+Integração dados e sistemas já utilizados
+Segurança identidade, logs, retenção, DLP
+Ecossistema Microsoft, Google, APIs, developer stack
+Agentes ferramentas, approvals, observabilidade
+Custo licença + API + integração + revisão
+Governança controles administrativos e auditoria
+Experiência adoção pelos usuários
+Regra prática: uma organização Microsoft-heavy tem uma razão estrutural para testar Copilot/Copilot
+Studio; uma organização Google Cloud/Workspace deve testar Gemini; times intensivos em
+desenvolvimento podem comparar Codex e Claude Code; casos customizados devem comparar APIs
+com um benchmark próprio. As plataformas e capacidades mudam rapidamente, portanto a avaliação
+precisa ser atualizada periodicamente. 
+10. “Como fazer prompts melhores e criar meu próprio assistente?” — oportunidade: ALTA
+Prompting continua importante, mas a tendência é sair do “prompt mágico” e ir para context
+engineering + workflow design. A OpenAI observa que organizações mais maduras não apenas
+mandam mais mensagens: o volume explica somente 36% da diferença entre uma empresa típica e
+uma frontier; trabalhadores avançados fornecem mais contexto, pedem trabalhos mais complexos e
+produzem outputs mais substanciais. 
+A evolução dos prompts também é visível no dataset da Semrush: usuários fazem perguntas
+contextuais que frequentemente não têm equivalente em keywords de busca, embora o
+comportamento continue evoluindo. 
+Perfil: pessoa física, profissional e gestor; em empresas maduras, prompt engineering transforma-se
+em design de assistentes, skills e agentes.
+Serviço AJ: Prompt & Assistant Engineering, incluindo system instructions, templates, contexto
+corporativo, knowledge retrieval, exemplos, avaliações e versionamento.
+Uma estrutura melhor que “me dê um prompt bom” é:
+PAPEL
+Você atua como [...]
+OBJETIVO
+O resultado de negócio esperado é [...]
+29
+16
+8
+10
+
+=== Página 11 ===
+CONTEXTO
+Empresa: [...]
+Cliente/processo: [...]
+Dados disponíveis: [...]
+ENTRADAS
+[...]
+REGRAS
+- não invente dados;
+- sinalize incerteza;
+- cite a evidência utilizada;
+- não execute ações externas sem aprovação.
+PROCESSO
+1. [...]
+2. [...]
+3. [...]
+FORMATO DE SAÍDA
+[...]
+CRITÉRIOS DE QUALIDADE
+[...]
+ANTES DE CONCLUIR
+Verifique se [...]
+Playbook prático de implantação, ferramentas, prompts e
+métricas
+O padrão de integração recomendado
+A pesquisa converge para um princípio: não começar pelo modelo; começar pelo processo e pelo
+resultado. OpenAI encontra maior profundidade e delegação nas organizações avançadas; McKinsey
+associa captura de valor a redesenho de workflow; Microsoft mostra que uma grande parcela do uso já
+se concentra em trabalho cognitivo, e os principais fornecedores estão transformando seus produtos
+em plataformas de agentes conectadas ao contexto empresarial. 
+Para uma empresa típica, a progressão recomendada é:
+30
+11
+
+=== Página 12 ===
+Isso evita um erro frequente: automatizar um processo ruim. A própria McKinsey identifica redesenho
+de workflows como diferenciador dos programas que capturam maior valor . 
+Stack recomendada por contexto
+Contexto Ferramentas/plataformas a avaliar Padrão
+Conhecimento, pesquisa e
+trabalho geral
+ChatGPT Business/Enterprise; Microsoft
+365 Copilot; Gemini Enterprise; Claude
+Copiloto + documentos +
+pesquisa
+Microsoft 365 dominante Microsoft 365 Copilot + Copilot Studio identidade + M365 data +
+connectors + agents
+Google Cloud/Workspace
+dominante
+Gemini Enterprise / Gemini Enterprise
+Agent Platform
+grounding + enterprise
+data + agents
+Aplicação customizada APIs OpenAI, Anthropic ou Google aplicação → modelo →
+retrieval/tools
+Desenvolvimento Codex; Claude Code e equivalentes agente sobre repositório
++ testes + revisão
+Integração heterogênea API/MCP + camada de orquestração tools com least privilege
+Processos críticos qualquer stack corporativa adequada human-in-the-loop +
+audit trail
+Microsoft documenta controles como DLP , governança de conectores, identidade e lifecycle para
+agentes; Google posiciona sua Agent Platform explicitamente em build, scale, govern e optimize;
+Não
+Sim
+Problema
+de
+negócio
+Baseline
+atual
+Priorizar
+caso
+de
+uso
+Copiloto
+com
+humano
+no
+loop
+Conectar
+conhecimento
+corporativo
+Adicionar
+ferramentas
+e
+APIs
+Guardrails
+e
+aprovações
+Avaliação
+em
+produção
+ROI
++
+qualidade
++
+risco
+aceitáveis?
+Corrigir
+ou
+encerrar
+Escalar
+e
+padronizar
+4
+12
+
+=== Página 13 ===
+Anthropic oferece MCP para conectar Claude diretamente a sistemas externos; e a OpenAI reporta
+aumento do uso de Apps, agentes, Deep Research, GPTs e APIs nas empresas de maior maturidade. 
+Quick wins com melhor relação valor/risco
+Os primeiros projetos deveriam privilegiar tarefas frequentes, textuais, mensuráveis, reversíveis e
+com disponibilidade de dados. Exemplos: classificação de e-mails/tickets, preparação de reuniões,
+análise inicial de contratos com revisão profissional, pesquisa interna, resumo de documentos,
+elaboração de propostas, FAQ interno, preparação de follow-up de vendas e consolidação de relatórios.
+O uso observado nas plataformas — escrita, orientação, informação, análise e knowledge assistants —
+sustenta essa priorização. 
+Já decisões irreversíveis, movimentação financeira, decisões trabalhistas, jurídicas, médicas ou
+concessão de acesso devem entrar mais tarde e exigir controles proporcionalmente maiores. A
+relevância de inexatidão, cybersecurity e riscos de sistemas agentic sustenta uma progressão
+conservadora. 
+Painel mínimo de métricas
+Dimensão Métricas essenciais
+Adoção usuários ativos semanais, frequência, workflows/usuário
+Produtividade touch time, cycle time, throughput, horas realizadas
+Qualidade first-pass acceptance, erro, retrabalho, precisão
+Agentes completion rate, tool-call success, escalation/approval rate
+Cliente CSAT, tempo de resposta, resolução, conversão
+Financeiro custo/caso, margem incremental, receita incremental, payback, ROI
+Risco PII incidents, policy violations, ações revertidas, acessos indevidos
+Operação de IA latência, custo de modelo, uptime, falhas de integração
+A recomendação é registrar um baseline antes do piloto e comparar depois. Isso responde
+diretamente à lacuna entre alta adoção e impacto financeiro ainda limitado encontrada na pesquisa
+McKinsey. 
+Prompts para um projeto de consultoria
+Descoberta de oportunidades
+Analise este processo empresarial como consultor de IA.
+Processo: [...]
+Objetivo: [...]
+Pessoas envolvidas: [...]
+Volume mensal: [...]
+Tempo por caso: [...]
+31
+2
+17
+4
+13
+
+=== Página 14 ===
+Sistemas: [...]
+Dados disponíveis: [...]
+Erros/retrabalho: [...]
+Separe as atividades em:
+1. não automatizar;
+2. IA como copiloto;
+3. automação determinística;
+4. agente de IA;
+5. agente apenas com aprovação humana.
+Para cada uma, estime impacto, complexidade, risco e como medir o resultado.
+Desenho de agente
+Desenhe um agente para o processo abaixo.
+Ele deve especificar:
+- trigger;
+- dados necessários;
+- conhecimento consultado;
+- ferramentas/APIs;
+- passos de raciocínio operacional;
+- ações permitidas;
+- ações proibidas;
+- quando solicitar aprovação humana;
+- tratamento de erros;
+- logs necessários;
+- teste de aceitação;
+- métricas de produção.
+Processo: [...]
+ROI
+Monte o business case deste caso de IA.
+Baseline:
+[volume, tempo, custo, erro, receita/conversão]
+Cenário com IA:
+[...]
+Custos:
+[licenças, API, integração, treinamento, revisão, manutenção]
+Calcule cenários conservador, base e otimista.
+Separe horas teoricamente poupadas de benefícios financeiros efetivamente 
+14
+
+=== Página 15 ===
+realizáveis.
+Mostre payback, ROI, principais premissas e análise de sensibilidade.
+Governança/LGPD
+Faça uma triagem de risco deste caso de uso de IA.
+Identifique:
+- dados pessoais envolvidos;
+- dados sensíveis;
+- origem e finalidade dos dados;
+- terceiros/modelos que recebem dados;
+- ações que o agente pode executar;
+- impacto potencial de uma resposta errada;
+- necessidade de revisão humana;
+- retenção e logging;
+- permissões;
+- riscos de propriedade intelectual;
+- controles recomendados.
+Não forneça parecer jurídico final; indique pontos que exigem validação 
+jurídica/DPO.
+Seleção de plataforma
+Compare [plataforma A], [B] e [C] SOMENTE para os casos abaixo:
+[casos]
+Pesos:
+qualidade [...]
+segurança [...]
+integração [...]
+custo [...]
+governança [...]
+UX [...]
+agentes [...]
+Não faça ranking pela fama da ferramenta.
+Defina testes objetivos para cada critério e produza uma matriz de decisão.
+Project AJ: Essential Question e Challenge
+Big Idea
+IA aplicada à transformação do trabalho e dos processos empresariais.
+Essa escolha é mais robusta que “consultoria de prompts” porque os sinais mais fortes estão
+justamente na passagem de uso pontual para workflows: empresas avançadas usam IA de maneira
+15
+
+=== Página 16 ===
+mais profunda e agentic; a McKinsey identifica redesign do trabalho como fator associado a valor; e o
+mercado brasileiro ainda demanda integração e adaptação de soluções. 
+Essential Question priorizada
+Como podemos transformar a IA de uma ferramenta de perguntas e respostas em
+uma capacidade empresarial que melhore processos de forma mensurável, segura e
+escalável?
+Uma versão ainda mais orientada a execução:
+Como podemos identificar, implementar e comprovar, em até 60 dias, um caso de
+uso de IA que melhore significativamente produtividade, qualidade, custo ou
+receita de um processo real, sem aumentar de forma inaceitável o risco de dados e
+operação?
+O prazo e o objetivo são parâmetros propostos para o projeto, não benchmarks de mercado.
+Challenge
+Selecionar um processo real de uma empresa, construir um piloto funcional de IA
+com human-in-the-loop, integrá-lo ao contexto necessário, medir resultado contra
+um baseline e entregar um plano de governança, ROI e escala.
+O grande diferencial do AJ seria não vender “IA”, e sim um método demonstrável:
+Diagnosticar → priorizar → prototipar → integrar → governar → medir → escalar.
+Roadmap de Challenge-Based Learning
+Fase CBL Project AJ Entregável
+Engage entrevistas com gestores e usuários; mapear
+dores Problem Statement
+Engage escolher processo com valor mensurável Essential Question +
+Challenge
+Investigate documentar processo AS-IS e baseline Process Map + KPI baseline
+Investigate avaliar dados, risco, LGPD e ferramentas Risk & Architecture Canvas
+Investigate comparar copiloto, automação e agente Decision Matrix
+Act construir piloto com revisão humana MVP funcional
+Act rodar casos reais controlados Evaluation Dataset
+Act comparar baseline × IA ROI & Quality Dashboard
+Act documentar aprendizagem Playbook
+Act apresentar expansão 90-day Scale Roadmap
+32
+16
+
+=== Página 17 ===
+Isso também cria um produto de consultoria comercializável:
+AJ AI Process Accelerator — encontre, implemente e comprove seu primeiro
+workflow de IA de alto valor.
+A lógica é consistente com as evidências: as organizações mais avançadas estão passando de acesso
+para profundidade e delegação; ao mesmo tempo, segurança, treinamento e mensuração continuam
+sendo gargalos. 
+Fontes comparadas e URLs-chave
+Comparação de qualidade das evidências
+Fonte Período/
+dado O que mede Força para
+este ranking Limitação
+OpenAI —
+How People
+Use ChatGPT
+2025
+1,5 milhão de
+conversas de
+consumidores
+Muito alta
+uma plataforma;
+categorias
+agregadas
+OpenAI
+Signals / B2B
+Signals
+2025–2026 uso real empresarial
+agregado Muito alta
+clientes OpenAI; não
+fornece leaderboard
+de prompts
+OpenAI Work
+at the
+Frontier
+jul/2026 >800 mil mensagens
+de trabalho dos EUA Muito alta recorte EUA
+Anthropic
+Economic
+Index
+fev/2026 uso real do Claude/
+Claude API Muito alta mix de usuários
+próprio do Claude
+Microsoft
+Work Trend
+Index
+fev–mai/
+2026
+>100 mil conversas
+Copilot + pesquisa de
+trabalho
+Alta ambiente M365/
+usuários de IA
+Cetic.br TIC
+Domicílios 2025 adoção brasileira
+individual
+Muito alta
+para Brasil
+não mede prompts
+específicos
+Cetic.br TIC
+Empresas
+2025,
+publicado
+jun/2026
+adoção e
+implementação em
+empresas brasileiras
+Muito alta
+para Brasil
+mede adoção, não
+conteúdo das
+perguntas
+McKinsey
+State of AI 2025 pesquisa
+organizacional global Alta respostas
+declaradas; não logs
+McKinsey AI
+Trust 2026 governança, risco e
+agentes Alta amostra corporativa,
+autorrelato
+Semrush 17 meses
+até fev/2026
+clickstream e
+linguagem dos
+prompts
+Alta como
+proxy
+não é log integral do
+ChatGPT
+33
+17
+
+=== Página 18 ===
+Fonte Período/
+dado O que mede Força para
+este ranking Limitação
+Ahrefs até jul/2026
+volumes de busca,
+social e corpus de
+prompts
+Alta como
+sinal de
+trend
+datasets
+proprietários e foco
+forte em marketing/
+search
+Stack
+Overflow 2025 uso de IA por
+desenvolvedores
+Média-alta
+setorial
+população técnica
+específica
+Reddit 2025–2026
+perguntas
+espontâneas de
+profissionais/
+founders
+Qualitativa não representativo e
+suscetível a ruído
+A triangulação é essencial. Por exemplo, “agentes” não foi classificado em segundo lugar por hype
+social: ele aparece simultaneamente nos surveys empresariais da McKinsey, nos logs empresariais da
+OpenAI, na evolução das plataformas Microsoft/Google/Anthropic e nas conversas espontâneas de
+empreendedores. 
+Da mesma maneira, “ROI” recebe alta prioridade não porque um relatório declara que toda IA gera
+retorno, mas pelo problema oposto: o uso cresceu mais rapidamente que o impacto financeiro
+empresarial comprovado, enquanto sinais de busca de 2026 mostram maior procura por atribuição e
+mensuração. 
+URLs-chave consultadas
+Fonte URL
+OpenAI — How People
+Are Using ChatGPT https://openai.com/index/how-people-are-using-chatgpt/
+OpenAI — B2B Signals https://openai.com/signals/b2b/
+OpenAI — Signals
+individual data https://openai.com/signals/data/
+OpenAI — Work at the
+Frontier
+https://openai.com/index/how-ai-is-expanding-what-people-do-at-
+work/
+OpenAI — adoção no
+primeiro trimestre de
+2026
+https://openai.com/signals/research/2026q1-update/
+Anthropic Economic
+Index — março de 2026
+https://www.anthropic.com/research/economic-index-march-2026-
+report
+Microsoft Work Trend
+Index 2026
+https://www.microsoft.com/en-us/worklab/work-trend-index/agents-
+human-agency-and-the-opportunity-for-every-organization
+Cetic.br — TIC Empresas/
+IA
+https://cetic.br/pt/noticia/uso-de-inteligencia-artificial-por-empresas-
+brasileiras-avanca-e-atinge-17-aponta-pesquisa-do-cetic-br/
+34
+35
+18
+
+=== Página 19 ===
+Fonte URL
+Cetic.br — TIC
+Domicílios/IA
+https://cetic.br/pt/noticia/50-milhoes-de-brasileiros-ja-usam-ia-mas-
+potenciais-beneficios-continuam-limitados-as-camadas-de-maior-
+renda-e-escolaridade/
+McKinsey — State of AI
+2025
+https://www.mckinsey.com/capabilities/quantumblack/our-insights/
+the-state-of-ai
+McKinsey — State of AI
+Trust 2026
+https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/tech-
+forward/state-of-ai-trust-in-2026-shifting-to-the-agentic-era
+Semrush — ChatGPT
+prompt/clickstream
+analysis
+https://www.semrush.com/blog/chatgpt-search-insights/
+Ahrefs — AI Search
+Trends 2026 https://ahrefs.com/blog/ai-search-trends/
+Ahrefs — prompt
+tracking dataset https://ahrefs.com/blog/custom-prompt-tracking/
+LGPD — texto compilado https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/
+L13709compilado.htm
+Câmara — PL 2338/2023 https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?
+idProposicao=2487262
+Microsoft Copilot Studio
+— security/governance
+https://learn.microsoft.com/en-us/microsoft-copilot-studio/security-
+and-governance
+Google — Gemini
+Enterprise Agent
+Platform
+https://docs.cloud.google.com/gemini-enterprise-agent-platform
+Anthropic — MCP https://docs.anthropic.com/en/docs/agents-and-tools/mcp
+Leitura estratégica final: o mercado de 2026 está rapidamente deixando para trás a fase de “ensinar
+pessoas a conversar com um chatbot”. Os sinais mais fortes convergem para um ciclo mais sofisticado
+— descobrir o caso de uso certo → redesenhar o workflow → conectar dados e sistemas → delegar
+trabalho a IA/agentes → controlar risco → desenvolver competências → medir retorno → escalar.
+Para o Project AJ, essa cadeia inteira representa uma oportunidade de posicionamento
+significativamente mais defensável do que consultoria centrada apenas em ferramentas ou prompts. 
+How people are using ChatGPT
+https://openai.com/index/how-people-are-using-chatgpt/?utm_source=chatgpt.com
+Cetic.br - 50 milhões de brasileiros já usam IA, mas potenciais benefícios continuam limitados às
+camadas de maior renda e escolaridade
+https://cetic.br/pt/noticia/50-milhoes-de-brasileiros-ja-usam-ia-mas-potenciais-beneficios-continuam-limitados-as-camadas-
+de-maior-renda-e-escolaridade/
+The State of AI: Global Survey 2025
+https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai?utm_source=chatgpt.com
+36
+1 2 7 18
+3
+4 11 14 34 35
+19
+
+=== Página 20 ===
+B2B Signals | OpenAI | OpenAI
+https://openai.com/signals/b2b/
+Signals individual data
+https://openai.com/signals/data/?utm_source=chatgpt.com
+ChatGPT traffic analysis: Insights from 17 months of clickstream data
+https://www.semrush.com/blog/chatgpt-search-insights/
+How to Choose the Best Prompts to Monitor Your AI Search ...
+https://ahrefs.com/blog/custom-prompt-tracking/?utm_source=chatgpt.com
+Cetic.br - Uso de Inteligência Artificial por empresas brasileiras avança e atinge 17%, aponta
+pesquisa do Cetic.br
+https://cetic.br/pt/noticia/uso-de-inteligencia-artificial-por-empresas-brasileiras-avanca-e-atinge-17-aponta-pesquisa-do-
+cetic-br/
+Looking for real world AI learning resources (courses ...
+https://www.reddit.com/r/smallbusiness/comments/1q8tjvt/looking_for_real_world_ai_learning_resources/?
+utm_source=chatgpt.com
+How AI is expanding what people do at work | OpenAI
+https://openai.com/index/how-ai-is-expanding-what-people-do-at-work/
+Automation with AI: What did you try, what worked, and ...
+https://www.reddit.com/r/Entrepreneur/comments/1qvy2fm/automation_with_ai_what_did_you_try_what_worked/?
+utm_source=chatgpt.com
+Responsible AI: Overcoming adoption barriers and risks
+https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/tech-forward/state-of-ai-trust-in-2026-shifting-to-the-
+agentic-era
+2026 Work Trend Index report: Agents, human agency, and opportunity
+https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-
+organization
+MCP connector - Claude Platform Docs
+https://docs.anthropic.com/en/docs/agents-and-tools/mcp-connector?utm_source=chatgpt.com
+L13709compilado - Planalto
+https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/L13709compilado.htm?utm_source=chatgpt.com
+Projeto de Lei 2338/2023
+https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262&utm_source=chatgpt.com
+Configure data policies for agents - Microsoft Copilot Studio
+https://learn.microsoft.com/en-us/microsoft-copilot-studio/admin-data-loss-prevention?utm_source=chatgpt.com
+5 AI Search Trends I’m Seeing in 2026, Backed by Ahrefs Data
+https://ahrefs.com/blog/ai-search-trends/
+Anthropic Economic Index report: Learning curves \ Anthropic
+https://www.anthropic.com/research/economic-index-march-2026-report
+What's new in Copilot Studio
+https://learn.microsoft.com/en-us/microsoft-copilot-studio/whats-new?utm_source=chatgpt.com
+Copilot Studio security and governance
+https://learn.microsoft.com/en-us/microsoft-copilot-studio/security-and-governance?utm_source=chatgpt.com
+5 16 26 28 30 32 33 36
+6
+8
+9
+10 20
+12
+13
+15
+17
+19
+21
+22
+23
+24
+25
+27
+29
+31
+20

@@ -1,0 +1,1895 @@
+Extração textual auxiliar, sem revisão factual. Original preservado na raiz: Projeto AJ — Mapa das dores empresariais que impedem a IA de virar capacidade organizacional no Bras.pdf
+Consulte o PDF para tabelas, diagramas, fórmulas e vínculos de notas.
+
+=== Página 1 ===
+Projeto AJ — Mapa das dores empresariais que
+impedem a IA de virar capacidade
+organizacional no Brasil
+Resumo executivo
+A pesquisa reforça a formulação já adotada para o Challenge do Projeto AJ:
+Criar e validar, em até 60 dias, um modelo replicável de consultoria em IA capaz de
+transformar um processo empresarial real e comprovar ganho mensurável de
+produtividade, qualidade, custo ou receita, com riscos controlados e potencial de
+escala.
+A principal conclusão deste levantamento é que o maior gap do mercado brasileiro não é falta de
+acesso à IA. O problema é a passagem entre usar IA pontualmente e incorporá-la a um processo
+empresarial com dados, integração, governança, métricas, responsáveis e capacidade de
+repetição. Essa conclusão é consistente com o documento-base do Projeto AJ, que já identificava
+implementação, automação, produtividade, integração, governança e ROI como os eixos de maior
+oportunidade. [Referência interna do PDF à pesquisa anterior do Projeto AJ]
+A TIC Empresas 2025 mostra essa transição ainda incompleta. Entre as empresas brasileiras cobertas
+pela pesquisa, 17% declararam utilizar IA, contra 13% em 2024; o índice foi de 15% entre empresas com
+10–49 pessoas ocupadas, 32% entre as de 50–249 e 50% entre as de 250 ou mais. Entre as que já
+utilizavam IA, 68% empregavam automação de fluxos de trabalho, mas a incorporação continuava
+fortemente apoiada em sistemas adquiridos de terceiros: 80% compraram software ou sistemas
+prontos, e mais da metade recorreu a fornecedores externos para desenvolver ou modificar soluções. O
+próprio Cetic.br interpreta boa parte do movimento atual como adaptação de processos, e não ainda
+transformação estrutural da operação. 
+O retrato dos pequenos negócios é diferente, porém complementar . Pesquisa Sebrae/FGV IBRE com
+cerca de 5 mil empresas encontrou aplicação direta de IA no negócio em 42% dos MEI, 46% das micro e
+pequenas empresas agrupadas e 63% das médias e grandes. Entre MEI, 23% apontaram como principal
+dificuldade não saber como aplicar IA ao próprio negócio. Nos pequenos negócios, marketing,
+comunicação e economia de tempo aparecem antes de usos analíticos mais sofisticados; nas médias e
+grandes, análise de dados, produtividade e segurança dos dados ganham peso. As diferenças de
+percentuais em relação ao Cetic.br decorrem de população, definições e instrumentos de pesquisa
+distintos, portanto não devem ser lidas como séries diretamente comparáveis. 
+Há ainda um sinal importante do IBGE: na PINTEC Semestral 2024, restrita às empresas industriais de
+maior porte cobertas pela pesquisa, o uso de IA chegou a 41,9%, contra 16,9% em 2022. Esse dado não
+contradiz o Cetic.br: a população e o conceito medido são diferentes. Ele mostra, contudo, que
+determinadas indústrias brasileiras já estão em uma fase mais avançada de digitalização e constituem
+um mercado diferente daquele das microempresas. 
+1
+2
+3
+1
+
+=== Página 2 ===
+O cenário mundial apresenta o mesmo problema em estágio mais avançado. Em 2025, 88% dos
+respondentes da pesquisa global da McKinsey disseram que suas organizações utilizavam IA em pelo
+menos uma função, mas apenas 7% afirmaram tê-la escalado plenamente pela organização.  Em
+pesquisa divulgada pelo Gartner em 1º de setembro de 2026, apenas 22% das organizações
+pesquisadas haviam escalado IA através de múltiplas unidades de negócio ou adotado uma abordagem
+AI-first; 11% sequer sabiam quanto sua função havia gasto com IA em 2025. 
+Isso produz uma tese estratégica bastante clara para o AJ:
+O produto principal do Projeto AJ não deveria ser treinamento, ferramenta, RAG,
+automação ou multiagente. O produto deveria ser a capacidade de encontrar um
+processo economicamente relevante, redesenhá-lo, escolher a menor arquitetura de
+IA suficiente, integrá-la de forma controlada e provar o resultado.
+A tecnologia passa a ser uma hipótese de solução. Algumas dores serão resolvidas por copilotos;
+outras, por RAG; outras nem precisarão de IA generativa e serão melhor atendidas por automação
+determinística ou modelos preditivos. Agentes tornam-se relevantes quando a IA precisa executar
+ações. Multiagentes só deveriam entrar quando houver uma justificativa arquitetural concreta para
+dividir o trabalho entre diferentes papéis, contextos ou especializações. O Gartner encontrou ampla
+experimentação com agentes, mas somente 15% dos líderes de aplicações pesquisados estavam
+considerando, pilotando ou implantando agentes totalmente autônomos; apenas 13% concordavam
+fortemente que possuíam a governança adequada para administrá-los. 
+Oportunidade central identificada
+A oportunidade mais promissora para o primeiro ciclo do AJ está na interseção de cinco características:
+alto volume × trabalho cognitivo repetitivo × dados já existentes × resultado mensurável × ação
+inicialmente reversível.
+Isso coloca vendas/follow-up, atendimento, busca de conhecimento interno, processamento
+documental financeiro, consolidação administrativa/relatórios e service desk de TI à frente de
+projetos ambiciosos de multiagentes autônomos, decisões trabalhistas automatizadas ou decisões
+financeiras críticas.
+Minha recomendação, portanto, é não alterar o Challenge. A pesquisa dá sustentação empírica a ele.
+O próximo passo do CBL é realmente entrar nas Guiding Questions — e a primeira investigação não deve
+perguntar “onde podemos usar multiagentes?”, mas:
+Em qual processo real a distância entre a forma atual de trabalhar e uma
+capacidade de IA integrada é grande o bastante para produzir valor mensurável em
+60 dias?
+Evidências e diagnóstico do mercado brasileiro
+O Brasil não tem uma única curva de maturidade
+O erro mais perigoso para o AJ seria falar em “empresa brasileira” como uma unidade homogênea.
+Microempresas, pequenas, médias e grandes organizações apresentam problemas bastante diferentes.
+4
+5
+6
+2
+
+=== Página 3 ===
+Também é necessário cuidado metodológico. A TIC Empresas 2025 cobre empresas com dez ou mais
+pessoas ocupadas e classifica porte por número de pessoas; o Sebrae/FGV alcança MEI e pequenos
+negócios e utiliza outras categorias; a PINTEC do IBGE tem recortes próprios, incluindo estudos
+específicos da indústria. Por isso, quando não existe desagregação compatível entre micro e pequena
+empresa, ela é indicada abaixo como não especificada. 
+Porte Situação observada Dor dominante para o AJ Evidência
+Micro /
+MEI
+Familiaridade alta,
+mas uso ainda
+superficial e muito
+concentrado em
+criação, marketing e
+comunicação
+“Sei que IA existe, mas
+não sei onde ela
+realmente entra no meu
+negócio.” Falta tempo,
+processo documentado,
+dados organizados e
+capacidade técnica
+87% dos MEI pesquisados
+conheciam IA generativa; 42%
+a aplicavam diretamente no
+negócio e 23% dos MEI citaram
+“não sabe como aplicar no
+meu negócio” como principal
+dificuldade. Marketing/
+divulgação aparecia em 74%
+dos usos. 
+Pequena
+Uso crescente de
+ferramentas prontas;
+operação
+frequentemente
+espalhada por
+WhatsApp, planilhas e
+sistemas
+independentes
+Fragmentação
+operacional + ausência
+de integração +
+dificuldade em
+transformar economia
+de tempo em processo
+padronizado
+Na TIC Empresas, IA estava em
+15% das empresas de 10–49
+pessoas; WhatsApp/Telegram
+em 79%, CRM em 29% e ERP
+em 32%. 
+Média
+Já possui sistemas e
+equipe, porém
+aumenta a
+complexidade de
+integração e
+governança
+“Temos tecnologia e
+casos de uso, mas os
+dados e sistemas não
+conversam
+suficientemente.”
+Entre não adotantes de 50–249
+pessoas, 26% citaram
+desconhecimento da IA
+adequada, 25% custo, 24%
+falta de capacitação, 19%
+incompatibilidade de sistemas,
+18% privacidade e 16% dados.
+IA já era usada por 32%. 
+Grande
+Maior adoção e
+infraestrutura, mas
+também maior
+superfície de risco,
+sistemas legados,
+stakeholders e
+portfólio de pilotos
+Escalar sem criar “ilhas
+de IA”, shadow AI,
+agentes desgovernados
+ou projetos sem ROI
+IA estava em 50% das
+empresas de 250+ pessoas.
+Entre as grandes que ainda
+não usavam IA, 42% citavam
+custo, 36% falta de pessoas
+capacitadas, 34%
+incompatibilidade, 33%
+desconhecimento da
+tecnologia adequada, 28%
+dados e 27% privacidade. 
+O último dado merece cuidado: ele não significa que grandes empresas, em geral, enfrentem mais
+dificuldades do que pequenas. Os percentuais de obstáculos são calculados sobre os não adotantes
+de cada porte. Como metade das grandes empresas da pesquisa já utilizava IA, as grandes
+remanescentes no grupo dos não adotantes podem representar casos particularmente complexos. 
+7
+2
+8
+9
+10
+10
+3
+
+=== Página 4 ===
+A infraestrutura digital já existe em parte — mas é fragmentada
+A TIC Empresas fornece um indício importante para o desenho comercial do AJ. Entre empresas com
+acesso à Internet, 54% pagavam por armazenamento de arquivos ou banco de dados em nuvem e 36%
+por capacidade de processamento em nuvem; 51% usavam software financeiro/contábil na nuvem. Ao
+mesmo tempo, somente 36% das empresas utilizavam ERP , embora a taxa chegasse a 76% entre as
+grandes e ficasse em 32% entre as empresas de 10–49 pessoas. 
+Portanto, muitas empresas não começam do zero, mas também não possuem uma camada digital
+plenamente integrada. Isso favorece justamente uma consultoria que faça conexão entre processo,
+dados e sistemas existentes, em vez de tentar substituir toda a infraestrutura.
+Um exemplo emblemático é a diferença entre mensageria e CRM: 79% das empresas usavam
+WhatsApp ou Telegram para negócios, enquanto CRM estava em 31%. Entre as de 10–49 pessoas, os
+percentuais eram 79% e 29%, respectivamente. Essa combinação cria uma hipótese forte de que parte
+relevante do relacionamento comercial brasileiro permanece distribuída entre conversas, memória dos
+vendedores e sistemas parcialmente atualizados. 
+Adoção não significa transformação
+Entre empresas brasileiras que já usavam IA, 68% declararam alguma automação de fluxo de trabalho;
+mineração/análise de texto aparecia em 38%, reconhecimento/processamento de imagens em 31%,
+geração de linguagem natural em 30% e machine learning para previsão/análise em 25%. 
+Por função, entre as empresas adotantes, os usos estavam distribuídos assim:
+Função medida pelo Cetic.br % das empresas usuárias de IA
+Marketing ou vendas 44%
+Organização de processos administrativos 35%
+Gestão empresarial 34%
+Segurança digital 34%
+Recursos humanos/recrutamento 24%
+Processos de produção 23%
+Logística 22%
+Fonte: TIC Empresas 2025. 
+O dado é particularmente importante porque a automação de workflow é alta dentro do grupo que já
+adotou IA, porém a adoção total ainda é limitada. Isso aponta para dois mercados AJ diferentes: 
+adoção inicial para quem ainda não começou e industrialização/integração para quem já possui
+ferramentas e pilotos. 
+A dependência externa reforça a oportunidade. O Cetic.br informa que 80% das empresas adotantes
+compraram software/sistemas prontos e que fornecedores externos têm participação importante no
+desenvolvimento ou adaptação. Já o desenvolvimento interno cresceu entre grandes organizações,
+passando de 24% para 37%. 
+11
+12
+13
+14
+15
+16
+4
+
+=== Página 5 ===
+O que o comparativo mundial acrescenta
+O ponto mais importante da comparação internacional não é concluir que “o Brasil está exatamente
+uma onda atrás”. As amostras não permitem essa afirmação.
+O que podemos dizer é que o gargalo de escala também existe nos mercados mais maduros. A
+McKinsey encontrou 88% de uso de IA em alguma função, contra apenas 7% de escala plena.  O
+Gartner , em levantamento de 2026 com organizações de receita anual mínima de US$ 50 milhões,
+encontrou apenas 22% em escala através de múltiplas unidades ou em abordagem AI-first. 
+Isso derruba uma hipótese bastante comum:
+Dar ChatGPT, Copilot, Gemini ou outro chatbot para os funcionários não equivale a
+transformar a empresa.
+Um experimento de campo com 7.137 trabalhadores do conhecimento em 66 empresas encontrou que
+o acesso a IA integrada a e-mail, reuniões e escrita reduziu em cerca de duas horas semanais o tempo
+dedicado a e-mail entre usuários efetivos, mas não produziu mudança detectável na quantidade ou
+composição global de tarefas. Ou seja: produtividade individual pode aparecer sem redesenho
+organizacional. 
+Em contraste, estudos que inserem IA em um workflow delimitado conseguem medir resultados mais
+diretamente. Um estudo com 5.179 agentes de suporte encontrou aumento médio de
+aproximadamente 14% nas questões resolvidas por hora, com efeitos particularmente fortes entre
+profissionais menos experientes. 
+Essa diferença é central para a tese AJ:
+O objeto da transformação deve ser o processo, não a ferramenta.
+Mapa das dores por porte e função
+A tabela seguinte sintetiza as dores mais relevantes para o Projeto AJ. “Frequência” é uma
+classificação analítica AJ — alta, média-alta ou média — baseada na triangulação das pesquisas e
+na recorrência do processo; não é um percentual oficial de prevalência.
+As dimensões de impacto são: P = produtividade; Q = qualidade; C = custo; R = receita.
+4
+5
+17
+18
+5
+
+=== Página 6 ===
+Função Dor
+empresarial Evidências Frequência
+AJ Impacto Causas raiz
+Exemplo /
+manifestação
+real
+Vendas
+Leads chegam
+por diferentes
+canais, follow-
+up depende do
+vendedor , CRM
+fica incompleto
+e propostas
+consomem
+trabalho
+manual
+Marketing/
+vendas é a
+aplicação de IA
+mais comum
+entre adotantes
+brasileiros, 44%.
+WhatsApp/
+Telegram é usado
+por 79% das
+empresas, contra
+CRM em 31%. 
+Alta P , Q, R
+Canal e CRM
+desconectados;
+ausência de
+next-best-
+action;
+conhecimento
+comercial
+tácito; baixa
+disciplina de
+registro
+Vendedor lê
+conversa →
+consulta
+produto →
+redige resposta
+→ cria
+proposta →
+lembra
+posteriormente
+de atualizar
+CRM
+Atendimento
+Volume
+repetitivo,
+conhecimento
+espalhado,
+respostas
+inconsistentes
+e dificuldade
+em encaminhar
+exceções
+Globalmente,
+91% dos líderes
+de atendimento
+pesquisados pelo
+Gartner
+declararam
+pressão executiva
+para implementar
+IA em 2026;
+pesquisa
+experimental
+mostra ganho de
+produtividade
+com copiloto de
+atendimento. 
+Alta P , Q, C,
+R
+FAQ
+desatualizado;
+canais
+separados;
+ausência de
+classificação;
+conhecimento
+na cabeça dos
+atendentes
+Pergunta
+simples
+consome
+agente
+humano
+porque
+localizar regra,
+histórico e
+solução exige
+várias
+consultas
+RH
+Recrutamento,
+comunicação,
+documentos e
+conhecimento
+de políticas
+consomem
+tempo, mas
+automação
+decisória traz
+risco de
+discriminação
+24% das
+empresas
+brasileiras
+adotantes
+usavam IA em
+RH/recrutamento;
+entre grandes,
+35%. 
+Média-
+alta P , Q, C
+Dados não
+estruturados;
+critérios
+inconsistentes;
+receio jurídico;
+ausência de
+avaliação de
+viés
+IA pode
+resumir
+currículo ou
+preparar
+entrevista, mas
+decisão
+automática de
+contratação
+exige cautela e
+governança
+19
+20
+14
+6
+
+=== Página 7 ===
+Função Dor
+empresarial Evidências Frequência
+AJ Impacto Causas raiz
+Exemplo /
+manifestação
+real
+Finanças
+Entrada manual
+de
+documentos,
+conciliação,
+conferência e
+produção de
+relatórios
+gerenciais
+51% das
+empresas com
+Internet pagavam
+por software
+financeiro/
+contábil em
+nuvem, mas o
+Cetic.br não
+publica, no
+indicador
+consultado,
+percentual
+nacional
+específico de uso
+de IA em
+finanças. 
+Alta P , Q, C
+PDF/e-mail/
+planilha; regras
+repetitivas;
+sistemas não
+integrados;
+baixa qualidade
+cadastral
+Nota/fatura
+chega →
+alguém extrai
+campos →
+verifica pedido
+→ lança
+sistema →
+trata exceção
+Operações/
+administração
+Processos
+manuais foram
+digitalizados
+sem serem
+redesenhados;
+a IA acelera
+partes, mas o
+fluxo completo
+continua
+dependente de
+pessoas
+35% dos
+adotantes
+aplicavam IA a
+processos
+administrativos e
+68% utilizavam
+automação de
+workflows. 
+Alta P , Q, C
+Processo AS-IS
+pouco
+documentado;
+muitas
+transferências
+entre áreas;
+aprovações e
+controles
+manuais
+Relatórios e
+solicitações
+atravessam e-
+mail, planilhas,
+sistemas e
+aprovação
+humana sem
+rastreabilidade
+ponta a ponta
+Logística
+Planejamento,
+previsão,
+estoque e
+exceções
+exigem
+consolidar
+dados de
+múltiplas
+origens
+22% dos
+adotantes
+usavam IA em
+logística; entre
+empresas de
+transporte/
+armazenagem/
+correio que
+usavam IA, 50%
+relatavam
+aplicação em
+logística. 
+Média-
+alta
+P , Q, C,
+R
+Histórico
+inadequado;
+cadastros;
+sazonalidade;
+sistemas
+operacionais
+desconectados;
+baixa
+observabilidade
+Previsão de
+demanda ou
+tratamento de
+atraso exige
+cruzar pedido,
+estoque, rota,
+SLA e cliente
+21
+22
+14
+7
+
+=== Página 8 ===
+Função Dor
+empresarial Evidências Frequência
+AJ Impacto Causas raiz
+Exemplo /
+manifestação
+real
+Compliance /
+jurídico /
+privacidade
+Empresas não
+sabem quais
+dados podem
+entrar na IA,
+como auditar
+decisões ou
+quem responde
+por erros
+Entre não
+adotantes,
+proteção/
+privacidade e
+incerteza legal
+aparecem como
+obstáculos; entre
+grandes não
+adotantes,
+chegam a 27% e
+22%. 
+Média-
+alta e
+crescente
+Q, C,
+risco
+Política
+inexistente;
+shadow AI;
+fornecedor não
+avaliado; logs
+insuficientes;
+autonomia
+excessiva
+Funcionário
+cola contrato,
+cadastro de
+cliente ou
+informação
+estratégica em
+ferramenta
+pública sem
+análise prévia
+TI
+IA cria mais
+uma camada
+sobre sistemas
+legados:
+conectores,
+permissões,
+APIs,
+identidade,
+observabilidade
+e custos
+precisam ser
+administrados
+Incompatibilidade
+de sistemas era
+obstáculo para
+13% dos não
+adotantes e 34%
+das grandes não
+adotantes; dados
+eram obstáculo
+para 10% e 28%,
+respectivamente. 
+Alta em
+médias/
+grandes
+P , Q, C
+Legado; APIs
+inexistentes;
+identidade
+fragmentada;
+dados sem
+semântica;
+múltiplos
+vendors
+Um agente
+funciona em
+demonstração,
+mas não
+consegue
+consultar ou
+escrever
+corretamente
+em ERP/CRM
+em produção
+Casos brasileiros que mostram a direção
+Os exemplos públicos brasileiros encontrados concentram-se naturalmente em organizações maiores,
+porque grandes projetos geram mais documentação institucional.
+O BNDES aprovou financiamento para iniciativas como a modernização da Bionexo, envolvendo IA e
+automação em uma plataforma de compras e relacionamento na saúde; para a Benner, envolvendo
+modernização de software, IA e RPA; e para a Iochpe-Maxion, envolvendo digitalização, integração e
+automação da produção, com expectativa declarada de aumento de capacidade. 
+Em outro projeto financiado pelo BNDES, a Valid projetou redução superior a 80% no custo médio de
+processamento de identificação e biometria com modernização tecnológica apoiada em IA; como se
+trata de uma projeção de projeto, não deve ser interpretada como resultado já realizado. 
+Esses exemplos ajudam a separar os portes. Uma grande empresa pode discutir IA integrada a
+produção, biometria, ERP e supply chain; para uma microempresa, o primeiro retorno frequentemente
+estará em responder clientes, gerar proposta, organizar pedidos ou reduzir horas administrativas. A
+pesquisa Sebrae/FGV confirma essa diferença: médias/grandes destacavam análise de dados e
+produtividade, enquanto MEI/MPE concentravam uso em marketing, comunicação e economia de
+tempo. 
+23
+23
+24
+25
+2
+8
+
+=== Página 9 ===
+Lacunas estruturais e tecnologia adequada
+As cinco lacunas que impedem a escala
+Minha síntese é que as dezenas de sintomas encontrados convergem para cinco lacunas estruturais.
+Lacuna O que aparece na
+empresa Evidência Implicação para o
+AJ
+Capacitação
+aplicada
+Pessoas conhecem
+ChatGPT, mas não
+conseguem traduzir
+capacidade da IA
+para um processo e
+seus KPIs
+Entre MEI, 23% apontaram não
+saber aplicar IA ao próprio
+negócio; falta de pessoas
+capacitadas também aparece
+entre obstáculos do Cetic.br . 
+Não vender curso
+genérico como
+solução principal.
+Fazer orientação
+mínima no
+workflow;
+capacitação ampla
+permanece módulo
+opcional
+Governança
+Shadow AI, dados
+enviados sem
+critério,
+fornecedores
+desconhecidos,
+ausência de
+aprovação e logs
+Segurança/risco está entre os
+principais obstáculos
+internacionais à escala de
+agentes; só 13% de líderes de
+aplicações em pesquisa
+Gartner concordavam
+fortemente ter a governança
+adequada para agentes. 
+Todo piloto deve
+nascer com
+classificação de
+dados, permissões,
+logs, owner , ações
+proibidas e
+aprovação humana
+Dados e
+integração
+Informação existe,
+mas está espalhada
+por documentos,
+CRM, ERP , WhatsApp,
+planilhas e
+conhecimento tácito
+Cetic.br mede
+incompatibilidade e qualidade/
+disponibilidade de dados como
+obstáculos; Gartner encontrou
+63% de líderes de gestão de
+dados dizendo não possuir ou
+não saber se possuíam
+práticas adequadas de dados
+para IA. 
+O diagnóstico de
+dados precisa
+ocorrer antes da
+arquitetura
+Infraestrutura
+Nuvem e sistemas
+existem, mas não de
+forma homogênea;
+APIs, IAM e
+processamento
+variam muito por
+porte
+ERP: 32% nas empresas 10–49,
+58% nas 50–249 e 76% nas
+250+; processamento em
+nuvem: 34%, 49% e 55%,
+respectivamente. 
+O modelo AJ precisa
+ser stack-agnostic:
+planilha/WhatsApp
+numa PME e APIs/
+ERP numa
+corporação são
+problemas distintos
+Cultura,
+processo e
+mensuração
+Compra-se
+ferramenta antes de
+definir processo,
+baseline, owner e
+valor econômico
+88% de adoção global em
+alguma função versus apenas
+7% de escala plena na
+McKinsey; Gartner encontrou
+22% de escala multiunidade
+em 2026. 
+O KPI e o baseline
+devem ser
+definidos antes do
+piloto; sem eles, o
+projeto não entra
+no AJ Accelerator
+26
+27
+28
+11
+29
+9
+
+=== Página 10 ===
+Há um detalhe especialmente importante sobre dados. Em 2026, o Gartner passou a enfatizar não
+apenas volume/qualidade, mas semântica e contexto empresarial: um agente precisa compreender o
+significado, regras e relações dos dados que consulta. Isso coincide com o que a McKinsey descreve
+como necessidade de codificar o know-how empresarial — regras, exceções e processos — para que
+agentes deixem de ser executores genéricos e atuem segundo padrões da organização. 
+Essa observação aproxima muito a pesquisa daquilo que você vinha chamando de “quarta onda”: o
+salto não é simplesmente colocar vários agentes conversando. O salto é transformar conhecimento
+empresarial em contexto, regras, ferramentas, permissões e workflows que uma IA possa utilizar
+de forma confiável.
+Da sua ideia das “ondas” para um modelo AJ
+Para o Projeto AJ, eu recomendaria abandonar a ideia de que cada tecnologia necessariamente
+substitui a anterior e utilizar um modelo de capacidades cumulativas:
+Capacidade O que muda no
+processo
+Hipótese
+tecnológica Quando usar
+Assistir
+Pessoa continua
+executando; IA ajuda a
+pensar ou produzir
+Copiloto / LLM Escrita, resumo, análise,
+preparação de comunicação
+Conhecer
+IA passa a responder
+usando conhecimento
+confiável da empresa
+RAG / busca
+semântica /
+knowledge
+assistant
+Políticas, produtos,
+procedimentos, contratos,
+manuais, FAQs
+Analisar e
+prever
+IA encontra padrões e
+estima resultados
+futuros
+Modelos
+preditivos / ML /
+analytics
+demanda, churn, lead scoring,
+estoque, risco
+Automatizar
+Passos previsíveis são
+executados sem
+raciocínio generativo
+RPA / workflow /
+regras / APIs
+lançamentos, notificações,
+movimentação de dados,
+aprovações determinísticas
+Agir
+IA decide qual
+ferramenta utilizar e
+executa tarefas
+delimitadas
+Agente + tool
+calling
+classificação + consulta +
+proposta + atualização
+controlada
+Orquestrar
+Trabalho é decomposto
+entre especialidades/
+contextos diferentes
+Multiagentes
+workflows complexos com
+papéis realmente separados,
+validação independente ou
+execução paralela
+O ponto fundamental é que multiagente não é automaticamente o último nível de maturidade. Às
+vezes um fluxo determinístico com uma única chamada a modelo será mais maduro porque custa
+menos, é mais previsível e resolve completamente o problema.
+O Gartner projeta que mais de 40% dos projetos de IA agentic serão cancelados até o fim de 2027 por
+custo crescente, valor pouco claro ou controles inadequados de risco. A previsão não significa que
+30
+10
+
+=== Página 11 ===
+agentes não tenham futuro; significa exatamente que autonomia sem business case e governança é
+uma estratégia fraca. 
+Além disso, a pesquisa de 2026 da Gartner propõe governança proporcional à autonomia: desde
+agentes somente de leitura, passando por recomendação e ação mediante aprovação, até autonomia
+dentro de guardrails.  Isso é especialmente útil para o AJ.
+Eu transformaria isso em uma regra arquitetural:
+Escolher a menor autonomia capaz de produzir o resultado econômico desejado.
+Ou, em forma operacional:
+Read → Retrieve → Recommend → Act with approval → Act within limits.
+Onde cada tecnologia se encaixa nas dores encontradas
+Dor RAG Copiloto Automação Agente Multiagente Preditivo
+Atendimento
+repetitivo
+Muito
+alta
+Muito
+alta Alta Alta Baixa
+inicialmente Média
+Follow-up
+comercial Alta Muito
+alta Muito alta Alta Baixa Alta
+Geração de
+propostas Alta Muito
+alta Alta Alta Baixa Baixa
+Busca de
+conhecimento
+interno
+Muito
+alta Alta Baixa Média Baixa Baixa
+Contas a pagar/
+documentos Média Média Muito alta Alta Baixa Média
+Relatórios
+gerenciais Alta Alta Alta Alta Baixa Alta
+Service desk TI Alta Alta Alta Alta Média Média
+Planejamento de
+estoque/
+demanda
+Baixa Média Média Média Baixa Muito
+alta
+RH/recrutamento
+assistido Alta Alta Média Média Baixa Média
+Compliance
+documental Alta Alta Média Média com
+aprovação Média Média
+Processo ponta a
+ponta entre
+múltiplas áreas
+Alta Média Alta Alta Somente se
+justificado Variável
+31
+32
+11
+
+=== Página 12 ===
+Essa é uma matriz de hipóteses para investigação, não uma prescrição tecnológica. A decisão final
+precisa ser feita com processo, dados, custo, risco e baseline do cliente em mãos.
+Matriz de priorização para o Challenge de 60 dias
+Para aproximar a pesquisa do Challenge, apliquei uma matriz simples:
+Prioridade = Impacto × Frequência × Viabilidade de demonstrar resultado em 60 dias
+Cada dimensão recebe nota de 1 a 5. O máximo é 125.
+As notas abaixo são avaliações analíticas do Projeto AJ, não estatística proveniente das pesquisas.
+Elas refletem as evidências brasileiras, a disponibilidade típica de dados, reversibilidade do processo,
+facilidade de criar baseline e risco de implantação. 
+Dor/processo Impacto Frequência Viabilidade
+60d Score Prioridade AJ
+Atendimento: triagem
++ resposta assistida +
+conhecimento
+5 5 5 125 A — excelente
+primeiro piloto
+Vendas: lead/follow-up/
+proposta + CRM 5 5 5 125 A — excelente
+primeiro piloto
+Busca de conhecimento
+empresarial / RAG 4 5 5 100 A — excelente
+primeiro piloto
+Financeiro: extração,
+conferência e
+conciliação documental
+5 4 5 100 A — excelente se
+houver volume
+Consolidação
+administrativa e
+relatórios
+4 5 5 100 A — alto potencial
+e baixo risco
+Service desk de TI 4 4 5 80
+B — muito bom
+em médias/
+grandes
+Triagem de contratos/
+compliance 5 3 4 60
+B — bom com
+revisão
+profissional
+Previsão de demanda/
+estoque 5 4 3 60
+B — valor alto,
+exige histórico
+adequado
+RH/recrutamento
+assistido 4 4 3 48 C — possível,
+governança maior
+Multiagente autônomo
+ponta a ponta 5 3 2 30
+D — não usar
+como primeiro
+piloto por padrão
+33
+12
+
+=== Página 13 ===
+O quadrante mais atraente para o AJ
+O “sweet spot” não está nos projetos tecnicamente mais impressionantes. Está aqui:
+Viabilidade baixa em 60d Viabilidade alta em 60d
+Impacto
+alto
+Previsão complexa; agentes
+cross-system autônomos;
+decisões críticas
+Atendimento, vendas, documentos
+financeiros, knowledge assistant, relatórios
+Impacto
+médio/baixo Evitar
+Prompting pontual, geração simples de
+conteúdo — bons quick wins, mas insuficientes
+para provar transformação
+Essa matriz explica por que eu não começaria a validar o AJ com multiagentes.
+Não é porque a tecnologia seja irrelevante. Pelo contrário: agentes estão crescendo rapidamente. O
+problema é metodológico. O primeiro ciclo precisa validar o modelo de consultoria, e não provar que
+conseguimos construir a arquitetura mais sofisticada.
+Critérios eliminatórios antes da matriz
+Um processo não deveria entrar no sprint AJ apenas porque obteve pontuação alta. Eu acrescentaria
+cinco filtros eliminatórios:
+Baseline possível → volume suficiente → owner disponível → dados acessíveis → risco
+controlável.
+Um processo sem baseline não comprova valor .
+Um processo sem volume dificulta medir resultado.
+Um processo sem owner morre depois do piloto.
+Um processo sem dados vira demonstração.
+Um processo com risco desproporcional não cabe em 60 dias.
+Esses filtros respondem precisamente ao problema global de “pilot purgatory”: múltiplos casos de uso
+surgem, mas sem processo ponta a ponta, dados, arquitetura e responsabilidade para levá-los à escala.
+A McKinsey identifica redesenho de workflow e fundações tecnológicas escaláveis como componentes
+importantes das organizações que extraem mais valor de IA. 
+LGPD, risco e governança do piloto
+No Brasil, o fato de uma solução ser “IA” não cria uma exceção à LGPD. Sempre que o workflow tratar
+dados pessoais, devem ser considerados finalidade, adequação, necessidade, transparência, segurança,
+prevenção, não discriminação e responsabilização, além da base legal aplicável. A lei também
+estabelece obrigações de segurança e direitos relacionados ao tratamento automatizado. 
+A própria ANPD colocou IA e tecnologias emergentes entre temas de sua agenda de fiscalização/
+priorização e vem publicando materiais específicos sobre IA generativa e proteção de dados. 
+34
+35
+36
+13
+
+=== Página 14 ===
+Riscos e controles mínimos
+Risco Exemplo no piloto AJ Mitigação mínima
+Exposição de dados
+pessoais/
+confidenciais
+Colar cadastro, contrato ou
+histórico de atendimento
+em ferramenta não
+aprovada
+Classificação de dados; ferramenta
+corporativa aprovada; minimização;
+anonimização/pseudonimização quando
+cabível; contrato e configuração do
+fornecedor
+Finalidade
+incompatível /
+excesso de dados
+Dar ao agente acesso ao
+CRM inteiro para resolver
+uma tarefa que precisa de
+três campos
+Aplicar necessidade/minimização; acesso
+por escopo; recuperar somente
+informação necessária
+Decisão
+automatizada que
+afeta pessoas
+IA rejeitar candidato, cliente
+ou solicitação sem revisão
+Human-in-the-loop; critérios
+documentados; contestação/revisão;
+auditoria de viés e qualidade
+Alucinação/
+inexatidão
+Agente inventar regra de
+preço ou cláusula
+RAG quando apropriado; evidência/
+citação; evaluation set; thresholds; fallback
+humano
+Ação indevida em
+sistema
+Agente enviar mensagem,
+cancelar pedido ou alterar
+ERP incorretamente
+Princípio do menor privilégio; aprovação
+para escrita; limites; idempotência;
+rollback; logs
+Prompt injection /
+conteúdo malicioso
+Documento ou e-mail tenta
+instruir o agente a vazar
+dados
+Separação entre instrução e conteúdo;
+allowlist de ferramentas; filtros; testes
+adversariais; validação de entradas
+Transferência/
+terceiros
+Dados passam por API ou
+provedor em outra
+jurisdição
+Mapear operador/suboperadores e fluxo
+internacional; contratos e mecanismos
+jurídicos aplicáveis; revisão de retenção
+Ausência de
+rastreabilidade
+Não é possível determinar
+por que ou como a ação
+ocorreu
+Log de usuário, input relevante, versão do
+workflow/modelo, ferramentas acionadas,
+aprovações, output e resultado
+Shadow AI
+Funcionários continuam
+usando contas pessoais
+apesar do piloto oficial
+Política mínima + alternativa corporativa
+utilizável + comunicação
+Dependência de
+fornecedor
+Workflow inteiro depende
+de função proprietária difícil
+de migrar
+Separar lógica de processo, dados e
+prompts; APIs; testes; exportabilidade;
+arquitetura modular
+A LGPD prevê que controlador e operador mantenham registros das operações de tratamento, permite
+que a autoridade exija relatório de impacto e determina adoção de medidas técnicas e administrativas
+de segurança desde a concepção. Também estabelece comunicação de incidentes capazes de causar
+risco ou dano relevante. 
+Para decisões tomadas unicamente com base em tratamento automatizado que afetem interesses do
+titular , o art. 20 estabelece direito de solicitar revisão; o controlador também deve fornecer , quando
+37
+14
+
+=== Página 15 ===
+solicitado, informações claras e adequadas sobre critérios e procedimentos utilizados, respeitados
+segredos comercial e industrial. 
+Por isso, em RH, crédito, fraude, compliance e outras decisões de maior impacto, human-in-the-loop
+não deve ser apenas um botão de aprovação cosmético. O humano precisa receber informação
+suficiente para efetivamente contestar a recomendação.
+O Gartner alerta precisamente para esse problema: em agentes que agem mediante aprovação,
+pressão operacional e “fadiga de aprovação” podem transformar a revisão humana em um controle
+meramente aparente. Para autonomia maior , recomenda monitoramento contínuo, guardrails,
+mecanismos rápidos de rollback e circuit breakers. 
+Situação da regulamentação específica de IA
+Até a data deste relatório, 1º de setembro de 2026, o PL 2.338/2023, embora já aprovado pelo Senado,
+continuava em tramitação na Câmara dos Deputados e não deveria ser tratado como lei federal de IA já
+vigente. O AJ deve separar claramente obrigações atuais, como LGPD, legislação consumerista,
+contratos, propriedade intelectual, segurança e regras setoriais, de requisitos ainda em processo
+legislativo. 
+Assim, eu incluiria no método AJ um AI Risk Gate antes de qualquer desenvolvimento:
+Dados → Pessoas afetadas → Decisão → Ações possíveis → Impacto do erro →
+Permissões → Terceiros → Evidência necessária → Supervisão → Logs.
+Guiding Questions, validação e portfólio de pilotos
+Aqui é onde a pesquisa se conecta diretamente ao CBL.
+O Challenge não precisa dizer como construiremos a solução. As Guiding Questions devem descobrir as
+condições que determinarão qual solução merece ser construída.
+E há uma diferença enorme entre perguntar:
+“Como podemos usar multiagentes na empresa?”
+e:
+“Qual é a menor arquitetura capaz de transformar este processo e atingir o
+resultado esperado com risco e custo aceitáveis?”
+A segunda pergunta mantém RAG, automação, copiloto, agente, multiagente e modelos preditivos
+como hipóteses concorrentes.
+38
+32
+39
+15
+
+=== Página 16 ===
+Fluxo de investigação recomendado
+Esse fluxo também evita que a IA “responda o CBL por nós”. IA pode acelerar pesquisa, organizar
+entrevistas, analisar logs, criar hipóteses e sintetizar resultados. A evidência do processo real
+continua precisando vir da empresa.
+Guiding Questions priorizadas
+Eu estruturaria a investigação do AJ nesta ordem:
+Prioridade Guiding Question Como validar Evidência mínima
+desejada
+Crítica
+Onde a empresa perde mais
+tempo, dinheiro, qualidade ou
+receita em trabalho repetitivo/
+cognitivo?
+Entrevistas +
+observação + dados
+operacionais
+Lista de processos
+com volume e
+consequência
+econômica
+Crítica
+Qual desses processos
+acontece com frequência
+suficiente para medirmos uma
+mudança em 60 dias?
+Logs, CRM, ERP ,
+tickets, planilhas
+Volume semanal/
+mensal conhecido
+Crítica Qual é o baseline real do
+processo?
+Amostra histórica +
+time study
+Tempo/caso, custo,
+erro, retrabalho,
+throughput,
+conversão etc.
+Não
+ Sim
+Não
+ Sim
+Challenge
+AJ
+Mapear
+dores
+e
+processos
+Entrevistar
+gestor
+e
+usuários
+Analisar
+logs,
+volumes,
+sistemas
+e
+exceções
+Documentar
+processo
+AS-IS
+Medir
+baseline
+de
+tempo,
+custo,
+qualidade
+e
+receita
+Existe
+valor
+mensurável
+em
+até
+60
+dias?
+Descartar
+ou
+estacionar
+Avaliar
+dados,
+LGPD,
+risco
+e
+integração
+Qual
+é
+a
+menor
+solução
+suficiente?
+Copiloto
+RAG
+Automação
+Modelo
+preditivo
+Agente
+Multiagente
+Microteste
+controlado
+Evaluation
+dataset
++
+usuários
+reais
+Comparar
+com
+baseline
+Valor
++
+qualidade
++
+risco
+atingiram
+o
+threshold?
+Iterar,
+simplificar
+ou
+encerrar
+Piloto
+operacional
+ROI
++
+Playbook
++
+Roadmap
+de
+escala
+16
+
+=== Página 17 ===
+Prioridade Guiding Question Como validar Evidência mínima
+desejada
+Crítica Onde exatamente ocorre a
+fricção no fluxo atual?
+Process mapping +
+shadowing
+AS-IS com atividades,
+handoffs, esperas e
+exceções
+Crítica
+Quais dados, documentos e
+conhecimentos são
+necessários para executar cada
+decisão?
+Data inventory +
+amostra de casos
+Fontes, owner ,
+qualidade, atualização
+e permissões
+Alta Qual parte exige julgamento e
+qual parte é determinística?
+Workshop com
+usuários
+experientes
+Separação: regra ×
+linguagem × previsão
+× julgamento
+Alta Qual é a menor arquitetura
+capaz de produzir o resultado?
+Benchmark com
+tarefas reais
+Comparação sem IA ×
+copiloto × RAG ×
+automação × agente
+Alta Que erros são aceitáveis,
+detectáveis e reversíveis?
+Failure mode
+analysis + casos
+adversariais
+Error budget e regras
+de escalonamento
+Alta
+Quais dados pessoais ou
+confidenciais entram no
+processo e qual impacto uma
+decisão errada pode causar?
+Privacy/risk
+assessment
+Risk register e
+controles aprovados
+Alta Onde o humano deve
+continuar no loop? Testes e entrevistas Matriz de autonomia e
+aprovação
+Alta
+Qual ganho aparente pode ser
+convertido em valor
+econômico real?
+CFO/controller/
+owner + business
+case
+Horas realizadas,
+custo evitado,
+throughput ou receita
+Alta
+O resultado se mantém
+quando saímos da
+demonstração e usamos casos
+reais?
+Piloto A/B ou before-
+after controlado
+Qualidade e
+performance em
+amostra real
+Estratégica
+AJ
+Esta dor aparece em clientes
+diferentes de forma
+suficientemente semelhante
+para virar um playbook
+replicável?
+Entrevistas
+multicompanhia
+Padrão de processo +
+integração + métricas
+reutilizáveis
+Estratégica
+AJ
+Quais partes do projeto podem
+ser padronizadas e quais
+necessariamente serão
+customizadas?
+Retrospectiva do
+piloto
+Template de
+diagnóstico,
+arquitetura,
+governance e
+measurement
+17
+
+=== Página 18 ===
+Prioridade Guiding Question Como validar Evidência mínima
+desejada
+Opcional
+A falta de habilidade das
+pessoas ameaça adoção e
+resultado?
+Entrevista +
+telemetria de uso
+Decisão sobre
+oferecer ou não o
+módulo de
+capacitação
+A última pergunta preserva a decisão que tomamos anteriormente: capacitação estruturada é
+opcional, mas a investigação mede se ela é necessária para aquele cliente.
+Protocolo AJ de validação
+Em vez de tratar entrevistas como prova suficiente, eu utilizaria quatro camadas:
+Entrevista → comportamento observado → dados históricos → experimento.
+O gestor pode dizer: “levamos muito tempo para responder clientes”.
+O log dirá: “mediana de 3h42, p90 de 17h”.
+O piloto dirá: “com IA, mediana caiu para 18 minutos”.
+A análise financeira dirá: “isso aumentou conversão, capacidade ou somente deixou a equipe menos
+ocupada?”.
+Essa última distinção é essencial. Hora poupada não é automaticamente ROI.
+ROI deveria ser calculado aproximadamente como:
+E o custo total deveria incluir licença/API, integração, implementação, monitoramento, revisão humana,
+manutenção e custo de erros — não apenas a assinatura da ferramenta.
+A dificuldade de provar valor não é teórica. O Gartner já apontava baixa qualidade de dados, controles
+inadequados, custo crescente e valor de negócio pouco claro como causas de abandono de projetos
+generativos; a pesquisa de setembro de 2026 mostra que 11% das organizações pesquisadas nem
+conheciam seus gastos funcionais com IA no ano anterior . 
+Processos candidatos para o primeiro piloto AJ
+Com base na pesquisa, eu montaria um portfólio de cinco candidatos preferenciais e três
+condicionais.
+ROI = 
+custo total
+benefcio econ mico realizado−custo totalıˊ oˆ
+40
+18
+
+=== Página 19 ===
+Processo
+candidato Por que é forte Solução inicial
+provável
+Métricas de
+baseline e sucesso Risco
+Atendimento:
+triagem +
+sugestão de
+resposta +
+knowledge base
+Volume alto, texto,
+resultado imediato e
+mensurável;
+evidência
+experimental forte
+para assistência a
+atendentes. 
+RAG + copiloto;
+depois agente de
+triagem
+primeira resposta,
+AHT, FCR, CSAT,
+escalonamento,
+erro, custo/ticket
+Baixo–
+médio
+Vendas: lead →
+qualificação →
+follow-up →
+proposta →
+CRM
+Marketing/vendas já
+é principal aplicação
+empresarial
+brasileira;
+mensageria muito
+mais difundida que
+CRM. 
+Copiloto +
+automação +
+CRM; agente com
+aprovação
+posteriormente
+tempo de resposta,
+follow-up, SQL rate,
+conversão, ciclo de
+proposta, ticket,
+receita
+Médio
+Knowledge
+assistant
+corporativo
+Baixa
+irreversibilidade;
+resolve dispersão de
+informação e cria
+fundação para outros
+agentes
+RAG + controle de
+acesso
+tempo de busca,
+taxa de resposta
+correta,
+groundedness,
+escalonamento,
+satisfação
+Baixo
+Financeiro:
+documentos e
+contas a pagar
+Trabalho volumoso,
+estruturável e caro;
+resultado facilmente
+convertido em custo/
+caso
+OCR/extraction +
+regras +
+automação +
+agente para
+exceções
+tempo/documento,
+custo/documento,
+precisão,
+retrabalho,
+exceção, prazo de
+processamento
+Médio
+Relatório
+gerencial /
+consolidação
+operacional
+Dados e trabalho já
+existem; pouca ação
+irreversível; bom para
+provar ganho de
+produtividade
+Automação +
+análise + copiloto
+horas/relatório,
+tempo de ciclo,
+erros, retrabalho,
+tempo até insight
+Baixo
+Service desk de
+TI
+Processo já costuma
+ter tickets,
+categorização, SLA e
+knowledge base —
+excelente ambiente
+de medição
+RAG +
+classificação +
+agente com
+ferramentas
+MTTR, first
+response, precisão
+de triagem,
+resolução L1,
+escalonamento,
+SLA
+Médio
+Previsão de
+demanda /
+estoque
+Potencial econômico
+elevado em varejo,
+indústria e logística,
+mas depende muito
+do histórico
+Modelo preditivo
++ analytics; LLM
+apenas como
+interface
+WAPE/MAPE,
+stockout, excesso,
+nível de serviço,
+giro, margem
+perdida
+Médio–
+alto
+41
+19
+19
+
+=== Página 20 ===
+Processo
+candidato Por que é forte Solução inicial
+provável
+Métricas de
+baseline e sucesso Risco
+Triagem
+documental
+jurídica/
+compliance
+Grande volume em
+algumas
+organizações e
+capacidade de
+acelerar revisão
+profissional
+RAG + copiloto +
+regras; sempre
+com especialista
+inicialmente
+tempo/documento,
+recall de cláusulas/
+riscos, falso
+negativo,
+retrabalho,
+aceitação
+Médio–
+alto
+Os candidatos preferenciais são os cinco primeiros. Service desk é quase equivalente quando há uma
+empresa de médio/grande porte com operação formalizada.
+Previsão de demanda entra como processo condicional porque pode produzir valor muito maior , mas
+um ciclo de 60 dias não corrige dois anos de histórico mal cadastrado.
+Compliance/documentos jurídicos entra como condicional porque é altamente mensurável, mas o
+custo de um falso negativo pode exigir uma estratégia conservadora.
+E multiagentes não aparece como processo candidato, porque multiagente não é processo. É uma
+arquitetura possível dentro de um processo.
+Um possível caminho para chegar à “quarta onda” sem cair no hype
+O primeiro piloto pode começar simples e ainda construir a fundação para agentes avançados:
+O segredo comercial do AJ pode estar justamente em levar uma empresa pela distância necessária
+nessa jornada, e não obrigatoriamente até o último estágio.
+Uma pequena empresa talvez termine o projeto com:
+WhatsApp → IA → proposta → aprovação → CRM.
+Uma empresa média pode terminar com:
+Ticket → classificação → RAG → recomendação → aprovação → ERP .
+Uma corporação madura pode chegar a:
+evento → agente coordenador → agentes especialistas → ferramentas empresariais → validação
+→ execução → observabilidade.
+valor
+valor
+valor
+valor
+valor
+valor
+valor
+Pessoa
+usa
+IA
+IA
+conhece
+o
+contexto
+IA
+acessa
+sistemas
+IA
+recomenda
+ações
+IA
+age
+com
+aprovação
+IA
+age
+dentro
+de
+limites
+Múltiplos
+agentes
+especializados
+Produtividade
+Qualidade
+Tempo
+de
+ciclo
+Melhor
+decisão
+Automação
+Escala
+Orquestração
+complexa
+20
+
+=== Página 21 ===
+São três produtos tecnicamente diferentes, mas todos obedecem ao mesmo método AJ.
+Formulação recomendada das Guiding Questions do CBL
+Depois deste deep research, eu formalizaria a investigação em cinco famílias:
+Dor e valor
+Onde existe uma dor empresarial frequente e economicamente relevante que possa
+ser medida antes e depois da intervenção?
+Processo
+Como o trabalho acontece hoje, onde estão esperas, repetições, erros,
+transferências e decisões, e quais dessas atividades realmente precisam continuar
+humanas?
+Dados e conhecimento
+Que dados, documentos, regras e conhecimento empresarial são necessários para
+executar o processo com qualidade e estão suficientemente acessíveis, confiáveis e
+autorizados?
+Tecnologia e autonomia
+Qual é a menor combinação de copiloto, RAG, automação, modelo preditivo, agente
+ou multiagentes capaz de produzir o resultado esperado com custo, confiabilidade e
+autonomia adequados?
+Valor, risco e escala
+Como comprovaremos que a solução melhorou produtividade, qualidade, custo ou
+receita sem aumentar de forma inaceitável o risco, e o que precisará ser
+padronizado para repetir esse resultado em outros processos e clientes?
+Essas cinco perguntas mantêm o CBL aberto o suficiente para investigação, mas suficientemente
+orientado para o Challenge.
+E acrescentaria uma sexta, porque ela diz respeito não ao cliente, mas ao próprio negócio AJ:
+Quais padrões de dor, diagnóstico, arquitetura, governança e mensuração se
+repetem entre empresas a ponto de transformarmos consultoria artesanal em um
+modelo replicável?
+Essa pode acabar sendo uma das perguntas mais importantes de todo o projeto.
+21
+
+=== Página 22 ===
+Referências e fontes principais
+A pesquisa priorizou fontes brasileiras primárias e recentes, complementadas por estudos
+internacionais quando ajudam a distinguir adoção, produtividade, escala e governança.
+Cetic.br / NIC.br — TIC Empresas 2025. Principal fonte quantitativa para empresas brasileiras com dez
+ou mais pessoas ocupadas: adoção de IA, porte, aplicações, barreiras, ERP , nuvem e canais digitais. 
+Uso de IA por empresas brasileiras — Cetic.br
+Indicadores TIC Empresas — Cetic.br
+Sebrae / FGV IBRE / Google — Uso de IA nos negócios no Brasil, pesquisa de dezembro de 2025.
+Especialmente útil para MEI e MPE, que não estão adequadamente representados no recorte da TIC
+Empresas. 
+Uso de IA nos negócios no Brasil — FGV IBRE
+IBGE — PINTEC Semestral 2024. Evidência sobre adoção de tecnologias digitais e IA em empresas
+industriais no recorte da pesquisa; deve ser comparada ao Cetic somente com atenção às diferenças de
+população e metodologia. 
+BNDES — projetos empresariais de transformação digital e IA. Foram consultados casos públicos
+envolvendo Iochpe-Maxion, Benner , Bionexo, Valid e investimentos no ecossistema de IA, úteis como
+exemplos brasileiros de integração entre tecnologia, processo e investimento. 
+McKinsey — State of AI 2025 e pesquisas de escala/transformação de 2026. Utilizadas como
+comparativo global, especialmente na distinção entre adoção, escala, redesign de workflow e agentes. 
+AI at work but not at scale — McKinsey
+The Symbiotic Enterprise — McKinsey
+Gartner — escala, dados e governança de agentes. A pesquisa divulgada em 1º de setembro de 2026
+encontrou apenas 22% das organizações pesquisadas escalando IA entre múltiplas unidades ou
+operando em abordagem AI-first. Outras pesquisas sustentam a necessidade de dados AI-ready e
+governança proporcional ao nível de autonomia. 
+Gartner — governança proporcional de agentes
+Gartner — AI-ready data
+Brynjolfsson, Li & Raymond — “Generative AI at Work”. Experimento com mais de 5 mil profissionais
+de atendimento; publicado posteriormente no Quarterly Journal of Economics. Sustenta a escolha de
+atendimento assistido como processo altamente mensurável. 
+Generative AI at Work — NBER
+Dillon et al. — “Shifting Work Patterns with Generative AI”. Experimento com 7.137 trabalhadores
+em 66 empresas; importante por mostrar que ganho individual de tempo não necessariamente implica
+transformação do trabalho organizacional. 
+Shifting Work Patterns with Generative AI — NBER
+Dell'Acqua et al. — “The Cybernetic Teammate”. Experimento de campo com profissionais da Procter
+& Gamble mostrando efeitos de IA sobre desempenho e colaboração entre especialidades; publicado
+online em Organization Science em 2026. 
+The Cybernetic Teammate — NBER
+42
+2
+3
+43
+44
+45
+18
+17
+46
+22
+
+=== Página 23 ===
+Bonfacio, Schapachnik & Porto — “Generative AI and the Transformation of Work in Latin
+America — Brazil”. Pesquisa voltada especificamente ao Brasil, abrangendo vendas, atendimento,
+design/fotografia, conteúdo/jornalismo e desenvolvimento de software; evidencia adoção desigual e
+potencial ainda não capturado, especialmente em pequenos negócios. 
+LGPD — Lei 13.709/2018, texto compilado vigente. Base jurídica para finalidade, necessidade,
+segurança, direitos dos titulares, decisões automatizadas, registros, relatório de impacto e incidentes. 
+LGPD — Planalto
+ANPD — materiais sobre IA, proteção de dados e segurança. A autoridade vem tratando IA e
+tecnologias emergentes como tema regulatório e de fiscalização, além de manter orientações de
+segurança aplicáveis inclusive a agentes de tratamento de pequeno porte. 
+PL 2.338/2023 — regulamentação de IA. Até 1º de setembro de 2026, permanece em tramitação
+legislativa e não deve ser confundido com obrigação legal já vigente. 
+PL 2.338/2023 — Câmara dos Deputados
+Documento-base do Projeto AJ — “Top perguntas em alta sobre IA no ChatGPT e outras
+ferramentas de IA — Brasil e mundo”. O levantamento anterior já antecipava corretamente que a
+oportunidade mais defensável não está em consultoria de prompts, mas na sequência diagnosticar →
+priorizar → prototipar → integrar → governar → medir → escalar. A pesquisa atual aprofunda e
+valida essa direção. [Referência interna do PDF à pesquisa anterior do Projeto AJ]
+Cetic.br - Centro Regional para o Desenvolvimento da Sociedade da Informação
+https://cetic.br/es/tics/pesquisa/2025/empresas/H9/?utm_source=chatgpt.com
+Uso de IA nos negócios no Brasil | Blog do IBRE
+https://blogdoibre.fgv.br/posts/uso-de-ia-nos-negocios-no-brasil-0
+IBGE - Educa | Crianças | Inteligência artificial
+https://educa.ibge.gov.br/criancas/voce-sabia/23116-inteligencia-artificial.html?utm_source=chatgpt.com
+AI at work but not at scale
+https://www.mckinsey.com/featured-insights/charts/ai-at-work-but-not-at-scale
+Gartner Survey Finds Only 22% of Organizations Have Successfully Scaled AI Across Multiple
+Business Units
+https://www.gartner .com/en/newsroom/press-releases/gartner-survey-finds-only-22-percent-of-organizations-have-
+successfully-scaled-ai-across-multiple-business-units?utm_source=chatgpt.com
+Gartner Survey Finds Just 15% of IT Application Leaders Are Considering, Piloting, or Deploying Fully
+Autonomous AI Agents
+https://www.gartner .com/en/newsroom/press-releases/2025-09-30-gartner-survey-finds-just-15-percent-of-it-application-
+leaders-are-considering-piloting-or-deploying-fully-autonomous-ai-agents?utm_source=chatgpt.com
+Cetic.br - ICT Enterprises
+https://cetic.br/en/pesquisa/empresas/indicadores/?utm_source=chatgpt.com
+Cetic.br - Centro Regional para o Desenvolvimento da Sociedade da Informação
+https://www.cetic.br/en/tics/pesquisa/2025/empresas/H13/?utm_source=chatgpt.com
+Indicadores
+https://cetic.br/es/tics/pesquisa/2025/empresas/B18/expandido/?utm_source=chatgpt.com
+47
+35
+48
+39
+1 8 10 15
+2 26
+3
+4 29 34 44
+5 45
+6
+7
+9 23 28
+11 21
+23
+
+=== Página 24 ===
+Cetic.br - Uso de Inteligência Artificial por empresas brasileiras avança e atinge 17%, aponta
+pesquisa do Cetic.br
+https://cetic.br/pt/noticia/uso-de-inteligencia-artificial-por-empresas-brasileiras-avanca-e-atinge-17-aponta-pesquisa-do-
+cetic-br/?utm_source=chatgpt.com
+Indicadores
+https://cetic.br/pt/tics/pesquisa/2025/empresas/H9A/expandido/?utm_source=chatgpt.com
+Indicadores
+https://cetic.br/es/tics/pesquisa/2025/empresas/H10/expandido/?utm_source=chatgpt.com
+Cetic.br - Uso de Inteligência Artificial por empresas brasileiras avança e atinge 17%, aponta
+pesquisa do Cetic.br
+https://www.cetic.br/pt/noticia/uso-de-inteligencia-artificial-por-empresas-brasileiras-avanca-e-atinge-17-aponta-pesquisa-
+do-cetic-br/?utm_source=chatgpt.com
+Shifting Work Patterns with Generative AI | NBER
+https://www.nber .org/papers/w33795?utm_source=chatgpt.com
+Generative AI at Work | NBER
+https://www.nber .org/papers/w31161?utm_source=chatgpt.com
+Press Announcement: Gartner Survey Finds 91% of Customer Service Leaders Under Pressure to
+Implement AI in 2026
+https://www.gartner .com/en/newsroom/press-releases/2026-02-18-gartner-survey-finds-ninety-one-percent-of-customer-
+service-leaders-under-pressure-to-implement-ai-in-2026?utm_source=chatgpt.com
+Com R$ 23 mi, BNDES financia inovação no setor de saúde com uso de IA da Bionexo Página Inicial |
+Agência BNDES de Notícias
+https://agenciadenoticias.bndes.gov.br/cultura/Com-R%24-23-mi-BNDES-financia-inovacao-no-setor-de-saude-com-uso-de-
+IA-da-Bionexo/?utm_source=chatgpt.com
+BNDES aprova R$ 300 mi para plataforma nacional inédita de identidade digital com IA da Valid
+Página Inicial | Agência BNDES de Notícias
+https://agenciadenoticias.bndes.gov.br/industria/BNDES-aprova-R%24-300-mi-para-plataforma-nacional-inedita-de-
+identidade-digital-com-IA-da-Valid/?utm_source=chatgpt.com
+Responsible AI: Overcoming adoption barriers and risks
+https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/tech-forward/state-of-ai-trust-in-2026-shifting-to-the-
+agentic-era?utm_source=chatgpt.com
+Gartner Says Lack of Semantics Causes Inaccurate AI Agents and Wasted Spending
+https://www.gartner .com/en/newsroom/press-releases/2026-05-11-gartner-says-lack-of-semantics-causes-inaccurate-
+artificial-intelligence-agents-and-wasted-spending?utm_source=chatgpt.com
+Gartner Predicts Over 40% of Agentic AI Projects Will Be Canceled by End of 2027
+https://www.gartner .com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-
+will-be-canceled-by-end-of-2027?utm_source=chatgpt.com
+Gartner Says Applying Uniform Governance Across AI Agents Will Lead to Enterprise AI Agent Failure
+https://www.gartner .com/en/newsroom/press-releases/2026-05-26-gartner-says-applying-uniform-governance-across-ai-
+agents-will-lead-to-enterprise-ai-agent-failure?utm_source=chatgpt.com
+L13709
+https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm
+ANPD publica Mapa de Temas Prioritários para o biênio 2026-2027 e atualiza Agenda Regulatória
+2025-2026
+https://www.gov.br/anpd/pt-br/assuntos/noticias/anpd-publica-mapa-de-temas-prioritarios-para-o-bienio-2026-2027-e-
+atualiza-agenda-regulatoria-2025-2026?utm_source=chatgpt.com
+12
+13
+14 19 22 33
+16 42
+17
+18 41
+20
+24
+25
+27
+30
+31
+32
+35 37 38
+36
+24
+
+=== Página 25 ===
+Portal da Câmara dos Deputados
+https://www.camara.leg.br/proposicoesWeb/fichadetramitacao/?idProposicao=2487262&utm_source=chatgpt.com
+Gartner Predicts 30% of Generative AI Projects Will Be Abandoned After Proof of Concept By End of
+2025
+https://www.gartner .com/en/newsroom/press-releases/2024-07-29-gartner-predicts-30-percent-of-generative-ai-projects-
+will-be-abandoned-after-proof-of-concept-by-end-of-2025?utm_source=chatgpt.com
+BNDES aprova R$ 36,7 mi para projeto de transformação digital na indústria de autopeças Página
+Inicial | Agência BNDES de Notícias
+https://agenciadenoticias.bndes.gov.br/industria/BNDES-aprova-R%24-367-mi-para-projeto-de-transformacao-digital-na-
+industria-de-autopecas/?utm_source=chatgpt.com
+The Cybernetic Teammate: A Field Experiment on Generative AI Reshaping Teamwork and Expertise
+| NBER
+https://www.nber .org/papers/w33641?utm_source=chatgpt.com
+Generative AI and the transformation of Work in Latin America -- Brazil
+https://arxiv.org/abs/2505.13490?utm_source=chatgpt.com
+ANPD lança versão em inglês do Radar Tecnológico sobre Inteligência Artificial Generativa
+https://www.gov.br/anpd/pt-br/assuntos/noticias/anpd-lanca-versao-ingles-rt-ingles?utm_source=chatgpt.com
+39
+40
+43
+46
+47
+48
+25
