@@ -1,34 +1,32 @@
 # Passagem de responsabilidade
 
-- Atualizado em: 2026-09-14T22:25:53-03:00
-- Tarefa: AI-002 — Avaliar projetos open source como apoio às perguntas do AJ e retomar o roteiro CBL.
-- Status: IN_PROGRESS. Claude Code (Claude Opus 5) aguarda decisões de Arthur; nenhum arquivo em edição ativa.
-- Histórico: Codex entregou AI-001 (READY_FOR_REVIEW); GitHub Copilot abriu AI-002 e foi interrompido; Arthur transferiu AI-002 ao Claude Code.
+- Atualizado em: 2026-09-15T00:20:24-03:00
+- Tarefa: AI-003 — Publicar o repositório no destino autorizado (DONE). Tarefa anterior da sessão: AI-002 (READY_FOR_REVIEW).
+- Status: Claude Code encerrou a edição; arquivos liberados.
+- Histórico: Codex entregou AI-001; GitHub Copilot abriu AI-002 e foi interrompido; Arthur transferiu AI-002 ao Claude Code, que concluiu AI-002 e AI-003.
 
 ## Ponto exato
 
-Avaliação, roteiro e spec rascunho concluídos. Faltam as escolhas de Arthur, apresentadas no fim da sessão: (1) rota até o campo; (2) aprovação da spec e dos seis tickets do kit de instrumentos; (3) autorização para instalar o SkillSpector em modo estático e escanear `.agents/skills/`; (4) visibilidade do repositório e o que publicar (AI-003).
+Repositório publicado em `github.com/arthurfjadecastro/projectAJ` (público). Nenhum trabalho em andamento. A próxima tarefa autorizada é AI-004 (kit de instrumentos), ainda não iniciada.
 
 ## Concluído
 
-- docs/research/projetos-open-source.md: 15 projetos com fonte primária, licença, maturidade, esforço, riscos e veredito. SkillSpector "usar agora" (depende de autorização); anydoc "testar quando houver campo"; seis adiados; sete descartados.
-- docs/cbl/README.md: respostas de DEC-005, mapa "temos / hipótese / falta", caminho em seis passos, rotas possíveis até o campo e regra sobre ferramentas.
-- .scratch/kit-instrumentos/spec.md: spec rascunho (needs-triage) do kit de instrumentos, AI-004 NOT_STARTED no BACKLOG.
-- README.md e docs/research/README.md: trechos desatualizados sobre destino e marco corrigidos. CHANGELOG e WORKLOG atualizados.
+- AI-002: avaliação de 15 projetos open source em docs/research/projetos-open-source.md (SkillSpector usar agora; anydoc testar quando houver campo; seis adiados; sete descartados). Triagem SkillSpector em docs/research/skillspector-triagem-2026-09-14.md, sem nenhuma skill a remover. Roteiro CBL com o mapa "temos / hipótese / falta", o caminho em seis passos e as rotas possíveis até o campo. DEC-006..DEC-008. Spec e seis tickets de AI-004 em `.scratch/kit-instrumentos/`.
+- AI-003: commit inicial `def62f1ac1d4d6c2d35f6abac21e0964f4356ddb` publicado e conferido por `git ls-remote`.
 
 ## Validações
 
-UTF-8 sem BOM, LF e links locais conferidos por script nos arquivos alterados; 13 testes de `tests/ai_kit` aprovados; `bootstrap.py validate .` executado após esta passagem. Nada instalado, clonado ou executado dos projetos avaliados.
+13 testes de `tests/ai_kit` aprovados; `bootstrap.py validate .` aprovado; UTF-8 sem BOM, LF e links locais conferidos nos arquivos alterados; busca por segredos e caminhos absolutos sem ocorrências antes do push. O resultado da CI remota não foi conferido.
 
 ## Pendências e próxima ação
 
-1. Registrar em DECISIONS as escolhas de Arthur (DEC-006 em diante) com fonte e impacto.
-2. Se a spec for aprovada: publicar os tickets em `.scratch/kit-instrumentos/issues/` conforme a skill to-tickets, mudar a spec para ready-for-agent e colocar AI-004 como autorizada. Depois, fechar AI-002 em READY_FOR_REVIEW.
-3. Se o SkillSpector for autorizado: instalar em ambiente isolado, rodar `--no-llm` sobre `.agents/skills/` e registrar o relatório como triagem.
-4. AI-003 continua dependente da visibilidade; nenhum commit ou push foi feito.
+1. Arthur ainda decide a rota até o campo. As opções estão em docs/cbl/README.md, seção "Caminho até a solução". Registrar a escolha em DECISIONS.
+2. Para iniciar AI-004: abrir IN_PROGRESS em CURRENT_STATE e BACKLOG e executar o ticket 01, depois 02, 03 e 04 (todos dependem só do 01), depois 05 e 06, seguindo os aceites de cada ticket.
+3. AI-001 e AI-002 aguardam aceite de Arthur.
+4. Conferir a execução da workflow `AJ compatibility` no GitHub Actions e registrar o resultado.
 
-Limites: sem empresa, processo, dados ou baseline; a avaliação é analítica. Não verificados: releitura de estrelas/datas, licença do dataset do PhoneHarness, suporte pt-BR do no-ai-slop, benchmarks declarados pelos projetos.
+Limites: sem empresa, processo, dados ou baseline. Não verificados na pesquisa: releitura de estrelas/datas, licença do dataset do PhoneHarness, suporte pt-BR do no-ai-slop e benchmarks declarados pelos projetos.
 
 ## Arquivos de entrada
 
-README.md, DECISIONS.md, CURRENT_STATE.md, BACKLOG.md, este HANDOFF e as duas últimas entradas de WORKLOG.md; depois AGENTS e adaptador do cliente. Para esta tarefa: docs/cbl/README.md, docs/research/projetos-open-source.md e .scratch/kit-instrumentos/spec.md.
+README.md, DECISIONS.md, CURRENT_STATE.md, BACKLOG.md, este HANDOFF e as duas últimas entradas de WORKLOG.md; depois AGENTS e o adaptador do cliente. Para AI-004: .scratch/kit-instrumentos/spec.md, issues/ e docs/cbl/README.md.

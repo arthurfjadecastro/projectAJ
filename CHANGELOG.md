@@ -15,3 +15,4 @@
 
 - AI-002: Arthur decidiu publicar o repositório como público (DEC-006), aprovou o kit de instrumentos (DEC-007) e autorizou o SkillSpector (DEC-008). Seis tickets de AI-004 publicados em `.scratch/`.
 - AI-002: triagem estática das 27 skills com SkillSpector v2.11.2; nenhuma com recomendação de não instalar.
+- AI-003: repositório publicado como público em `github.com/arthurfjadecastro/projectAJ` (commit inicial `def62f1`).

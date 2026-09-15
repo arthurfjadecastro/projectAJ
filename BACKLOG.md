@@ -31,9 +31,10 @@ Status: `[ ] NOT_STARTED`, `[~] IN_PROGRESS`, `[?] BLOCKED`, `[R] READY_FOR_REVI
 - Risco: tratar comparação de ferramentas como validação de solução. Mitigação: a escolha de arquitetura permanece condicionada à evidência de processo, conforme docs/cbl/README.md.
 - Evidência: docs/research/, docs/cbl/README.md, WORKLOG.md.
 
-## [~] AI-003 — Publicar o repositório no destino autorizado
+## [x] AI-003 — Publicar o repositório no destino autorizado
 
-- Status: IN_PROGRESS
+- Status: DONE
+- Evidência: commit inicial `def62f1ac1d4d6c2d35f6abac21e0964f4356ddb` publicado em `origin/main`; `git ls-remote` conferido igual ao HEAD local em 2026-09-15T00:20:24-03:00.
 - Autorização: DEC-004 define o destino `github.com/arthurfjadecastro/projectAJ`; DEC-006 autoriza repositório público com PDFs e transcrições, commit e push.
 - Escopo: configurar o remote, commitar, publicar e conferir o SHA remoto.
 - Dependências: nenhuma pendente de decisão.

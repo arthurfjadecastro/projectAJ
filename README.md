@@ -53,4 +53,4 @@ Scripts Bash de algumas skills, como `wizard`, precisam de Bash (por exemplo, Gi
 
 ## Sincronização
 
-O Git local guarda o trabalho; a retomada por clone em outra máquina depende de um remote do **Projeto AJ**, commit e push conferidos. O destino é `github.com/arthurfjadecastro/projectAJ` (DEC-004); o primeiro push aguarda a confirmação da visibilidade e do que pode ser publicado (AI-003). O repositório technetalks é somente a origem do kit.
+O Git local guarda o trabalho; a retomada por clone em outra máquina depende de um remote do **Projeto AJ**, commit e push conferidos. O destino é o repositório público `github.com/arthurfjadecastro/projectAJ` (DEC-004 e DEC-006), com a branch main publicada; em outra máquina, clone-o e siga a seção **Retomar com qualquer assistente**. O repositório technetalks é somente a origem do kit.
