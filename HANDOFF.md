@@ -16,14 +16,14 @@ Repositório publicado em `github.com/arthurfjadecastro/projectAJ` (público). N
 
 ## Validações
 
-13 testes de `tests/ai_kit` aprovados; `bootstrap.py validate .` aprovado; UTF-8 sem BOM, LF e links locais conferidos nos arquivos alterados; busca por segredos e caminhos absolutos sem ocorrências antes do push. O resultado da CI remota não foi conferido.
+13 testes de `tests/ai_kit` aprovados; `bootstrap.py validate .` aprovado; UTF-8 sem BOM, LF e links locais conferidos nos arquivos alterados; busca por segredos e caminhos absolutos sem ocorrências antes do push. CI remota do commit `def62f1`: `AI continuity` e os seis jobs de `AJ compatibility` (Ubuntu, Windows e macOS × Python 3.10 e 3.14) aprovados.
 
 ## Pendências e próxima ação
 
 1. Arthur ainda decide a rota até o campo. As opções estão em docs/cbl/README.md, seção "Caminho até a solução". Registrar a escolha em DECISIONS.
 2. Para iniciar AI-004: abrir IN_PROGRESS em CURRENT_STATE e BACKLOG e executar o ticket 01, depois 02, 03 e 04 (todos dependem só do 01), depois 05 e 06, seguindo os aceites de cada ticket.
 3. AI-001 e AI-002 aguardam aceite de Arthur.
-4. Conferir a execução da workflow `AJ compatibility` no GitHub Actions e registrar o resultado.
+4. Conferir no GitHub Actions as execuções dos commits posteriores a `def62f1`.
 
 Limites: sem empresa, processo, dados ou baseline. Não verificados na pesquisa: releitura de estrelas/datas, licença do dataset do PhoneHarness, suporte pt-BR do no-ai-slop e benchmarks declarados pelos projetos.
 
