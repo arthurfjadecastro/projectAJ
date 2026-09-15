@@ -2,11 +2,14 @@
 
 Construção e validação de um modelo replicável de consultoria em IA, orientado a melhorar um processo empresarial real e comprovar resultado. A metodologia é **Challenge Based Learning (CBL), da Apple**, confirmada por Arthur em 14/09/2026.
 
-Os materiais fornecidos já apresentam Big Idea, Essential Question e um Challenge de até 60 dias. O ponto de retomada é a investigação por **Guiding Questions**. Em 14/09/2026 Arthur informou que não há empresa acessível nem marco vigente (DEC-005): a investigação prepara instrumentos e hipóteses até existir um processo real. Não há aplicação ou stack de produto definida.
+Os materiais fornecidos já apresentam Big Idea, Essential Question e um Challenge de até 60 dias. O ponto de retomada é a investigação por **Guiding Questions**. Em 15/09/2026 Arthur indicou uma barbearia MEI candidata e escolheu oferecer diagnóstico gratuito, com implantação negociada depois (DEC-009/010). A participação do dono e o acesso operacional ainda dependem de acordo; o prazo dos 60 dias continua sem marco vigente. A investigação prepara instrumentos e o convite. Não há aplicação ou stack de produto definida.
 
 ## Começar pela descoberta
 
 - [Ponto de partida CBL e perguntas de investigação](docs/cbl/README.md)
+- [Kit de instrumentos de investigação](docs/cbl/instrumentos/README.md)
+- [Barbearia candidata e primeira conversa](docs/cbl/barbearia-candidata.md)
+- [Proposta de diagnóstico para a barbearia](docs/propostas/barbearia/README.md)
 - [Síntese dos dois PDFs e limites das evidências](docs/research/README.md)
 - [Avaliação de projetos open source de terceiros](docs/research/projetos-open-source.md)
 - [Glossário do projeto](CONTEXT.md)

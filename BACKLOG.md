@@ -40,9 +40,11 @@ Status: `[ ] NOT_STARTED`, `[~] IN_PROGRESS`, `[?] BLOCKED`, `[R] READY_FOR_REVI
 - Dependências: nenhuma pendente de decisão.
 - Risco: exposição de material do cliente em repositório público. Mitigação: confirmar visibilidade antes do primeiro push.
 
-## [ ] AI-004 — Kit de instrumentos de investigação
+## [R] AI-004 — Kit de instrumentos de investigação
 
-- Status: NOT_STARTED
+- Status: READY_FOR_REVIEW
+- Responsável: Codex desde 2026-09-15T14:37:29-03:00 (tickets 01, 02 e 04); Claude Code desde 2026-09-15T14:50:07-03:00 (tickets 03, 05 e 06 e correções CR-06 a CR-09), após o limite de uso do Codex.
+- Entrega: `docs/cbl/instrumentos/` (11 arquivos) com rastreabilidade das 10 GQs e ensaio de mesa documental.
 - Autorização: DEC-007 (spec e seis tickets aprovados por Arthur sem alterações); DEC-005 permite produzir instrumentos sem campo.
 - Tickets: `.scratch/kit-instrumentos/issues/01..06`; frente inicial: 01.
 - Escopo: roteiros, fichas, checklists e planilhas CSV que transformam GQ-01..GQ-10 em instrumentos aplicáveis, com registro de evidência padrão, rastreabilidade e ensaio de mesa.
@@ -50,3 +52,13 @@ Status: `[ ] NOT_STARTED`, `[~] IN_PROGRESS`, `[?] BLOCKED`, `[R] READY_FOR_REVI
 - Dependências: nenhuma para o ticket 01; os demais seguem os bloqueios declarados.
 - Risco: tratar o ensaio de mesa como validação. Mitigação: marcação explícita e WORKLOG.
 
+## [R] AI-005 — Proposta de diagnóstico para barbearia candidata
+
+- Status: READY_FOR_REVIEW
+- Entrega: `docs/propostas/barbearia/` (apresentação PPTX de 13 slides com notas, PDF, roteiro da reunião e README). Aguarda revisão de Arthur, nome da barbearia e contato; nada foi enviado ao dono.
+- Autorização: DEC-009/010; Arthur conhece o dono de uma barbearia MEI e pediu proposta/apresentação para convidá-lo. Escolheu diagnóstico inicial gratuito e implantação negociada depois.
+- Escopo: enquadrar a candidata nas Guiding Questions; preparar proposta e apresentação para revisão de Arthur, com participação esperada, entregáveis e próximos passos.
+- Aceite: material claro para o dono, sem alegar dores verificadas ou prometer ganho; diagnóstico gratuito separado da eventual implantação; condições ainda não acordadas identificadas como propostas.
+- Dependências: nenhuma para produzir o convite; aplicação real depende do aceite do dono, acesso e condições combinadas.
+- Risco: apresentar WhatsApp/IA ou prazo de 30 dias como solução ou compromisso definidos. Mitigação: investigar primeiro e negociar implantação após diagnóstico.
+- Evidência: docs/cbl/barbearia-candidata.md e docs/propostas/barbearia/.

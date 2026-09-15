@@ -47,7 +47,7 @@ Arthur pediu reutilização do AIKIT do technetalks, continuidade entre os três
 
 ## O que ainda depende de resposta
 
-Em 14/09/2026 Arthur informou que não há empresa acessível nem marco vigente (DEC-005). Falta definir a rota até um processo real; depois dela, responsável pelo aceite, disponibilidade, dados, baseline, critério de sucesso e condições de execução. O [roteiro CBL](../cbl/README.md) mantém essas lacunas, o mapa "temos / hipótese / falta" e a ordem da investigação.
+Em 14/09/2026 Arthur informou que não há empresa acessível nem marco vigente (DEC-005). Em 15/09/2026 surgiu um contato candidato: o dono de uma barbearia MEI, ainda a convidar (DEC-009/010). Falta obter aceite e acesso a um processo real, responsável pela avaliação, disponibilidade, dados, baseline, critério de sucesso e condições de execução. A [síntese da candidata](../cbl/barbearia-candidata.md) separa esse relato das hipóteses de atendimento e agenda. O [roteiro CBL](../cbl/README.md) mantém essas lacunas, o mapa "temos / hipótese / falta" e a ordem da investigação.
 
 ## Outras pesquisas
 

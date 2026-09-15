@@ -16,3 +16,5 @@
 - AI-002: Arthur decidiu publicar o repositório como público (DEC-006), aprovou o kit de instrumentos (DEC-007) e autorizou o SkillSpector (DEC-008). Seis tickets de AI-004 publicados em `.scratch/`.
 - AI-002: triagem estática das 27 skills com SkillSpector v2.11.2; nenhuma com recomendação de não instalar.
 - AI-003: repositório publicado como público em `github.com/arthurfjadecastro/projectAJ` (commit inicial `def62f1`).
+- AI-004: kit de instrumentos de investigação completo em `docs/cbl/instrumentos/`: registro de evidência, ficha do processo, roteiros e mapa AS-IS, protocolo de baseline e planilha de casos, dados/atividades/risco, alternativas/ganho/retrospectiva, rastreabilidade das 10 GQs e ensaio de mesa.
+- AI-005: barbearia MEI candidata (DEC-009) e oferta de diagnóstico gratuito (DEC-010); apresentação de 13 slides, PDF e roteiro da reunião em `docs/propostas/barbearia/`; pasta `privado/` para dados de participantes, fora do Git.

@@ -1,6 +1,6 @@
 # CBL do Projeto AJ
 
-Atualização: 14/09/2026 (AI-002). CBL da Apple confirmado por Arthur. Este documento organiza o ponto de partida dos PDFs, o estado da evidência e a investigação; não declara um piloto validado.
+Atualização: 15/09/2026 (AI-004 e AI-005). CBL da Apple confirmado por Arthur. Este documento organiza o ponto de partida dos PDFs, o estado da evidência e a investigação; não declara um piloto validado.
 
 ## Ponto de retomada
 
@@ -15,6 +15,10 @@ O material mais recente, **Mapa das dores**, p. 1–2 e 15–21, trata o Challen
 > Criar e validar, em até 60 dias, um modelo replicável de consultoria em IA capaz de transformar um processo empresarial real e comprovar ganho mensurável de produtividade, qualidade, custo ou receita, com riscos controlados e potencial de escala.
 
 O prazo aparece como parâmetro do projeto, não como benchmark. Em 14/09/2026 Arthur declarou que não há empresa acessível e, portanto, nenhum marco vigente (DEC-005): nenhum vencimento é calculado, e a contagem só começa quando houver campo e marco explícitos. “AJ AI Process Accelerator” aparece como sugestão de oferta no PDF anterior, sem confirmação de nome comercial. Capacitação estruturada aparece como módulo opcional no mapa, p. 18; treinamento necessário à operação do piloto deve ser investigado com o cliente.
+
+## Candidata para o primeiro campo
+
+Em 15/09/2026 Arthur informou conhecer o dono de uma barbearia MEI e decidiu oferecer **diagnóstico inicial gratuito, com implantação negociada depois** (DEC-009/010). Há uma candidata pela rede de contatos; o dono ainda precisa aceitar o convite. Atendimento no WhatsApp, agenda e faltas são hipóteses a confrontar. [Estado, perguntas e próxima conversa](barbearia-candidata.md). Sem aceite, acesso e marco explícitos, permanece Investigate sem coleta de campo e sem contagem dos 60 dias.
 
 ## Como aplicar o método
 
@@ -46,14 +50,14 @@ Consequência: o trabalho continua em Investigate, restrito a instrumentos, recu
 |---|---|---|---|
 | Big Idea e Essential Question | Formulação documental (AJ-F02, p. 15–16; AJ-F01, p. 1–2) | — | Nada para a investigação; revisar só se o campo contradisser |
 | Challenge | Formulação refinada de AJ-F01, mantida como base (DEC-005) | Que 60 dias bastam para validar um modelo replicável | Marco inicial e público real |
-| Público / empresa | Declaração de que não há empresa acessível (DEC-005) | — | Campo de observação com responsável e acesso a dados |
+| Público / empresa | Contato com dono de barbearia MEI informado por Arthur (DEC-009), sem participação aceita | Que a candidata possa se tornar o primeiro campo | Aceite, disponibilidade e acesso delimitado a processo e dados |
 | Processo candidato | Cinco famílias sugeridas e service desk; notas analíticas de AJ-F01, p. 12 | Que atendimento, vendas, documentos, conhecimento interno ou relatórios oferecem melhor impacto × frequência × viabilidade | Seleção com evidência e requisitos eliminatórios atendidos |
 | GQ-01..GQ-04 — problema, volume, fluxo, baseline | Perguntas e evidência mínima definidas | Tese das lacunas de AJ-F01, p. 9–10 | Entrevistas, logs, mapa AS-IS e baseline de um processo real |
 | GQ-05..GQ-07 — dados, tipo de atividade, erros | Critério regra/linguagem/previsão/julgamento; exigência de risco controlado | Que dados, integração e governança são os gargalos principais | Inventário de dados real e critérios do responsável |
 | GQ-08 — menor complexidade suficiente | Princípio documental; [avaliação de 15 projetos open source](../research/projetos-open-source.md) | Que ferramentas prontas reduzem custo de coleta ou integração | Comparação em casos reais contra o processo atual |
 | GQ-09 — ganho em resultado | Distinção entre ganho mensurável e benefício realizado ([CONTEXT](../../CONTEXT.md)) | Faixas de ganho dos casos citados nos PDFs, que não são do AJ | Medição controlada e validação do responsável |
 | GQ-10 — replicação | Conceito de Playbook AJ | Que o método se repete entre clientes | Segundo contexto |
-| Instrumentos de investigação | Mapa das GQs e matriz de priorização documental | — | Roteiro de entrevista, ficha do processo, planilha de baseline, inventário de dados e checklist de risco; podem ser preparados agora |
+| Instrumentos de investigação | [Kit de instrumentos](instrumentos/README.md) em execução sob DEC-007 | Que a aplicação seja suficiente para registrar o primeiro diagnóstico | Revisão dos instrumentos e aplicação real após aceite |
 | Solução / arquitetura | Nenhuma escolhida; multiagentes é arquitetura, não objetivo | Uso de LLM, busca em documentos ou automação conforme o caso | Evidência de processo, dados e critério de resultado |
 
 ## Caminho até a solução
@@ -65,7 +69,7 @@ Consequência: o trabalho continua em Investigate, restrito a instrumentos, recu
 5. **Act:** implementar a menor solução suficiente e medir contra o baseline (GQ-09).
 6. **Playbook e segundo contexto:** registrar o núcleo reutilizável e testá-lo em outro processo (GQ-10).
 
-Rotas possíveis para obter campo, ainda não decididas: (a) um processo do próprio AJ ou de Arthur, acessível já, mas sujeito a viés de autoavaliação e sem cliente externo; (b) empresa da rede de contatos com responsável disposto a fornecer dados; (c) caso simulado com dados públicos, útil apenas para ensaiar instrumentos e nunca para validar ganho. A escolha é de Arthur e deve ser registrada em DECISIONS.
+Rotas possíveis para obter campo, ainda não decididas: (a) um processo do próprio AJ ou de Arthur, acessível já, mas sujeito a viés de autoavaliação e sem cliente externo; (b) empresa da rede de contatos com responsável disposto a fornecer dados; (c) caso simulado com dados públicos, útil apenas para ensaiar instrumentos e nunca para validar ganho. Arthur indicou uma candidata pela rota (b) em DEC-009, ainda sem aceite ou acesso. A confirmação do campo e o marco devem ser registrados em DECISIONS.
 
 ## Guiding Questions e evidência necessária
 
@@ -100,6 +104,6 @@ A matriz documental usa Impacto × Frequência × Viabilidade em 60 dias, notas 
 
 ## Próxima entrega de investigação
 
-Sem campo, a entrega possível é o **kit de instrumentos** do passo 1, especificado em `.scratch/` a partir de DEC-005. Com campo definido: delimitar o acesso e produzir a ficha do processo candidato com problema, responsável, volume, fluxo atual, fontes, baseline possível, lacunas e próxima atividade. Um piloto posterior deverá ter público real, critério de sucesso e condições de execução acordados. Arquitetura, framework, plataforma e multiagentes serão avaliados a partir dessas evidências.
+O **[kit de instrumentos](instrumentos/README.md)** do passo 1 executa a spec aprovada em DEC-007, com [rastreabilidade](instrumentos/rastreabilidade.md) e [ensaio documental](instrumentos/ensaio-mesa.md). A [proposta para a barbearia](../propostas/barbearia/README.md) prepara o convite sob DEC-009/010. Com campo definido: delimitar o acesso e produzir a ficha do processo candidato com problema, responsável, volume, fluxo atual, fontes, baseline possível, lacunas e próxima atividade. Um piloto posterior deverá ter público real, critério de sucesso e condições de execução acordados. Arquitetura, framework, plataforma e multiagentes serão avaliados a partir dessas evidências.
 
 As decisões vão para `DECISIONS.md`; o andamento, para `CURRENT_STATE.md` e `BACKLOG.md`; a reflexão e a evidência da rodada, para `WORKLOG.md`. Specs e tickets ficam em `.scratch/`.

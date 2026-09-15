@@ -1,32 +1,32 @@
 # Passagem de responsabilidade
 
-- Atualizado em: 2026-09-15T00:20:24-03:00
-- Tarefa: AI-003 — Publicar o repositório no destino autorizado (DONE). Tarefa anterior da sessão: AI-002 (READY_FOR_REVIEW).
+- Atualizado em: 2026-09-15T17:36:29-03:00
+- Tarefa: AI-005 — Proposta de diagnóstico e apresentação para a barbearia candidata (READY_FOR_REVIEW). Também entregue nesta sessão: AI-004 — Kit de instrumentos de investigação (READY_FOR_REVIEW).
 - Status: Claude Code encerrou a edição; arquivos liberados.
-- Histórico: Codex entregou AI-001; GitHub Copilot abriu AI-002 e foi interrompido; Arthur transferiu AI-002 ao Claude Code, que concluiu AI-002 e AI-003.
+- Histórico: Codex retomou em 15/09 (DEC-009/010, tickets 01, 02 e 04) e atingiu o limite de uso; Arthur transferiu ao Claude Code, que concluiu os tickets 03, 05 e 06, as correções CR-06 a CR-09 e a apresentação.
 
 ## Ponto exato
 
-Repositório publicado em `github.com/arthurfjadecastro/projectAJ` (público). Nenhum trabalho em andamento. A próxima tarefa autorizada é AI-004 (kit de instrumentos), ainda não iniciada.
+Apresentação e roteiro prontos para revisão de Arthur. O dono da barbearia ainda não foi convidado; nada foi enviado a ele. Não há trabalho em andamento.
 
 ## Concluído
 
-- AI-002: avaliação de 15 projetos open source em docs/research/projetos-open-source.md (SkillSpector usar agora; anydoc testar quando houver campo; seis adiados; sete descartados). Triagem SkillSpector em docs/research/skillspector-triagem-2026-09-14.md, sem nenhuma skill a remover. Roteiro CBL com o mapa "temos / hipótese / falta", o caminho em seis passos e as rotas possíveis até o campo. DEC-006..DEC-008. Spec e seis tickets de AI-004 em `.scratch/kit-instrumentos/`.
-- AI-003: commit inicial `def62f1ac1d4d6c2d35f6abac21e0964f4356ddb` publicado e conferido por `git ls-remote`.
+- docs/propostas/barbearia/: `apresentacao-diagnostico-barbearia.pptx` (13 slides com notas do apresentador), PDF equivalente, `roteiro-reuniao.md` (checklist, agenda de 30 min, folha de anotação em blocos A–D ligada ao kit, passos pós-reunião) e README.
+- docs/cbl/instrumentos/: kit completo (registro de evidência, ficha, exemplo, roteiros e mapa AS-IS, protocolo de baseline, `casos.csv`, dados/atividades/risco, alternativas/ganho/retrospectiva, rastreabilidade e ensaio de mesa).
+- `privado/.gitignore`: pasta para dados de participantes, com todo o conteúdo ignorado pelo Git.
 
 ## Validações
 
-13 testes de `tests/ai_kit` aprovados; `bootstrap.py validate .` aprovado; UTF-8 sem BOM, LF e links locais conferidos nos arquivos alterados; busca por segredos e caminhos absolutos sem ocorrências antes do push. CI remota do commit `def62f1`: `AI continuity` e os seis jobs de `AJ compatibility` (Ubuntu, Windows e macOS × Python 3.10 e 3.14) aprovados.
+UTF-8 sem BOM, LF e links locais dos 24 arquivos alterados; 13 testes de `tests/ai_kit` aprovados; `bootstrap.py validate .` aprovado com este HANDOFF; `git check-ignore` confirma `privado/`; revisão visual das 13 prévias da apresentação. A apresentação foi gerada por automação COM do PowerPoint; o script gerador ficou fora do repositório, e edições futuras devem ser feitas direto no PPTX.
 
 ## Pendências e próxima ação
 
-1. Arthur ainda decide a rota até o campo. As opções estão em docs/cbl/README.md, seção "Caminho até a solução". Registrar a escolha em DECISIONS.
-2. Para iniciar AI-004: abrir IN_PROGRESS em CURRENT_STATE e BACKLOG e executar o ticket 01, depois 02, 03 e 04 (todos dependem só do 01), depois 05 e 06, seguindo os aceites de cada ticket.
-3. AI-001 e AI-002 aguardam aceite de Arthur.
-4. Conferir no GitHub Actions as execuções dos commits posteriores a `def62f1`.
+1. Arthur revisa a apresentação, troca `[nome da barbearia]` (slide 1) e `[WhatsApp]` / `[e-mail]` (slide 13), e regera o PDF pelo PowerPoint se quiser a versão de reserva atualizada.
+2. Reunião com o dono seguindo `roteiro-reuniao.md`. Depois dela: ficha e anotações em `privado/barbearia/`; no repositório, só o fato, a resposta e o próximo passo. Se ele topar, registrar em DECISIONS o aceite, o que foi autorizado e o marco.
+3. Aceite de Arthur para AI-001, AI-002, AI-004 e AI-005.
 
-Limites: sem empresa, processo, dados ou baseline. Não verificados na pesquisa: releitura de estrelas/datas, licença do dataset do PhoneHarness, suporte pt-BR do no-ai-slop e benchmarks declarados pelos projetos.
+Limites: nenhuma evidência de campo; dores de atendimento, agenda e faltas continuam hipóteses. O ensaio de mesa testa instrumentos, não o Challenge.
 
 ## Arquivos de entrada
 
-README.md, DECISIONS.md, CURRENT_STATE.md, BACKLOG.md, este HANDOFF e as duas últimas entradas de WORKLOG.md; depois AGENTS e o adaptador do cliente. Para AI-004: .scratch/kit-instrumentos/spec.md, issues/ e docs/cbl/README.md.
+README.md, DECISIONS.md, CURRENT_STATE.md, BACKLOG.md, este HANDOFF e as duas últimas entradas de WORKLOG.md; depois AGENTS e o adaptador do cliente. Para a barbearia: docs/cbl/barbearia-candidata.md e docs/propostas/barbearia/. Para o kit: docs/cbl/instrumentos/README.md.

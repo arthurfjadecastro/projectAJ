@@ -1,14 +1,13 @@
 # Estado atual
 
-- Atualizado em: 2026-09-15T00:20:24-03:00
-- Agente: Claude Code (Claude Opus 5), Windows
-- Tarefa: AI-003 — Publicar o repositório no destino autorizado
-- Status: DONE
-- Autorização: DEC-004 e DEC-006 (repositório público com PDFs e transcrições, commit e push autorizados por Arthur).
+- Atualizado em: 2026-09-15T17:36:29-03:00
+- Agente: Claude Code (Claude Opus 5), Windows; integrador dos registros comuns
+- Tarefa: AI-005 — Proposta de diagnóstico e apresentação para a barbearia candidata
+- Status: READY_FOR_REVIEW
+- Autorização: DEC-009/010 (convite ao dono de barbearia MEI; diagnóstico inicial gratuito, implantação negociada depois); DEC-007 (kit de instrumentos); DEC-006 (publicação no repositório público).
 - Arquivos em edição: nenhum
-- Próxima ação: Arthur escolhe entre (a) iniciar AI-004 pelo ticket 01 (`.scratch/kit-instrumentos/issues/01-registro-evidencia-ficha-processo.md`), já autorizado em DEC-007, e (b) decidir a rota até o campo. Iniciar AI-004 exige abrir IN_PROGRESS aqui antes das escritas.
-- Tarefas relacionadas: AI-001 e AI-002 em READY_FOR_REVIEW, aguardando aceite de Arthur. AI-004 autorizada e NOT_STARTED.
-- Pendente de Arthur: rota até o campo (empresa da rede, processo próprio ou caso simulado), sem decisão; ele pediu esclarecimento.
-- Git: main publicada em `origin` (github.com/arthurfjadecastro/projectAJ, público). Commits `def62f1` e `f84237e` conferidos por `git ls-remote`; o registro da CI vai num commit seguinte, a conferir com `git ls-remote origin refs/heads/main`.
-- CI: para `def62f1`, `AI continuity` e os seis jobs de `AJ compatibility` (Ubuntu, Windows e macOS × Python 3.10 e 3.14) aprovados.
-- Limitações: sem empresa, processo, dados ou baseline de campo. Sessões reais de Claude/Copilot em macOS não exercitadas.
+- Próxima ação: Arthur revisa a apresentação (`docs/propostas/barbearia/apresentacao-diagnostico-barbearia.pptx`), preenche o nome da barbearia (slide 1) e o contato (slide 13), e faz o convite. Depois da reunião, registrar no repositório só o fato e a resposta do dono; se ele topar, registrar aceite e marco em DECISIONS e preencher a ficha em `privado/`.
+- Tarefas relacionadas: AI-004 READY_FOR_REVIEW (kit completo em `docs/cbl/instrumentos/`). AI-001 e AI-002 READY_FOR_REVIEW, sem aceite inferido.
+- Reconciliação: o Codex atingiu o limite de uso durante AI-004/AI-005; Arthur transferiu ao Claude Code. As alterações dele (DEC-009/010, barbearia-candidata.md, tickets 01, 02 e 04) foram preservadas e integradas.
+- Campo: existe dono de barbearia MEI a convidar, segundo Arthur; participação, acesso a processo e dados não confirmados. Sem marco vigente dos 60 dias.
+- Limitações: nenhuma evidência de campo; a apresentação usa um exemplo ilustrativo e hipóteses. Dados reais do participante só em `privado/`, fora do Git.

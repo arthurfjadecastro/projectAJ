@@ -44,3 +44,15 @@ Em 2026-09-14T23:05:56-03:00, Arthur autorizou instalar o NVIDIA SkillSpector nu
 
 A rota até o campo (empresa da rede, processo próprio, caso simulado) **não foi decidida**: Arthur pediu esclarecimento. Permanece em aberto no roteiro CBL.
 
+
+## DEC-009 — Retomada no Codex e barbearia candidata
+
+Em 2026-09-15T14:37:29-03:00, Arthur pediu pull e continuidade após trocar Claude Code por Codex. A retomada executa AI-004 já autorizada por DEC-007 e prepara AI-005: proposta/apresentação para convidar o dono de uma barbearia MEI. Fonte: declarações de Arthur nesta sessão. Arthur confirmou que existe esse contato, mas precisa convencê-lo a participar.
+
+Impacto: há uma candidata pela rede de contatos; ainda não há participação aceita, processo observado, acesso a dados ou início dos 60 dias. Atualiza a disponibilidade de um contato em DEC-005, preservando suas condições de evidência e marco. Atendimento no WhatsApp, organização da agenda e redução de faltas são hipóteses do texto trazido à conversa. Não há escolha de arquitetura nem autorização para contatar o dono por ferramenta.
+
+## DEC-010 — Diagnóstico inicial gratuito
+
+Em 2026-09-15T14:37:29-03:00, Arthur escolheu para AI-005: **diagnóstico inicial gratuito; implantação negociada depois**. Fonte: resposta explícita à pergunta sobre a oferta ao dono da barbearia.
+
+Impacto: a apresentação oferece diagnóstico gratuito. Prazo, participação esperada e atividades descritos são sugestões a combinar com o dono. Implantação, custos externos, manutenção e uso do caso dependem de acordo posterior; não há valor, ferramenta ou ganho prometido. A elaboração e revisão do material estão autorizadas agora. Não é aceite do piloto pelo participante.
