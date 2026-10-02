@@ -62,3 +62,13 @@ Status: `[ ] NOT_STARTED`, `[~] IN_PROGRESS`, `[?] BLOCKED`, `[R] READY_FOR_REVI
 - Dependências: nenhuma para produzir o convite; aplicação real depende do aceite do dono, acesso e condições combinadas.
 - Risco: apresentar WhatsApp/IA ou prazo de 30 dias como solução ou compromisso definidos. Mitigação: investigar primeiro e negociar implantação após diagnóstico.
 - Evidência: docs/cbl/barbearia-candidata.md e docs/propostas/barbearia/.
+
+## [R] AI-006 — Mapa de cenários do atendimento por WhatsApp e demonstração
+
+- Status: READY_FOR_REVIEW
+- Entrega: `docs/propostas/barbearia/whatsapp/cenarios.md` (99 cenários em 7 grupos, estados, regras e 12 questões em aberto) e `simulador.html` (10 cenários vitrine), publicado como página privada de Arthur. Aguarda o debate das questões em aberto antes do prompt e do vídeo.
+- Autorização: DEC-011; pedido de Arthur em 02/10/2026.
+- Escopo: regras de negócio e catálogo exaustivo de cenários do atendimento por WhatsApp da barbearia (dúvidas, mensagens personalizadas, respostas do cliente, casos difíceis, passagem ao dono e privacidade), sem agenda conectada; artefatos de demonstração para o cliente; questões em aberto para debate. O prompt detalhado e o vídeo ficam para depois do mapa estabilizado.
+- Aceite: catálogo com IDs estáveis, dados necessários e comportamento esperado por cenário; quatro estados da conversa e regras de passagem; simulador navegável com cenários vitrine; dados fictícios e marcação de demonstração ilustrativa.
+- Dependências: nenhuma para a demonstração; implantação real depende do diagnóstico e de acordo com o dono (DEC-010).
+- Risco: tratar a demonstração como solução validada ou prometer benefícios que o dono não oferece. Mitigação: valores e benefícios fictícios e marcados; cada cenário vira pergunta de diagnóstico.

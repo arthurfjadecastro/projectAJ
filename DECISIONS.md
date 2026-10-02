@@ -56,3 +56,14 @@ Impacto: há uma candidata pela rede de contatos; ainda não há participação 
 Em 2026-09-15T14:37:29-03:00, Arthur escolheu para AI-005: **diagnóstico inicial gratuito; implantação negociada depois**. Fonte: resposta explícita à pergunta sobre a oferta ao dono da barbearia.
 
 Impacto: a apresentação oferece diagnóstico gratuito. Prazo, participação esperada e atividades descritos são sugestões a combinar com o dono. Implantação, custos externos, manutenção e uso do caso dependem de acordo posterior; não há valor, ferramenta ou ganho prometido. A elaboração e revisão do material estão autorizadas agora. Não é aceite do piloto pelo participante.
+
+## DEC-011 — Demonstração do atendimento por WhatsApp
+
+Em 2026-10-02T10:15:03-03:00, Arthur pediu um mapa exaustivo dos cenários de atendimento por WhatsApp da barbearia e artefatos de exemplo para demonstrar ao cliente. Fonte: conversa de Arthur com outro assistente, colada nesta sessão, e o pedido atual. Escolhas de Arthur nessa conversa:
+
+1. A IA tira dúvidas sobre a barbearia e envia mensagens personalizadas a partir do histórico de cada cliente (manutenção, aniversário, datas comemorativas, campanhas).
+2. Na primeira versão, a IA **não confirma disponibilidade nem reserva horário**: coleta o pedido e chama o dono.
+3. O dono **entra na mesma conversa** com o cliente, para soar mais humano; a IA pausa enquanto ele atende. Estados: IA atendendo, aguardando a equipe, dono atendendo e conversa devolvida à IA.
+4. O mapa de cenários deve ser esgotado e debatido; depois vira um prompt detalhado e um vídeo de demonstração, produzido em outro ambiente (Remotion ou HyperFrames).
+
+Impacto: AI-006 produz regras, catálogo e simulador com dados fictícios. É material de demonstração ilustrativa para engajar o dono; não substitui o diagnóstico gratuito (DEC-010), não define arquitetura (GQ-08) e não promete benefício. Preços, promoções e regras reais dependem do dono. Restrições do WhatsApp Business e da LGPD precisam ser confirmadas em fonte primária antes de qualquer implantação.

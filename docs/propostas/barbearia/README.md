@@ -9,6 +9,8 @@ AI-005, sob DEC-009 (barbearia MEI candidata pela rede de Arthur) e DEC-010 (dia
 | [apresentacao-diagnostico-barbearia.pptx](apresentacao-diagnostico-barbearia.pptx) | Apresentação de 13 slides para a reunião de 30 minutos, editável no PowerPoint, com fala, tempo e o que anotar nas notas do apresentador |
 | [apresentacao-diagnostico-barbearia.pdf](apresentacao-diagnostico-barbearia.pdf) | Mesma apresentação em PDF, para leitura em outro dispositivo ou como reserva |
 | [roteiro-reuniao.md](roteiro-reuniao.md) | Checklist, agenda, folha de anotação (blocos A a D) e o que fazer depois |
+| [whatsapp/cenarios.md](whatsapp/cenarios.md) | AI-006: regras e catálogo de 99 cenários do atendimento por WhatsApp, estados da conversa e questões em aberto |
+| [whatsapp/simulador.html](whatsapp/simulador.html) | AI-006: simulador com 10 cenários vitrine e bastidores, publicado como página privada de Arthur |
 
 ## Estrutura da apresentação
 

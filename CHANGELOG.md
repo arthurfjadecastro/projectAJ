@@ -18,3 +18,7 @@
 - AI-003: repositório publicado como público em `github.com/arthurfjadecastro/projectAJ` (commit inicial `def62f1`).
 - AI-004: kit de instrumentos de investigação completo em `docs/cbl/instrumentos/`: registro de evidência, ficha do processo, roteiros e mapa AS-IS, protocolo de baseline e planilha de casos, dados/atividades/risco, alternativas/ganho/retrospectiva, rastreabilidade das 10 GQs e ensaio de mesa.
 - AI-005: barbearia MEI candidata (DEC-009) e oferta de diagnóstico gratuito (DEC-010); apresentação de 13 slides, PDF e roteiro da reunião em `docs/propostas/barbearia/`; pasta `privado/` para dados de participantes, fora do Git.
+
+## 2026-10-02
+
+- AI-006: DEC-011; regras e catálogo de 99 cenários do atendimento por WhatsApp da barbearia, com quatro estados da conversa e passagem ao dono na mesma conversa; simulador de demonstração com dez cenários vitrine e dados fictícios em `docs/propostas/barbearia/whatsapp/`.

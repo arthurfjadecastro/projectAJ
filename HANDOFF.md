@@ -1,32 +1,31 @@
 # Passagem de responsabilidade
 
-- Atualizado em: 2026-09-15T17:36:29-03:00
-- Tarefa: AI-005 — Proposta de diagnóstico e apresentação para a barbearia candidata (READY_FOR_REVIEW). Também entregue nesta sessão: AI-004 — Kit de instrumentos de investigação (READY_FOR_REVIEW).
+- Atualizado em: 2026-10-02T10:26:07-03:00
+- Tarefa: AI-006 — Mapa de cenários do atendimento por WhatsApp e artefatos de demonstração (READY_FOR_REVIEW).
 - Status: Claude Code encerrou a edição; arquivos liberados.
-- Histórico: Codex retomou em 15/09 (DEC-009/010, tickets 01, 02 e 04) e atingiu o limite de uso; Arthur transferiu ao Claude Code, que concluiu os tickets 03, 05 e 06, as correções CR-06 a CR-09 e a apresentação.
 
 ## Ponto exato
 
-Apresentação e roteiro prontos para revisão de Arthur. O dono da barbearia ainda não foi convidado; nada foi enviado a ele. Não há trabalho em andamento.
+Catálogo de cenários e simulador prontos para debate com Arthur. O prompt detalhado e o vídeo de demonstração ainda não começaram: dependem do mapa estabilizado. Nada foi enviado ao dono.
 
 ## Concluído
 
-- docs/propostas/barbearia/: `apresentacao-diagnostico-barbearia.pptx` (13 slides com notas do apresentador), PDF equivalente, `roteiro-reuniao.md` (checklist, agenda de 30 min, folha de anotação em blocos A–D ligada ao kit, passos pós-reunião) e README.
-- docs/cbl/instrumentos/: kit completo (registro de evidência, ficha, exemplo, roteiros e mapa AS-IS, protocolo de baseline, `casos.csv`, dados/atividades/risco, alternativas/ganho/retrospectiva, rastreabilidade e ensaio de mesa).
-- `privado/.gitignore`: pasta para dados de participantes, com todo o conteúdo ignorado pelo Git.
+- `docs/propostas/barbearia/whatsapp/cenarios.md`: escopo da v1, regra-mãe, quatro estados (E1 IA atendendo, E2 aguardando o dono, E3 dono atendendo, E4 devolvida à IA) e regras de passagem, fichas necessárias, 99 cenários com IDs estáveis (A dúvidas, B pedidos ao dono, C mensagens personalizadas, D respostas do cliente, E casos difíceis, F passagem, G privacidade), regras das mensagens personalizadas, 12 questões em aberto e restrições a confirmar.
+- `docs/propostas/barbearia/whatsapp/simulador.html`: dez cenários vitrine com reprodução e bastidores; publicado em https://claude.ai/artifact/6MjvhmRNBKFxbSpMssG9aF (privado de Arthur). Para atualizar a mesma página em outra sessão, publicar passando essa URL.
+- DEC-011 registra as escolhas de Arthur.
 
 ## Validações
 
-UTF-8 sem BOM, LF e links locais dos 24 arquivos alterados; 13 testes de `tests/ai_kit` aprovados; `bootstrap.py validate .` aprovado com este HANDOFF; `git check-ignore` confirma `privado/`; revisão visual das 13 prévias da apresentação. A apresentação foi gerada por automação COM do PowerPoint; o script gerador ficou fora do repositório, e edições futuras devem ser feitas direto no PPTX.
+Contagem de IDs por script (99, sem duplicados); `node --check` do script do simulador; UTF-8, LF e links locais; `bootstrap.py validate .` e 13 testes de `tests/ai_kit`. Sem prévia visual do simulador nesta sessão.
 
 ## Pendências e próxima ação
 
-1. Arthur revisa a apresentação, troca `[nome da barbearia]` (slide 1) e `[WhatsApp]` / `[e-mail]` (slide 13), e regera o PDF pelo PowerPoint se quiser a versão de reserva atualizada.
-2. Reunião com o dono seguindo `roteiro-reuniao.md`. Depois dela: ficha e anotações em `privado/barbearia/`; no repositório, só o fato, a resposta e o próximo passo. Se ele topar, registrar em DECISIONS o aceite, o que foi autorizado e o marco.
-3. Aceite de Arthur para AI-001, AI-002, AI-004 e AI-005.
-
-Limites: nenhuma evidência de campo; dores de atendimento, agenda e faltas continuam hipóteses. O ensaio de mesa testa instrumentos, não o Challenge.
+1. Debater as questões Q1–Q12 da seção 7 do catálogo e registrar as escolhas em DECISIONS.
+2. Atualizar catálogo e simulador conforme o debate.
+3. Escrever o prompt detalhado do atendente e o roteiro do vídeo (cenários vitrine, ordem e falas) para o agente Dev produzir em Remotion ou HyperFrames.
+4. Conferir em fonte primária as regras do WhatsApp Business e da LGPD antes de qualquer implantação.
+5. Registrar se a reunião com o dono aconteceu e a resposta dele (AI-005).
 
 ## Arquivos de entrada
 
-README.md, DECISIONS.md, CURRENT_STATE.md, BACKLOG.md, este HANDOFF e as duas últimas entradas de WORKLOG.md; depois AGENTS e o adaptador do cliente. Para a barbearia: docs/cbl/barbearia-candidata.md e docs/propostas/barbearia/. Para o kit: docs/cbl/instrumentos/README.md.
+README.md, DECISIONS.md, CURRENT_STATE.md, BACKLOG.md, este HANDOFF e as duas últimas entradas de WORKLOG.md; depois AGENTS e o adaptador do cliente. Para esta tarefa: docs/propostas/barbearia/whatsapp/ e docs/cbl/barbearia-candidata.md.

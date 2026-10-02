@@ -1,13 +1,13 @@
 # Estado atual
 
-- Atualizado em: 2026-09-15T17:36:29-03:00
-- Agente: Claude Code (Claude Opus 5), Windows; integrador dos registros comuns
-- Tarefa: AI-005 — Proposta de diagnóstico e apresentação para a barbearia candidata
+- Atualizado em: 2026-10-02T10:26:07-03:00
+- Agente: Claude Code (Claude Opus 5.5), Windows; integrador dos registros comuns
+- Tarefa: AI-006 — Mapa de cenários do atendimento por WhatsApp e artefatos de demonstração para a barbearia
 - Status: READY_FOR_REVIEW
-- Autorização: DEC-009/010 (convite ao dono de barbearia MEI; diagnóstico inicial gratuito, implantação negociada depois); DEC-007 (kit de instrumentos); DEC-006 (publicação no repositório público).
+- Autorização: DEC-011 (pedido de Arthur em 02/10/2026); DEC-006 (publicação no repositório público).
 - Arquivos em edição: nenhum
-- Próxima ação: Arthur revisa a apresentação (`docs/propostas/barbearia/apresentacao-diagnostico-barbearia.pptx`), preenche o nome da barbearia (slide 1) e o contato (slide 13), e faz o convite. Depois da reunião, registrar no repositório só o fato e a resposta do dono; se ele topar, registrar aceite e marco em DECISIONS e preencher a ficha em `privado/`.
-- Tarefas relacionadas: AI-004 READY_FOR_REVIEW (kit completo em `docs/cbl/instrumentos/`). AI-001 e AI-002 READY_FOR_REVIEW, sem aceite inferido.
-- Reconciliação: o Codex atingiu o limite de uso durante AI-004/AI-005; Arthur transferiu ao Claude Code. As alterações dele (DEC-009/010, barbearia-candidata.md, tickets 01, 02 e 04) foram preservadas e integradas.
-- Campo: existe dono de barbearia MEI a convidar, segundo Arthur; participação, acesso a processo e dados não confirmados. Sem marco vigente dos 60 dias.
-- Limitações: nenhuma evidência de campo; a apresentação usa um exemplo ilustrativo e hipóteses. Dados reais do participante só em `privado/`, fora do Git.
+- Próxima ação: debater com Arthur as 12 questões em aberto de `docs/propostas/barbearia/whatsapp/cenarios.md` (seção 7), ajustar o catálogo e o simulador e, com o mapa estabilizado, escrever o prompt detalhado e o roteiro do vídeo de demonstração.
+- Demonstração: simulador publicado como página privada de Arthur em https://claude.ai/artifact/6MjvhmRNBKFxbSpMssG9aF; o dono só consegue abrir se Arthur compartilhar pelo menu da página.
+- Tarefas relacionadas: AI-001, AI-002, AI-004 e AI-005 em READY_FOR_REVIEW, sem aceite inferido. Não há registro de que a reunião com o dono tenha ocorrido.
+- Campo: dono de barbearia MEI a convidar, segundo Arthur; participação e dados não confirmados. Sem marco vigente dos 60 dias.
+- Limitações: demonstração ilustrativa com dados fictícios; não substitui o diagnóstico (DEC-010) nem valida solução (GQ-08). Regras do WhatsApp Business e da LGPD ainda não conferidas em fonte primária.
