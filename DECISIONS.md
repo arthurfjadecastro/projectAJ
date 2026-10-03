@@ -67,3 +67,9 @@ Em 2026-10-02T10:15:03-03:00, Arthur pediu um mapa exaustivo dos cenários de at
 4. O mapa de cenários deve ser esgotado e debatido; depois vira um prompt detalhado e um vídeo de demonstração, produzido em outro ambiente (Remotion ou HyperFrames).
 
 Impacto: AI-006 produz regras, catálogo e simulador com dados fictícios. É material de demonstração ilustrativa para engajar o dono; não substitui o diagnóstico gratuito (DEC-010), não define arquitetura (GQ-08) e não promete benefício. Preços, promoções e regras reais dependem do dono. Restrições do WhatsApp Business e da LGPD precisam ser confirmadas em fonte primária antes de qualquer implantação.
+
+## DEC-012 — Vídeo para o dono: execução nesta sessão
+
+Em 2026-10-02T10:44:54-03:00, Arthur adicionou na raiz o prompt `prompt_agente_video_barbearia.md` para o vídeo explicativo e, diante das correções apontadas, escolheu **corrigir o prompt e executar a etapa 1 aqui** (roteiro e quadros de amostra), parando para aprovação antes do vídeo completo. Escolheu também que a narração use **"assistente"** no lugar de "IA", com "IA" dita uma única vez, na apresentação da solução. Fonte: respostas explícitas nesta sessão.
+
+Impacto: AI-007 executa o prompt corrigido, guardado em `docs/propostas/barbearia/whatsapp/prompt-video.md` (o original fica no histórico do Git). A execução muda de "outro ambiente" (DEC-011, item 4) para esta sessão, com Remotion. A assistente é tratada no feminino, como no prompt de Arthur; o simulador ainda usa "o assistente", e nome e gênero continuam em aberto (Q10). Commit e push seguem DEC-006, na `main`, como nas demais tarefas; o prompt original pedia branch e PR para quando o vídeo fosse feito por outro agente.

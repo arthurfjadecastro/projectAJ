@@ -11,6 +11,8 @@ AI-005, sob DEC-009 (barbearia MEI candidata pela rede de Arthur) e DEC-010 (dia
 | [roteiro-reuniao.md](roteiro-reuniao.md) | Checklist, agenda, folha de anotação (blocos A a D) e o que fazer depois |
 | [whatsapp/cenarios.md](whatsapp/cenarios.md) | AI-006: regras e catálogo de 99 cenários do atendimento por WhatsApp, estados da conversa e questões em aberto |
 | [whatsapp/simulador.html](whatsapp/simulador.html) | AI-006: simulador com 10 cenários vitrine e bastidores, publicado como página privada de Arthur |
+| [whatsapp/prompt-video.md](whatsapp/prompt-video.md) | AI-007: prompt corrigido do vídeo explicativo para o dono |
+| [whatsapp/video/](whatsapp/video/README.md) | AI-007: roteiro, dados, projeto Remotion e quadros de amostra do vídeo |
 
 ## Estrutura da apresentação
 

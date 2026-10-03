@@ -72,3 +72,13 @@ Status: `[ ] NOT_STARTED`, `[~] IN_PROGRESS`, `[?] BLOCKED`, `[R] READY_FOR_REVI
 - Aceite: catálogo com IDs estáveis, dados necessários e comportamento esperado por cenário; quatro estados da conversa e regras de passagem; simulador navegável com cenários vitrine; dados fictícios e marcação de demonstração ilustrativa.
 - Dependências: nenhuma para a demonstração; implantação real depende do diagnóstico e de acordo com o dono (DEC-010).
 - Risco: tratar a demonstração como solução validada ou prometer benefícios que o dono não oferece. Mitigação: valores e benefícios fictícios e marcados; cada cenário vira pergunta de diagnóstico.
+
+## [R] AI-007 — Vídeo explicativo do atendente para o dono da barbearia
+
+- Status: READY_FOR_REVIEW
+- Entrega da etapa 1: prompt corrigido, `video/roteiro.md`, `config.json`, `cenas.json`, projeto Remotion com as 11 cenas, verificação automática das regras e amostras das cenas 2, 5 e 9 em `video/saida/amostras/`. A etapa 2 (vídeo completo) aguarda aprovação de Arthur.
+- Autorização: DEC-012; prompt de Arthur em `docs/propostas/barbearia/whatsapp/prompt-video.md`.
+- Escopo: etapa 1 nesta sessão (prompt corrigido, `roteiro.md`, `config.json`, `cenas.json`, projeto Remotion e quadros de amostra das cenas 2, 5 e 9). Etapa 2, após aprovação de Arthur: vídeo completo, legendas, capa e frames.
+- Aceite: checklist do prompt; nenhum código interno na tela; a assistente nunca marca horário, dá desconto ou finge ser pessoa; selo "valores de exemplo"; nomes trocáveis por configuração.
+- Dependências: aprovação de Arthur entre a etapa 1 e a 2.
+- Risco: o vídeo prometer o que a DEC-011 exclui. Mitigação: roteiro como fonte única, conferido contra `cenarios.md`.

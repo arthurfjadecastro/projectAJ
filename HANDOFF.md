@@ -1,31 +1,29 @@
 # Passagem de responsabilidade
 
-- Atualizado em: 2026-10-02T10:26:07-03:00
-- Tarefa: AI-006 — Mapa de cenários do atendimento por WhatsApp e artefatos de demonstração (READY_FOR_REVIEW).
+- Atualizado em: 2026-10-02T21:53:31-03:00
+- Tarefa: AI-007 — Vídeo explicativo do atendente para o dono da barbearia (READY_FOR_REVIEW; etapa 1 entregue).
 - Status: Claude Code encerrou a edição; arquivos liberados.
 
 ## Ponto exato
 
-Catálogo de cenários e simulador prontos para debate com Arthur. O prompt detalhado e o vídeo de demonstração ainda não começaram: dependem do mapa estabilizado. Nada foi enviado ao dono.
+Etapa 1 do prompt concluída e parada para aprovação de Arthur, como o próprio prompt exige. Nada do vídeo completo foi renderizado.
 
 ## Concluído
 
-- `docs/propostas/barbearia/whatsapp/cenarios.md`: escopo da v1, regra-mãe, quatro estados (E1 IA atendendo, E2 aguardando o dono, E3 dono atendendo, E4 devolvida à IA) e regras de passagem, fichas necessárias, 99 cenários com IDs estáveis (A dúvidas, B pedidos ao dono, C mensagens personalizadas, D respostas do cliente, E casos difíceis, F passagem, G privacidade), regras das mensagens personalizadas, 12 questões em aberto e restrições a confirmar.
-- `docs/propostas/barbearia/whatsapp/simulador.html`: dez cenários vitrine com reprodução e bastidores; publicado em https://claude.ai/artifact/6MjvhmRNBKFxbSpMssG9aF (privado de Arthur). Para atualizar a mesma página em outra sessão, publicar passando essa URL.
-- DEC-011 registra as escolhas de Arthur.
+- `docs/propostas/barbearia/whatsapp/prompt-video.md`: prompt de Arthur corrigido (original no commit `b6b42ee`).
+- `docs/propostas/barbearia/whatsapp/video/`: `roteiro.md` (145 s, 11 cenas, mais a mensagem de acompanhamento com as 5 perguntas completas), `config.json`, `cenas.json`, projeto Remotion (`src/`), `scripts/verificar.mjs`, `scripts/amostras.mjs`, README e amostras das cenas 2, 5 e 9 em `saida/amostras/`.
 
 ## Validações
 
-Contagem de IDs por script (99, sem duplicados); `node --check` do script do simulador; UTF-8, LF e links locais; `bootstrap.py validate .` e 13 testes de `tests/ai_kit`. Sem prévia visual do simulador nesta sessão.
+`npm run verificar` aprovado (duração, leitura, "IA" uma vez, sem códigos internos, nomes preenchidos); `npx tsc` sem erros; amostras revisadas visualmente; UTF-8 e LF nos arquivos do projeto; `bootstrap.py validate .` e 13 testes de `tests/ai_kit`.
 
 ## Pendências e próxima ação
 
-1. Debater as questões Q1–Q12 da seção 7 do catálogo e registrar as escolhas em DECISIONS.
-2. Atualizar catálogo e simulador conforme o debate.
-3. Escrever o prompt detalhado do atendente e o roteiro do vídeo (cenários vitrine, ordem e falas) para o agente Dev produzir em Remotion ou HyperFrames.
-4. Conferir em fonte primária as regras do WhatsApp Business e da LGPD antes de qualquer implantação.
-5. Registrar se a reunião com o dono aconteceu e a resposta dele (AI-005).
+1. Arthur aprova ou ajusta o roteiro e as amostras.
+2. Etapa 2: escolher a narração (voz sintética PT-BR; se não houver uma boa, trilha livre de direitos e aviso); criar `npm run render` com versão até 16 MB e versão alta, gerar `legendas.srt` a partir de `cenas.json`, `capa.png` e `saida/frames/`; conferir o checklist do prompt item por item. `video_alta.mp4` e `frames/` ficam fora do Git.
+3. Retomar o projeto em outra máquina exige `npm i` dentro da pasta do vídeo.
+4. Seguem pendentes: as questões Q1–Q12 do catálogo (AI-006) e o registro da reunião com o dono (AI-005).
 
 ## Arquivos de entrada
 
-README.md, DECISIONS.md, CURRENT_STATE.md, BACKLOG.md, este HANDOFF e as duas últimas entradas de WORKLOG.md; depois AGENTS e o adaptador do cliente. Para esta tarefa: docs/propostas/barbearia/whatsapp/ e docs/cbl/barbearia-candidata.md.
+README.md, DECISIONS.md, CURRENT_STATE.md, BACKLOG.md, este HANDOFF e as duas últimas entradas de WORKLOG.md; depois AGENTS e o adaptador do cliente. Para esta tarefa: docs/propostas/barbearia/whatsapp/prompt-video.md e video/.

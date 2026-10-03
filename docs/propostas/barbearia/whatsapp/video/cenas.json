@@ -1,0 +1,140 @@
+{
+  "fps": 30,
+  "leitura": { "minimo_s": 1.5, "por_caractere_s": 0.06 },
+  "cenas": [
+    {
+      "id": "gancho", "nome": "Gancho", "tipo": "gancho", "duracao_s": 7,
+      "chegando": ["Quanto tá a barba?", "Abre sábado?", "Tem horário hoje?", "Aceita Pix?", "Onde fica?", "Faz degradê?"],
+      "legendas": [
+        { "de": 0.3, "ate": 4.0, "texto": "E se o WhatsApp da {BARBEARIA} respondesse sozinho," },
+        { "de": 4.0, "ate": 6.8, "texto": "e você só entrasse quando precisasse?" }
+      ]
+    },
+    {
+      "id": "problema", "nome": "O problema", "tipo": "problema", "duracao_s": 7,
+      "aviso": "mensagens esperando",
+      "legendas": [
+        { "de": 0.3, "ate": 3.4, "texto": "Você está com a tesoura na mão," },
+        { "de": 3.4, "ate": 6.8, "texto": "e o cliente quer saber preço, endereço, horário..." }
+      ]
+    },
+    {
+      "id": "solucao", "nome": "A solução em 3 frases", "tipo": "cartoes", "duracao_s": 11,
+      "titulo": "A assistente faz três coisas",
+      "cartoes": [
+        { "de": 1.0, "titulo": "Responde", "texto": "as dúvidas, com os dados da sua barbearia" },
+        { "de": 2.5, "titulo": "Lembra", "texto": "cada cliente na hora certa" },
+        { "de": 4.0, "titulo": "Chama você", "texto": "quando o assunto é horário ou decisão" }
+      ],
+      "legendas": [
+        { "de": 0.3, "ate": 4.2, "texto": "Conheça a assistente: uma IA que tira as dúvidas," },
+        { "de": 4.2, "ate": 7.2, "texto": "manda lembretes para cada cliente" },
+        { "de": 7.2, "ate": 10.8, "texto": "e, quando o assunto é com você, te chama." }
+      ]
+    },
+    {
+      "id": "duvidas", "nome": "Cena: dúvidas", "tipo": "conversa", "duracao_s": 13,
+      "titulo": "Tira dúvidas", "selo": true,
+      "eventos": [
+        { "t": 0.8, "de": "cliente", "texto": "Quanto tá a barba? Aceita Pix? Onde fica?" },
+        { "t": 3.8, "de": "assistente", "texto": "Barba: R$ 35, uns 30 min\nPix, débito, crédito ou dinheiro\nRua das Palmeiras, 120" }
+      ],
+      "legendas": [
+        { "de": 0.5, "ate": 4.0, "texto": "Três perguntas de uma vez?" },
+        { "de": 4.0, "ate": 12.8, "texto": "Ela responde tudo, só com as informações da sua barbearia." }
+      ]
+    },
+    {
+      "id": "lembrete", "nome": "Cena: lembrete", "tipo": "conversa", "duracao_s": 17,
+      "titulo": "Lembra cada cliente",
+      "eventos": [
+        { "t": 0.5, "de": "aviso", "texto": "{CLIENTE} aceitou receber lembretes" },
+        { "t": 1.0, "de": "aviso", "texto": "14 dias desde a última barba" },
+        { "t": 2.2, "de": "assistente", "texto": "Fala, {CLIENTE}! Sua última barba aqui foi há 14 dias. Bora dar aquele talento?" },
+        { "t": 7.5, "de": "cliente", "texto": "Bora! Amanhã no fim da tarde, com o {BARBEIRO}" },
+        { "t": 11.0, "de": "assistente", "texto": "Fechado! Vou passar seu pedido para o {DONO}, que confirma o horário." }
+      ],
+      "legendas": [
+        { "de": 0.3, "ate": 5.5, "texto": "Ela sabe que o {CLIENTE} faz a barba a cada duas semanas." },
+        { "de": 5.5, "ate": 10.5, "texto": "No dia certo, ela puxa conversa" },
+        { "de": 10.5, "ate": 16.8, "texto": "e monta o pedido para você." }
+      ]
+    },
+    {
+      "id": "voce-entra", "nome": "Cena: você entra", "tipo": "conversa", "duracao_s": 20,
+      "titulo": "Quando é com você",
+      "eventos": [
+        { "t": 0.3, "de": "estado", "texto": "Esperando você" },
+        { "t": 0.6, "de": "resumo", "titulo": "Pedido do {CLIENTE}", "linhas": ["Barba", "Amanhã, fim da tarde", "Com o {BARBEIRO}"] },
+        { "t": 6.0, "de": "estado", "texto": "Você está na conversa", "nota": "a assistente fica em silêncio" },
+        { "t": 7.0, "de": "dono", "texto": "Oi, {CLIENTE}, aqui é o {DONO}! Amanhã tenho 18h30 com o {BARBEIRO}. Pode ser?" },
+        { "t": 13.0, "de": "cliente", "texto": "Fechou!" },
+        { "t": 15.5, "de": "estado", "texto": "Voltou para a assistente" }
+      ],
+      "legendas": [
+        { "de": 0.3, "ate": 6.0, "texto": "O pedido chega pronto para você." },
+        { "de": 6.0, "ate": 12.5, "texto": "Quando você escreve, a assistente fica quieta." },
+        { "de": 12.5, "ate": 19.8, "texto": "Quem confirma o horário é sempre você." }
+      ]
+    },
+    {
+      "id": "datas", "nome": "Datas especiais", "tipo": "conversa", "duracao_s": 12,
+      "titulo": "Datas especiais", "selo": true,
+      "eventos": [
+        { "t": 0.5, "de": "aviso", "texto": "No aniversário do {CLIENTE}" },
+        { "t": 1.3, "de": "assistente", "texto": "Feliz aniversário, {CLIENTE}! Este mês a barba é por nossa conta." },
+        { "t": 5.5, "de": "aviso", "texto": "No Dia dos Pais, para quem contou que é pai" },
+        { "t": 6.3, "de": "assistente", "texto": "Feliz Dia dos Pais! Nesta semana, o combo está R$ 60." }
+      ],
+      "legendas": [
+        { "de": 0.3, "ate": 5.5, "texto": "Aniversário, Dia dos Pais, promoção da semana:" },
+        { "de": 5.5, "ate": 11.8, "texto": "só os benefícios que você aprovar." }
+      ]
+    },
+    {
+      "id": "limites", "nome": "Limites", "tipo": "conversa", "duracao_s": 18,
+      "titulo": "Limites claros",
+      "eventos": [
+        { "t": 1.0, "de": "cliente", "texto": "Meu corte ficou torto." },
+        { "t": 2.6, "de": "assistente", "texto": "Sinto muito! Vou chamar o {DONO} agora para resolver com você." },
+        { "t": 6.4, "de": "cliente", "texto": "É robô?" },
+        { "t": 7.8, "de": "assistente", "texto": "Sou a assistente virtual da {BARBEARIA}. Quer falar com o {DONO}?" },
+        { "t": 11.6, "de": "cliente", "texto": "Não me manda mais isso." },
+        { "t": 13.0, "de": "assistente", "texto": "Combinado, não envio mais. Quando quiser, é só chamar." }
+      ],
+      "legendas": [
+        { "de": 0.3, "ate": 6.2, "texto": "Reclamação vem direto para você." },
+        { "de": 6.2, "ate": 11.4, "texto": "Ela não finge ser gente." },
+        { "de": 11.4, "ate": 17.8, "texto": "E quem pede para parar, para na hora." }
+      ]
+    },
+    {
+      "id": "regra", "nome": "Regra de ouro", "tipo": "frase", "duracao_s": 6,
+      "linhas": [
+        { "de": 0.4, "texto": "A assistente atende." },
+        { "de": 1.8, "texto": "Quem decide é você.", "destaque": true }
+      ],
+      "legendas": []
+    },
+    {
+      "id": "perguntas", "nome": "O que precisamos de você", "tipo": "perguntas", "duracao_s": 26,
+      "titulo": "Para começar, preciso de 5 respostas suas",
+      "itens": [
+        { "de": 3.0, "titulo": "Agenda:", "texto": "onde você anota seus horários hoje?" },
+        { "de": 7.6, "titulo": "Devolver a conversa:", "texto": "uma palavra, um botão ou automático?" },
+        { "de": 12.2, "titulo": "Mensagens:", "texto": "no máximo uma por semana por cliente?" },
+        { "de": 16.8, "titulo": "Áudio e foto:", "texto": "a assistente deve entender?" },
+        { "de": 21.4, "titulo": "Benefícios:", "texto": "quais você toparia de verdade?" }
+      ],
+      "legendas": []
+    },
+    {
+      "id": "final", "nome": "Chamada final", "tipo": "final", "duracao_s": 8,
+      "chamada": "Me responde aqui mesmo no WhatsApp",
+      "rodape": "Antes de ligar de verdade, conferimos as regras do WhatsApp e da LGPD.",
+      "legendas": [
+        { "de": 0.3, "ate": 7.8, "texto": "Me responde por aqui que a gente ajusta tudo do seu jeito." }
+      ]
+    }
+  ]
+}
