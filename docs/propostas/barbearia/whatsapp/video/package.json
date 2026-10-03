@@ -8,6 +8,7 @@
   "dependencies": {
     "@remotion/cli": "4.0.532",
     "@remotion/google-fonts": "4.0.532",
+    "@remotion/media": "4.0.532",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "remotion": "4.0.532"
@@ -26,6 +27,8 @@
     "upgrade": "remotion upgrade",
     "lint": "eslint src && tsc",
     "verificar": "node scripts/verificar.mjs",
-    "amostras": "node scripts/amostras.mjs"
+    "amostras": "node scripts/amostras.mjs",
+    "audio": "node scripts/preparar-audio.mjs",
+    "render": "node scripts/render.mjs"
   }
 }

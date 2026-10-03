@@ -1,0 +1,135 @@
+1
+00:00:00,000 --> 00:00:04,000
+E se a sua barbearia respondesse sozinha?
+
+2
+00:00:04,400 --> 00:00:07,800
+E você só entrasse quando precisasse?
+
+3
+00:00:08,300 --> 00:00:11,100
+Você está com a tesoura na mão.
+
+4
+00:00:11,400 --> 00:00:15,300
+E o cliente quer saber preço, endereço e horário.
+
+5
+00:00:15,800 --> 00:00:18,800
+Conheça a assistente da sua barbearia.
+
+6
+00:00:19,200 --> 00:00:20,900
+Ela tira as dúvidas.
+
+7
+00:00:21,300 --> 00:00:23,200
+Lembra cada cliente.
+
+8
+00:00:23,400 --> 00:00:26,300
+E, quando é com você, ela te chama.
+
+9
+00:00:27,000 --> 00:00:29,300
+Três perguntas de uma vez?
+
+10
+00:00:30,500 --> 00:00:32,300
+Ela responde tudo.
+
+11
+00:00:32,700 --> 00:00:36,100
+Só com as informações da sua barbearia.
+
+12
+00:00:39,800 --> 00:00:44,400
+Ela sabe que o Pedro faz a barba a cada duas semanas.
+
+13
+00:00:44,900 --> 00:00:47,700
+No dia certo, ela puxa conversa.
+
+14
+00:00:50,500 --> 00:00:53,100
+E monta o pedido para você.
+
+15
+00:00:57,100 --> 00:01:00,100
+O pedido chega pronto para você.
+
+16
+00:01:02,500 --> 00:01:06,500
+Quando você escreve, a assistente fica quieta.
+
+17
+00:01:09,900 --> 00:01:13,300
+Quem confirma o horário é sempre você.
+
+18
+00:01:17,000 --> 00:01:18,600
+Aniversário.
+
+19
+00:01:22,000 --> 00:01:23,700
+Dia dos Pais.
+
+20
+00:01:23,800 --> 00:01:25,600
+Promoção da semana.
+
+21
+00:01:25,700 --> 00:01:28,400
+Só os benefícios que você aprovar.
+
+22
+00:01:31,100 --> 00:01:33,900
+Reclamação vem direto para você.
+
+23
+00:01:36,300 --> 00:01:38,300
+Ela não finge ser gente.
+
+24
+00:01:41,500 --> 00:01:44,700
+E quem pede para parar, para na hora.
+
+25
+00:01:46,900 --> 00:01:48,900
+A assistente atende.
+
+26
+00:01:48,900 --> 00:01:52,500
+Quem decide é você.
+
+27
+00:01:52,800 --> 00:01:56,800
+Para começar, preciso de cinco respostas suas.
+
+28
+00:01:56,800 --> 00:02:01,400
+Agenda: onde você anota seus horários hoje?
+
+29
+00:02:01,400 --> 00:02:06,000
+Devolver a conversa: uma palavra, um botão ou automático?
+
+30
+00:02:06,000 --> 00:02:10,600
+Mensagens: no máximo uma por semana por cliente?
+
+31
+00:02:10,600 --> 00:02:15,200
+Áudio e foto: a assistente deve entender?
+
+32
+00:02:15,200 --> 00:02:20,500
+Benefícios: quais você toparia de verdade?
+
+33
+00:02:20,800 --> 00:02:22,700
+Me responde por aqui.
+
+34
+00:02:23,100 --> 00:02:26,100
+E a gente ajusta tudo do seu jeito.

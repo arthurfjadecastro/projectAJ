@@ -15,18 +15,30 @@ AI-007. Vídeo vertical para o dono da barbearia, feito em [Remotion](https://ww
 
 ## Comandos
 
-Requisitos: Node.js 18 ou mais novo. Funciona igual no Windows e no macOS.
+Requisitos: Node.js 18 ou mais novo e ffmpeg/ffprobe no PATH. Funciona igual no Windows e no macOS.
 
 ```sh
 npm i                # uma vez
 npm run verificar    # regras do prompt
 npm run amostras     # quadros das cenas 2, 5 e 9
 npm run dev          # pré-visualização no Remotion Studio
+npm run audio        # normaliza a narração (-16 LUFS) e corta uma faixa por cena em public/narracao/
+npm run render       # vídeo completo e saídas para o WhatsApp
 ```
 
-Para trocar o nome da barbearia ou do dono, edite `config.json` e rode `npm run verificar` antes de renderizar: nomes longos podem deixar uma legenda rápida demais.
+`npm run render` roda o verificador e gera:
 
-O vídeo completo, as legendas `.srt`, a capa e a narração são a etapa 2, depois da aprovação de Arthur. O comando `npm run render` será criado nela.
+| Saída | No Git? |
+|---|---|
+| `saida/video_whatsapp.mp4`: H.264 main + AAC, faststart, abaixo de 15 MB | sim |
+| `saida/video_alta.mp4`: CRF 18, para guardar ou publicar em outro lugar | não |
+| `saida/legendas.srt`: legendas da tela e, nas cenas sem legenda, o texto falado | sim |
+| `saida/capa.png`: miniatura 1080×1920 (cena 2) | sim |
+| `saida/frames/`: um quadro por cena, para revisão rápida | não |
+
+A narração já preparada em `public/narracao/` está no Git, então o vídeo pode ser renderizado de novo sem o ambiente do Chatterbox. Só é preciso gerar a narração outra vez quando uma fala mudar: `narracao/narrar.py --nome voz-b` e depois `npm run audio`.
+
+Para trocar o nome da barbearia ou do dono, edite `config.json` e rode `npm run verificar` antes de renderizar: nomes longos podem deixar uma legenda rápida demais. Os nomes da barbearia e do dono não são falados, então trocá-los não exige gerar a narração de novo; o nome do cliente (Pedro) é falado na cena 4.
 
 ## Narração (Chatterbox, local)
 

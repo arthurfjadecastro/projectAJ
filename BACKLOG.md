@@ -76,9 +76,7 @@ Status: `[ ] NOT_STARTED`, `[~] IN_PROGRESS`, `[?] BLOCKED`, `[R] READY_FOR_REVI
 ## [R] AI-007 — Vídeo explicativo do atendente para o dono da barbearia
 
 - Status: READY_FOR_REVIEW
-- Aguardando Arthur: ouvir a narração completa com a voz B, já sem "IA" e em frases curtas (DEC-014), em `video/saida/narracao/voz-b/narracao-completa.wav` (fora do Git), e aprovar o roteiro de 148,5 s para a renderização final.
-- Aguardando Arthur: aprovar roteiro e amostras visuais e escolher a voz entre três amostras da cena 2 geradas com Chatterbox local (DEC-013), em `video/saida/narracao/` (fora do Git).
-- Entrega da etapa 1: prompt corrigido, `video/roteiro.md`, `config.json`, `cenas.json`, projeto Remotion com as 11 cenas, verificação automática das regras e amostras das cenas 2, 5 e 9 em `video/saida/amostras/`. A etapa 2 (vídeo completo) aguarda aprovação de Arthur.
+- Entrega final: `video/saida/video_whatsapp.mp4` (148,5 s, 1080×1920, H.264 Main yuv420p, AAC, 4,9 MB), `legendas.srt`, `capa.png`; `npm run audio` e `npm run render`. Aguarda Arthur assistir no celular e aceitar.
 - Autorização: DEC-012; prompt de Arthur em `docs/propostas/barbearia/whatsapp/prompt-video.md`.
 - Escopo: etapa 1 nesta sessão (prompt corrigido, `roteiro.md`, `config.json`, `cenas.json`, projeto Remotion e quadros de amostra das cenas 2, 5 e 9). Etapa 2, após aprovação de Arthur: vídeo completo, legendas, capa e frames.
 - Aceite: checklist do prompt; nenhum código interno na tela; a assistente nunca marca horário, dá desconto ou finge ser pessoa; selo "valores de exemplo"; nomes trocáveis por configuração.

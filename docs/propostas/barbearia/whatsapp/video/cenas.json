@@ -7,7 +7,7 @@
       "id": "gancho", "nome": "Gancho", "tipo": "gancho", "duracao_s": 8,
       "chegando": ["Quanto tá a barba?", "Abre sábado?", "Tem horário hoje?", "Aceita Pix?", "Onde fica?", "Faz degradê?"],
       "legendas": [
-        { "de": 0.3, "ate": 4.0, "texto": "E se a sua barbearia respondesse sozinha?" },
+        { "de": 0.0, "ate": 4.0, "texto": "E se a sua barbearia respondesse sozinha?" },
         { "de": 4.4, "ate": 7.8, "texto": "E você só entrasse quando precisasse?" }
       ]
     },

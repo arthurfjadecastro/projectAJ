@@ -45,6 +45,10 @@ Para Arthur enviar junto com o vídeo, com as perguntas completas:
 > 4. A assistente deve entender áudio? E foto de corte de referência: ela comenta ou passa para o barbeiro?
 > 5. Quais benefícios você toparia de verdade? Aniversário, Dia dos Pais, combo em dia fraco?
 
+## Vídeo final
+
+`npm run render` gera `saida/video_whatsapp.mp4` (o arquivo a enviar), `saida/video_alta.mp4`, `saida/legendas.srt`, `saida/capa.png` e `saida/frames/`. O primeiro quadro, que o WhatsApp usa como miniatura, já mostra o nome da barbearia, a primeira mensagem e a pergunta do gancho.
+
 ## Amostras
 
 - Imagem: `saida/amostras/` (cena 2 aos 9,5 s, cena 5 aos 12 s, cena 9 aos 25,5 s). Gerar de novo com `npm run amostras`.

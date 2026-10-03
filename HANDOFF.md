@@ -1,30 +1,29 @@
 # Passagem de responsabilidade
 
-- Atualizado em: 2026-10-02T22:37:57-03:00
+- Atualizado em: 2026-10-02T23:14:39-03:00
 - Tarefa: AI-007 — Vídeo explicativo do atendente para o dono da barbearia (READY_FOR_REVIEW).
 - Status: Claude Code encerrou a edição; arquivos liberados.
 
 ## Ponto exato
 
-Narração completa de 148,5 s gerada com a voz B, sem "IA" e em frases curtas (DEC-014). Aguardando Arthur ouvir e aprovar o roteiro antes da renderização final. Nada do vídeo completo foi renderizado.
+Vídeo final pronto em `docs/propostas/barbearia/whatsapp/video/saida/video_whatsapp.mp4`. Aguarda Arthur assistir no celular e aceitar. Nada foi enviado ao dono.
 
 ## Concluído
 
-- `video/cenas.json`: falas em frases curtas, campos `fala` e `titulo_fala`, bloco `voz` com a voz B, tempos de 148,5 s.
-- `video/narracao/narrar.py`: usa o texto falado, a voz padrão de `cenas.json` e monta `narracao-completa.wav`.
-- `video/scripts/verificar.mjs`: zero "IA" e fala sem algarismos, "WhatsApp", siglas ou nome da barbearia.
-- `video/roteiro.md` e `prompt-video.md` atualizados conforme a DEC-014.
-- Só nesta máquina: `video/saida/narracao/voz-b/` (11 cenas e o áudio completo).
+- `video_whatsapp.mp4`: 148,5 s, 1080×1920, H.264 Main yuv420p faixa tv, AAC 48 kHz, faststart, 4,9 MB. `legendas.srt` (34 blocos) e `capa.png` (cena 2) no Git; `video_alta.mp4` e `saida/frames/` só nesta máquina.
+- `npm run audio` (`scripts/preparar-audio.mjs`): normaliza a narração para -16 LUFS e corta uma faixa por cena em `public/narracao/` (versionada).
+- `npm run render` (`scripts/render.mjs`): verificador, versão alta, versão para WhatsApp (CRF 21 com teto; duas passadas se passar de 15 MB), `.srt`, capa e frames. `--reaproveitar` refaz as saídas sem nova renderização.
+- Primeiro quadro com conteúdo para a miniatura; esmaecimento no topo do chat; plural do contador corrigido.
 
 ## Validações
 
-`npm run verificar` aprovado; `tsc` sem erros; todas as falas cabem nas legendas; volume médio -20,6 dB e pico 0,0 dB; amostras de imagem regeneradas.
+Checklist do prompt conferido item por item no WORKLOG. Não verificado pelo agente: assistir com som num celular real e a compreensão sem som por um leigo.
 
 ## Pendências e próxima ação
 
-1. Arthur ouve a narração completa e aprova o roteiro. Ajustes de fala: editar `cenas.json` (campo `fala` ou texto da legenda), rodar `npm run verificar` e `narrar.py --nome voz-b`.
-2. Renderização final: `<Audio>` de `@remotion/media` por cena com os WAVs de `voz-b`, normalização de volume (por exemplo, `loudnorm` do ffmpeg), `npm run render` com versão até 16 MB e versão alta, `legendas.srt` a partir de `cenas.json`, `capa.png`, `saida/frames/` e o checklist do prompt item por item.
-3. A variante `ptbr` usa o decodificador principal porque o `s3gen_v3` não encaixa no pacote; reavaliar quando o Chatterbox publicar suporte oficial.
+1. Arthur assiste e aceita ou pede ajustes. Mudança de texto na tela: editar `cenas.json` e `npm run render`. Mudança de fala: editar `cenas.json`, `narracao/narrar.py --nome voz-b` (ambiente em `video/narracao/.venv`), `npm run audio` e `npm run render`.
+2. Para personalizar: trocar BARBEARIA e DONO em `config.json` e `npm run render`; o nome do cliente (Pedro) é falado na cena 4.
+3. Enviar ao dono é decisão e ação de Arthur, com a mensagem de acompanhamento do `roteiro.md`.
 4. Seguem pendentes: Q1–Q12 do catálogo (AI-006) e o registro da reunião com o dono (AI-005).
 
 ## Arquivos de entrada

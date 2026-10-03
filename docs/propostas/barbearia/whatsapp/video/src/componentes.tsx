@@ -27,7 +27,7 @@ export const Legendas: React.FC<{ legendas: TLegenda[] }> = ({ legendas }) => {
   const inicio = quadros(atual.de);
   return (
     <div style={{ position: "absolute", top: TOPO_LEGENDA, left: MARGEM, width: LARGURA_UTIL, height: ALTURA_LEGENDA, display: "flex", alignItems: "center", justifyContent: "center" }}>
-      <div style={{ background: "rgba(28,27,26,0.94)", color: cor.creme, fontFamily: sans, fontWeight: 600, fontSize: 52, lineHeight: 1.24, textAlign: "center", borderRadius: 28, padding: "20px 34px", opacity: interpolate(q, [inicio, inicio + 5], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) }}>
+      <div style={{ background: "rgba(28,27,26,0.94)", color: cor.creme, fontFamily: sans, fontWeight: 600, fontSize: 52, lineHeight: 1.24, textAlign: "center", borderRadius: 28, padding: "20px 34px", opacity: inicio === 0 ? 1 : interpolate(q, [inicio, inicio + 5], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" }) }}>
         {preencher(atual.texto)}
       </div>
     </div>
@@ -47,7 +47,7 @@ export const JanelaChat: React.FC<{ topo: number; altura: number; cabecalho?: bo
         <div style={{ fontFamily: sans, fontWeight: 700, fontSize: 52, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{NOME_BARBEARIA}</div>
       </div>
     )}
-    <div style={{ flex: 1, minHeight: 0, overflow: "hidden", display: "flex", flexDirection: "column", justifyContent: "flex-end", gap: 22, padding: "28px 28px 32px" }}>
+    <div style={{ flex: 1, minHeight: 0, overflow: "hidden", display: "flex", flexDirection: "column", justifyContent: "flex-end", gap: 22, padding: "28px 28px 32px", maskImage: "linear-gradient(to bottom, transparent 0, black 90px)", WebkitMaskImage: "linear-gradient(to bottom, transparent 0, black 90px)" }}>
       {children}
     </div>
   </div>

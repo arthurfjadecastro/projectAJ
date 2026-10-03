@@ -11,22 +11,24 @@ const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 export const Gancho: React.FC<{ cena: Cena }> = ({ cena }) => {
   const q = useCurrentFrame();
   const chegando = cena.chegando ?? [];
-  const recebidas = chegando.filter((_, i) => q >= quadros(0.4 + i * 0.5)).length;
+  // O primeiro quadro vira a miniatura no WhatsApp: cabeçalho e primeira mensagem já visíveis.
+  const chegada = (i: number) => quadros(i * 0.5);
+  const recebidas = chegando.filter((_, i) => q >= chegada(i)).length;
   return (
     <AbsoluteFill style={{ background: cor.moldura }}>
-      <div style={{ position: "absolute", top: 190, left: MARGEM, display: "flex", alignItems: "center", gap: 28, ...entrada(q, 0) }}>
+      <div style={{ position: "absolute", top: 190, left: MARGEM, display: "flex", alignItems: "center", gap: 28 }}>
         <Avatar tamanho={110} />
         <div style={{ display: "grid" }}>
           <div style={{ fontFamily: sans, fontWeight: 700, fontSize: 56, color: cor.creme }}>{NOME_BARBEARIA}</div>
-          <div style={{ fontFamily: sans, fontSize: 48, color: "#CFC6B8" }}>{recebidas} mensagens novas</div>
+          <div style={{ fontFamily: sans, fontSize: 48, color: "#CFC6B8" }}>{recebidas === 1 ? "1 mensagem nova" : `${recebidas} mensagens novas`}</div>
         </div>
       </div>
       <div style={{ position: "absolute", top: 400, left: MARGEM, width: LARGURA_UTIL, display: "grid", gap: 22 }}>
         {chegando.map((texto, i) => {
-          const inicio = quadros(0.4 + i * 0.5);
+          const inicio = chegada(i);
           if (q < inicio) return null;
           return (
-            <div key={texto} style={{ background: "#2A2826", borderRadius: 28, padding: "18px 30px", display: "grid", gap: 2, ...entrada(q, inicio, 6) }}>
+            <div key={texto} style={{ background: "#2A2826", borderRadius: 28, padding: "18px 30px", display: "grid", gap: 2, ...(i === 0 ? {} : entrada(q, inicio, 6)) }}>
               <div style={{ fontFamily: sans, fontWeight: 600, fontSize: 48, color: "#C9A04E" }}>Cliente</div>
               <div style={{ fontFamily: sans, fontSize: 52, color: cor.creme }}>{texto}</div>
             </div>

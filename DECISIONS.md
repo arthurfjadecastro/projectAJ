@@ -85,3 +85,9 @@ Impacto: instalar Python 3.11 gerenciado, PyTorch 2.6 com CUDA e `chatterbox-tts
 Em 2026-10-02T22:31:27-03:00, depois de ouvir as amostras da cena 2, Arthur avaliou que "IA" soa mal na voz sintética e pediu para **tirar da narração as palavras sem boa dicção** e usar **frases curtas e pausadas**, para o dono entender com clareza. Escolheu a **voz B** (variante pt-BR, ênfase 0,35, ritmo 0,3) como base para adaptar e melhorar. Fonte: mensagem explícita nesta sessão.
 
 Impacto: substitui a regra da DEC-012 de dizer "IA" uma vez; agora o vídeo não diz nem mostra "IA" nas falas. O texto falado evita palavras estrangeiras (como "WhatsApp"), siglas e números em algarismos, e não fala o nome da barbearia, que é variável. A legenda acompanha a fala. Cada frase vira um trecho separado, com pausa entre os trechos. A duração total continua dentro de 90 a 150 s.
+
+## DEC-015 — Etapa 2 do vídeo autorizada
+
+Em 2026-10-02T22:49:51-03:00, depois de ouvir a narração completa com a voz B, Arthur respondeu "pode continuar" ao pedido de aprovação da narração e do roteiro de 148,5 s. Fonte: mensagem explícita nesta sessão.
+
+Impacto: autoriza a etapa 2 de AI-007: narração normalizada ligada às cenas, `npm run render`, versão para WhatsApp até 16 MB, versão alta, legendas `.srt`, capa e um quadro por cena. A narração normalizada (MP3, poucos MB) é versionada para o vídeo poder ser renderizado de novo sem o ambiente de 6 GB; `video_alta.mp4` e `saida/frames/` ficam fora do Git. Nada é enviado ao dono pelo agente.
