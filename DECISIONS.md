@@ -79,3 +79,9 @@ Impacto: AI-007 executa o prompt corrigido, guardado em `docs/propostas/barbeari
 Em 2026-10-02T22:01:37-03:00, depois de comparar opções de voz, Arthur escolheu o **Chatterbox**, da Resemble AI, rodando localmente, para a narração do vídeo. Motivos: é gratuito, a licença MIT permite uso comercial, o texto não sai da máquina e a RTX 3060 Ti dá conta. Descartados: o plano gratuito da ElevenLabs (sem licença comercial e com atribuição obrigatória), XTTS-v2 e F5-TTS (modelos de licença não comercial) e edge-tts (uso não oficial do leitor do Edge). Azure Speech e Google Cloud ficam como alternativa se a qualidade não agradar. Fonte: resposta explícita nesta sessão.
 
 Impacto: instalar Python 3.11 gerenciado, PyTorch 2.6 com CUDA e `chatterbox-tts` num ambiente local ignorado pelo Git, com dependências declaradas no repositório. O áudio gerado traz a marca d'água imperceptível da Resemble AI. Primeiro sai uma amostra da cena 2 para Arthur escolher a voz; a narração completa faz parte da etapa 2, que ainda depende da aprovação do roteiro. Nenhuma clonagem de voz de pessoa real sem consentimento.
+
+## DEC-014 — Narração clara, sem "IA", com a voz B
+
+Em 2026-10-02T22:31:27-03:00, depois de ouvir as amostras da cena 2, Arthur avaliou que "IA" soa mal na voz sintética e pediu para **tirar da narração as palavras sem boa dicção** e usar **frases curtas e pausadas**, para o dono entender com clareza. Escolheu a **voz B** (variante pt-BR, ênfase 0,35, ritmo 0,3) como base para adaptar e melhorar. Fonte: mensagem explícita nesta sessão.
+
+Impacto: substitui a regra da DEC-012 de dizer "IA" uma vez; agora o vídeo não diz nem mostra "IA" nas falas. O texto falado evita palavras estrangeiras (como "WhatsApp"), siglas e números em algarismos, e não fala o nome da barbearia, que é variável. A legenda acompanha a fala. Cada frase vira um trecho separado, com pausa entre os trechos. A duração total continua dentro de 90 a 150 s.

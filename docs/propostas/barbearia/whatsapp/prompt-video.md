@@ -44,13 +44,17 @@ Traduza os 4 estados para a linguagem do dono, sem códigos:
 
 ## Vocabulário
 
-- Na narração e nas legendas, diga **"assistente"** (no feminino). A palavra **"IA" aparece uma única vez**, na cena 2, para apresentar a solução.
-- Proibido na narração: modelo, API, prompt, n8n, automação, LGPD ou qualquer termo técnico. Exceção: uma única linha pequena no fim, "Antes de ligar de verdade, conferimos as regras do WhatsApp e da LGPD."
+- Na narração e nas legendas, diga **"assistente"** (no feminino). **Não diga "IA"**: soa mal na voz sintética (DEC-014, que substitui a regra anterior de dizer "IA" uma vez).
+- **Frases curtas e pausadas**, uma por legenda, para o dono entender com clareza.
+- A fala evita palavras com dicção ruim na voz sintética: palavras estrangeiras ("WhatsApp"), siglas, números em algarismos e o nome da barbearia (que é variável). Na tela eles podem aparecer.
+- Proibido na narração: modelo, API, prompt, n8n, automação, LGPD ou qualquer termo técnico. Exceção na tela, sem narração: uma única linha pequena no fim, "Antes de ligar de verdade, conferimos as regras do WhatsApp e da LGPD."
 - O simulador ainda usa "o assistente"; nome e gênero definitivos estão em aberto (Q10 do `cenarios.md`).
 
 ## Roteiro (estrutura obrigatória, ajuste o texto)
 
 Duração alvo: **90 a 150 segundos**. Se passar de 150 s, corte cenas; não acelere a fala nem encurte o tempo de leitura.
+
+A tabela abaixo é a estrutura original. As falas e os tempos finais estão em `video/roteiro.md` (frases curtas, sem "IA"; 148,5 s).
 
 | # | Tempo aprox. | Cena | O que aparece | Narração / legenda (sugestão) |
 |---|---|---|---|---|
@@ -128,7 +132,7 @@ O repositório é público e o GitHub limita arquivos grandes. Versione apenas `
 - [ ] Duração entre 90 e 150 s; arquivo para WhatsApp ≤ 16 MB; 1080×1920.
 - [ ] Nenhum código interno (A04, E2, DEC-011...) aparece na tela.
 - [ ] A assistente nunca aparece marcando horário, dando desconto ou fingindo ser pessoa.
-- [ ] "IA" aparece uma única vez, na cena 2.
+- [ ] "IA" não aparece; a fala não tem palavras estrangeiras, siglas, algarismos nem o nome da barbearia.
 - [ ] Selo "valores de exemplo" em toda tela com preço ou benefício.
 - [ ] Cada balão respeita o tempo mínimo de leitura.
 - [ ] Trocar `{BARBEARIA}` e `{DONO}` no `config.json` e renderizar de novo funciona.

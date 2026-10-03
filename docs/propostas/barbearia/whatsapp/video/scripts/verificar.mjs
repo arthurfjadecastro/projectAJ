@@ -1,5 +1,6 @@
 // Confere cenas.json contra o checklist do prompt: duração, tempo de leitura,
-// "IA" uma única vez, nenhum código interno e nomes preenchidos.
+// nenhum "IA" (DEC-014), fala sem palavras de dicção difícil, nenhum código
+// interno e nomes preenchidos.
 import { readFileSync } from "node:fs";
 
 const config = JSON.parse(readFileSync(new URL("../config.json", import.meta.url), "utf8"));
@@ -9,6 +10,7 @@ const minimo = (texto) => leitura.minimo_s + leitura.por_caractere_s * preencher
 
 const falhas = [];
 const textos = [];
+const falas = [];
 let total = 0;
 
 for (const [n, cena] of cenas.entries()) {
@@ -29,6 +31,13 @@ for (const [n, cena] of cenas.entries()) {
   for (const l of cena.linhas ?? []) checar("frase", l.de, l.texto);
   for (const t of cena.chegando ?? []) textos.push(t);
   for (const t of [cena.titulo, cena.aviso, cena.chamada, cena.rodape]) if (t) textos.push(t);
+  // Texto falado (DEC-014): o mesmo que a narração usa em narrar.py.
+  for (const l of cena.legendas) falas.push([n, l.fala ?? l.texto]);
+  for (const l of cena.linhas ?? []) falas.push([n, l.fala ?? l.texto]);
+  if (cena.tipo === "perguntas") {
+    falas.push([n, cena.titulo_fala ?? cena.titulo]);
+    for (const i of cena.itens) falas.push([n, i.fala ?? `${i.titulo} ${i.texto}`]);
+  }
   for (const l of cena.legendas) {
     textos.push(l.texto);
     const cps = preencher(l.texto).length / (l.ate - l.de);
@@ -43,7 +52,18 @@ const codigos = tudo.match(/\b[A-G]\d{2}\b|\bE[1-4]\b|\bDEC-\d+|\bGQ-\d+/g) ?? [
 const sobras = tudo.match(/\{\w+\}/g) ?? [];
 
 if (total < 90 || total > 150) falhas.push(`duração total ${total} s fora de 90–150 s`);
-if (ia !== 1) falhas.push(`"IA" aparece ${ia} vezes; deve aparecer 1`);
+if (ia !== 0) falhas.push(`"IA" aparece ${ia} vezes; não deve aparecer (DEC-014)`);
+// Fala sem palavras de dicção difícil para a voz sintética (DEC-014).
+for (const [n, f] of falas) {
+  const dita = preencher(f);
+  const problemas = [
+    [/\d/, "algarismo (escreva por extenso)"],
+    [/whats ?app/i, '"WhatsApp"'],
+    [/\b[A-ZÀ-Ú]{2,}\b/, "sigla"],
+  ].filter(([re]) => re.test(dita));
+  if (f.includes("{BARBEARIA}") || dita.includes(config.BARBEARIA)) problemas.push([null, "nome da barbearia"]);
+  for (const [, motivo] of problemas) falhas.push(`cena ${n}: fala com ${motivo}: "${f}"`);
+}
 if (codigos.length) falhas.push(`códigos internos na tela: ${codigos.join(", ")}`);
 if (sobras.length) falhas.push(`variáveis sem valor em config.json: ${sobras.join(", ")}`);
 

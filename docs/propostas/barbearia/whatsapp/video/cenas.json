@@ -1,21 +1,22 @@
 {
   "fps": 30,
   "leitura": { "minimo_s": 1.5, "por_caractere_s": 0.06 },
+  "voz": { "modelo": "ptbr", "exaggeration": 0.35, "cfg": 0.3 },
   "cenas": [
     {
-      "id": "gancho", "nome": "Gancho", "tipo": "gancho", "duracao_s": 7,
+      "id": "gancho", "nome": "Gancho", "tipo": "gancho", "duracao_s": 8,
       "chegando": ["Quanto tá a barba?", "Abre sábado?", "Tem horário hoje?", "Aceita Pix?", "Onde fica?", "Faz degradê?"],
       "legendas": [
-        { "de": 0.3, "ate": 4.0, "texto": "E se o WhatsApp da {BARBEARIA} respondesse sozinho," },
-        { "de": 4.0, "ate": 6.8, "texto": "e você só entrasse quando precisasse?" }
+        { "de": 0.3, "ate": 4.0, "texto": "E se a sua barbearia respondesse sozinha?" },
+        { "de": 4.4, "ate": 7.8, "texto": "E você só entrasse quando precisasse?" }
       ]
     },
     {
-      "id": "problema", "nome": "O problema", "tipo": "problema", "duracao_s": 7,
+      "id": "problema", "nome": "O problema", "tipo": "problema", "duracao_s": 7.5,
       "aviso": "mensagens esperando",
       "legendas": [
-        { "de": 0.3, "ate": 3.4, "texto": "Você está com a tesoura na mão," },
-        { "de": 3.4, "ate": 6.8, "texto": "e o cliente quer saber preço, endereço, horário..." }
+        { "de": 0.3, "ate": 3.1, "texto": "Você está com a tesoura na mão." },
+        { "de": 3.4, "ate": 7.3, "texto": "E o cliente quer saber preço, endereço e horário." }
       ]
     },
     {
@@ -27,9 +28,10 @@
         { "de": 4.0, "titulo": "Chama você", "texto": "quando o assunto é horário ou decisão" }
       ],
       "legendas": [
-        { "de": 0.3, "ate": 4.2, "texto": "Conheça a assistente: uma IA que tira as dúvidas," },
-        { "de": 4.2, "ate": 7.2, "texto": "manda lembretes para cada cliente" },
-        { "de": 7.2, "ate": 10.8, "texto": "e, quando o assunto é com você, te chama." }
+        { "de": 0.3, "ate": 3.3, "texto": "Conheça a assistente da sua barbearia." },
+        { "de": 3.7, "ate": 5.4, "texto": "Ela tira as dúvidas." },
+        { "de": 5.8, "ate": 7.7, "texto": "Lembra cada cliente." },
+        { "de": 7.9, "ate": 10.8, "texto": "E, quando é com você, ela te chama." }
       ]
     },
     {
@@ -40,8 +42,9 @@
         { "t": 3.8, "de": "assistente", "texto": "Barba: R$ 35, uns 30 min\nPix, débito, crédito ou dinheiro\nRua das Palmeiras, 120" }
       ],
       "legendas": [
-        { "de": 0.5, "ate": 4.0, "texto": "Três perguntas de uma vez?" },
-        { "de": 4.0, "ate": 12.8, "texto": "Ela responde tudo, só com as informações da sua barbearia." }
+        { "de": 0.5, "ate": 2.8, "texto": "Três perguntas de uma vez?" },
+        { "de": 4.0, "ate": 5.8, "texto": "Ela responde tudo." },
+        { "de": 6.2, "ate": 9.6, "texto": "Só com as informações da sua barbearia." }
       ]
     },
     {
@@ -55,9 +58,9 @@
         { "t": 11.0, "de": "assistente", "texto": "Fechado! Vou passar seu pedido para o {DONO}, que confirma o horário." }
       ],
       "legendas": [
-        { "de": 0.3, "ate": 5.5, "texto": "Ela sabe que o {CLIENTE} faz a barba a cada duas semanas." },
-        { "de": 5.5, "ate": 10.5, "texto": "No dia certo, ela puxa conversa" },
-        { "de": 10.5, "ate": 16.8, "texto": "e monta o pedido para você." }
+        { "de": 0.3, "ate": 4.9, "texto": "Ela sabe que o {CLIENTE} faz a barba a cada duas semanas." },
+        { "de": 5.4, "ate": 8.2, "texto": "No dia certo, ela puxa conversa." },
+        { "de": 11.0, "ate": 13.6, "texto": "E monta o pedido para você." }
       ]
     },
     {
@@ -72,9 +75,9 @@
         { "t": 15.5, "de": "estado", "texto": "Voltou para a assistente" }
       ],
       "legendas": [
-        { "de": 0.3, "ate": 6.0, "texto": "O pedido chega pronto para você." },
-        { "de": 6.0, "ate": 12.5, "texto": "Quando você escreve, a assistente fica quieta." },
-        { "de": 12.5, "ate": 19.8, "texto": "Quem confirma o horário é sempre você." }
+        { "de": 0.6, "ate": 3.6, "texto": "O pedido chega pronto para você." },
+        { "de": 6.0, "ate": 10.0, "texto": "Quando você escreve, a assistente fica quieta." },
+        { "de": 13.4, "ate": 16.8, "texto": "Quem confirma o horário é sempre você." }
       ]
     },
     {
@@ -87,8 +90,10 @@
         { "t": 6.3, "de": "assistente", "texto": "Feliz Dia dos Pais! Nesta semana, o combo está R$ 60." }
       ],
       "legendas": [
-        { "de": 0.3, "ate": 5.5, "texto": "Aniversário, Dia dos Pais, promoção da semana:" },
-        { "de": 5.5, "ate": 11.8, "texto": "só os benefícios que você aprovar." }
+        { "de": 0.5, "ate": 2.1, "texto": "Aniversário." },
+        { "de": 5.5, "ate": 7.2, "texto": "Dia dos Pais." },
+        { "de": 7.3, "ate": 9.1, "texto": "Promoção da semana." },
+        { "de": 9.2, "ate": 11.9, "texto": "Só os benefícios que você aprovar." }
       ]
     },
     {
@@ -103,28 +108,29 @@
         { "t": 13.0, "de": "assistente", "texto": "Combinado, não envio mais. Quando quiser, é só chamar." }
       ],
       "legendas": [
-        { "de": 0.3, "ate": 6.2, "texto": "Reclamação vem direto para você." },
-        { "de": 6.2, "ate": 11.4, "texto": "Ela não finge ser gente." },
-        { "de": 11.4, "ate": 17.8, "texto": "E quem pede para parar, para na hora." }
+        { "de": 2.6, "ate": 5.4, "texto": "Reclamação vem direto para você." },
+        { "de": 7.8, "ate": 9.8, "texto": "Ela não finge ser gente." },
+        { "de": 13.0, "ate": 16.2, "texto": "E quem pede para parar, para na hora." }
       ]
     },
     {
       "id": "regra", "nome": "Regra de ouro", "tipo": "frase", "duracao_s": 6,
       "linhas": [
         { "de": 0.4, "texto": "A assistente atende." },
-        { "de": 1.8, "texto": "Quem decide é você.", "destaque": true }
+        { "de": 2.4, "texto": "Quem decide é você.", "destaque": true }
       ],
       "legendas": []
     },
     {
-      "id": "perguntas", "nome": "O que precisamos de você", "tipo": "perguntas", "duracao_s": 26,
+      "id": "perguntas", "nome": "O que precisamos de você", "tipo": "perguntas", "duracao_s": 28,
       "titulo": "Para começar, preciso de 5 respostas suas",
+      "titulo_fala": "Para começar, preciso de cinco respostas suas.",
       "itens": [
-        { "de": 3.0, "titulo": "Agenda:", "texto": "onde você anota seus horários hoje?" },
-        { "de": 7.6, "titulo": "Devolver a conversa:", "texto": "uma palavra, um botão ou automático?" },
-        { "de": 12.2, "titulo": "Mensagens:", "texto": "no máximo uma por semana por cliente?" },
-        { "de": 16.8, "titulo": "Áudio e foto:", "texto": "a assistente deve entender?" },
-        { "de": 21.4, "titulo": "Benefícios:", "texto": "quais você toparia de verdade?" }
+        { "de": 4.3, "titulo": "Agenda:", "texto": "onde você anota seus horários hoje?" },
+        { "de": 8.9, "titulo": "Devolver a conversa:", "texto": "uma palavra, um botão ou automático?", "fala": "Devolver a conversa: palavra, botão ou automático?" },
+        { "de": 13.5, "titulo": "Mensagens:", "texto": "no máximo uma por semana por cliente?" },
+        { "de": 18.1, "titulo": "Áudio e foto:", "texto": "a assistente deve entender?" },
+        { "de": 22.7, "titulo": "Benefícios:", "texto": "quais você toparia de verdade?" }
       ],
       "legendas": []
     },
@@ -133,7 +139,8 @@
       "chamada": "Me responde aqui mesmo no WhatsApp",
       "rodape": "Antes de ligar de verdade, conferimos as regras do WhatsApp e da LGPD.",
       "legendas": [
-        { "de": 0.3, "ate": 7.8, "texto": "Me responde por aqui que a gente ajusta tudo do seu jeito." }
+        { "de": 0.3, "ate": 2.2, "texto": "Me responde por aqui." },
+        { "de": 2.6, "ate": 5.6, "texto": "E a gente ajusta tudo do seu jeito." }
       ]
     }
   ]
