@@ -1,0 +1,11 @@
+# Narração local com Chatterbox (DEC-013). Python 3.11.
+# Windows/Linux com placa NVIDIA: o índice abaixo traz o PyTorch com CUDA 12.4.
+# macOS: o pip ignora esse índice e usa o PyTorch padrão (aceleração MPS).
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch==2.6.0
+torchaudio==2.6.0
+# Versão do GitHub fixada em commit: a do PyPI (0.1.7) ainda não tem a variante pt-BR.
+chatterbox-tts @ git+https://github.com/resemble-ai/chatterbox.git@5de7a54aa4e5e2baadb0182dde554908b48b85c2
+resemble-perth @ git+https://github.com/resemble-ai/Perth.git@ff1c8ac55a976971245cdd53c18d6131ca00d993
+# A marca d'água usa pkg_resources, que saiu do setuptools a partir da versão 81.
+setuptools<81

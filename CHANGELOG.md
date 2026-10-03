@@ -23,3 +23,4 @@
 
 - AI-006: DEC-011; regras e catálogo de 99 cenários do atendimento por WhatsApp da barbearia, com quatro estados da conversa e passagem ao dono na mesma conversa; simulador de demonstração com dez cenários vitrine e dados fictícios em `docs/propostas/barbearia/whatsapp/`.
 - AI-007: DEC-012; prompt do vídeo para o dono corrigido e movido para `docs/propostas/barbearia/whatsapp/`; etapa 1 executada: roteiro de 145 s em 11 cenas, dados do vídeo, projeto Remotion, verificação automática das regras do prompt e três quadros de amostra.
+- AI-007: DEC-013; narração local com Chatterbox (MIT): ambiente Python 3.11 com PyTorch CUDA declarado em `video/narracao/requirements.txt` e script `narrar.py`, que posiciona cada fala no tempo da legenda; três amostras de voz da cena 2.

@@ -28,6 +28,20 @@ Para trocar o nome da barbearia ou do dono, edite `config.json` e rode `npm run 
 
 O vídeo completo, as legendas `.srt`, a capa e a narração são a etapa 2, depois da aprovação de Arthur. O comando `npm run render` será criado nela.
 
+## Narração (Chatterbox, local)
+
+Voz sintética gerada nesta máquina com o [Chatterbox](https://github.com/resemble-ai/chatterbox) (licença MIT, DEC-013). O áudio sai com a marca d'água imperceptível da Resemble AI. Requisitos: Python 3.11 e, de preferência, placa NVIDIA (no macOS usa MPS). A primeira execução baixa cerca de 6 GB de modelos para o cache do Hugging Face.
+
+```sh
+cd narracao
+uv venv --python 3.11 .venv
+uv pip install --python .venv/bin/python -r requirements.txt --index-strategy unsafe-best-match   # Windows: .venv\Scripts\python.exe
+.venv/bin/python narrar.py --cenas 2 --nome ptbr-padrao                                         # uma cena
+.venv/bin/python narrar.py --nome final --modelo ptbr                                           # todas as cenas
+```
+
+O script gera cada trecho de narração e o posiciona no instante em que a legenda aparece, numa faixa do tamanho da cena, em `saida/narracao/<nome>/`. Ele avisa quando uma fala passa do tempo da legenda. Opções: `--modelo ptbr|multi`, `--exaggeration` (ênfase, padrão 0,5) e `--cfg` (ritmo, padrão 0,5). "IA" é falada como "I.A.". A variante `ptbr` usa o modelo de fala brasileiro com o decodificador do modelo principal, porque o decodificador V3 da variante ainda não encaixa no pacote instalado.
+
 ## Licença do Remotion
 
 O Remotion é gratuito para pessoas físicas e empresas de até 3 pessoas. Uma empresa maior precisa de licença: ver <https://www.remotion.pro/license>.

@@ -1,29 +1,30 @@
 # Passagem de responsabilidade
 
-- Atualizado em: 2026-10-02T21:53:31-03:00
-- Tarefa: AI-007 — Vídeo explicativo do atendente para o dono da barbearia (READY_FOR_REVIEW; etapa 1 entregue).
+- Atualizado em: 2026-10-02T22:21:23-03:00
+- Tarefa: AI-007 — Vídeo explicativo do atendente para o dono da barbearia (READY_FOR_REVIEW).
 - Status: Claude Code encerrou a edição; arquivos liberados.
 
 ## Ponto exato
 
-Etapa 1 do prompt concluída e parada para aprovação de Arthur, como o próprio prompt exige. Nada do vídeo completo foi renderizado.
+Etapa 1 entregue e três amostras de voz da cena 2 geradas com Chatterbox local (DEC-013). Aguardando Arthur aprovar o roteiro e as amostras visuais e escolher a voz. Nada do vídeo completo foi renderizado.
 
 ## Concluído
 
-- `docs/propostas/barbearia/whatsapp/prompt-video.md`: prompt de Arthur corrigido (original no commit `b6b42ee`).
-- `docs/propostas/barbearia/whatsapp/video/`: `roteiro.md` (145 s, 11 cenas, mais a mensagem de acompanhamento com as 5 perguntas completas), `config.json`, `cenas.json`, projeto Remotion (`src/`), `scripts/verificar.mjs`, `scripts/amostras.mjs`, README e amostras das cenas 2, 5 e 9 em `saida/amostras/`.
+- `video/`: roteiro, `config.json`, `cenas.json`, projeto Remotion, `npm run verificar`, `npm run amostras` e amostras visuais das cenas 2, 5 e 9.
+- `video/narracao/`: `requirements.txt` (Python 3.11, torch 2.6.0 CUDA 12.4, chatterbox e Perth fixados em commits do GitHub, `setuptools<81`) e `narrar.py`, que gera e posiciona cada fala no tempo da legenda.
+- Amostras de voz, só nesta máquina (fora do Git): `video/saida/narracao/ptbr-padrao`, `ptbr-calma` e `multi-padrao`.
 
 ## Validações
 
-`npm run verificar` aprovado (duração, leitura, "IA" uma vez, sem códigos internos, nomes preenchidos); `npx tsc` sem erros; amostras revisadas visualmente; UTF-8 e LF nos arquivos do projeto; `bootstrap.py validate .` e 13 testes de `tests/ai_kit`.
+As três amostras cabem nas legendas e têm volume normal (`ffmpeg volumedetect`); CUDA ativo na RTX 3060 Ti. O agente não avaliou a qualidade das vozes, porque não ouve áudio.
 
 ## Pendências e próxima ação
 
-1. Arthur aprova ou ajusta o roteiro e as amostras.
-2. Etapa 2: escolher a narração (voz sintética PT-BR; se não houver uma boa, trilha livre de direitos e aviso); criar `npm run render` com versão até 16 MB e versão alta, gerar `legendas.srt` a partir de `cenas.json`, `capa.png` e `saida/frames/`; conferir o checklist do prompt item por item. `video_alta.mp4` e `frames/` ficam fora do Git.
-3. Retomar o projeto em outra máquina exige `npm i` dentro da pasta do vídeo.
-4. Seguem pendentes: as questões Q1–Q12 do catálogo (AI-006) e o registro da reunião com o dono (AI-005).
+1. Arthur escolhe a voz e aprova o roteiro.
+2. Etapa 2: `narrar.py --nome final --modelo <escolhido>` para as 11 cenas; corrigir trechos que passarem do tempo; ligar o áudio ao Remotion (`<Audio>` de `@remotion/media` por cena), normalizar volume, criar `npm run render` (versão até 16 MB e versão alta), `legendas.srt`, `capa.png` e `saida/frames/`; conferir o checklist do prompt item por item.
+3. A variante `ptbr` usa o decodificador principal porque o `s3gen_v3` não encaixa no pacote; reavaliar quando o Chatterbox publicar suporte oficial.
+4. Seguem pendentes: Q1–Q12 do catálogo (AI-006) e o registro da reunião com o dono (AI-005).
 
 ## Arquivos de entrada
 
-README.md, DECISIONS.md, CURRENT_STATE.md, BACKLOG.md, este HANDOFF e as duas últimas entradas de WORKLOG.md; depois AGENTS e o adaptador do cliente. Para esta tarefa: docs/propostas/barbearia/whatsapp/prompt-video.md e video/.
+README.md, DECISIONS.md, CURRENT_STATE.md, BACKLOG.md, este HANDOFF e as duas últimas entradas de WORKLOG.md; depois AGENTS e o adaptador do cliente. Para esta tarefa: docs/propostas/barbearia/whatsapp/video/README.md e roteiro.md.
